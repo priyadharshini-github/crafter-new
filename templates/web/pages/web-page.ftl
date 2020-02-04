@@ -8,7 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="/static-assets/css/main.css" />
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="/static-assets/css/jquery-ui.min.css" />
 	</head>
 	<body>
 			<!-- Wrapper -->
@@ -33,10 +32,7 @@
 			</div>
 		
 	
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/static-assets/js/jquery-3.4.1.slim.min.js"></script>
-    <script src="/static-assets/js/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
 	<@studio.toolSupport/>
 	</body>
