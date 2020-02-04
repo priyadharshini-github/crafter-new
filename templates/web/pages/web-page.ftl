@@ -12,17 +12,14 @@
 	<body>
 			<!-- Wrapper -->
 			<div id="wrapper">
-
+<@studio.iceAttr iceGroup="ICEGROUID"/>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-
-							
-
 							<!-- Banner -->
 								<section id="content">
 									<div class="content">
-								<h1>CONTENT HERE</h1>
+								        ${contentModel.rte_html}
 									</div>
 								</section>
 
