@@ -10,6 +10,8 @@
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 	</head>
 	<body>
+	<@renderComponent component=contentModel.header_o.item/>
+	
 			<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Main -->
