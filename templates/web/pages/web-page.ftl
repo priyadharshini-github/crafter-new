@@ -16,7 +16,7 @@
 					<div id="main">
 						<div class="inner">
 						<!-- Header -->
-						
+						${contentModel.Header}
 							<!-- Banner -->
 								<section id="content">
 									<div class="content">
