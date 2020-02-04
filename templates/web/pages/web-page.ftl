@@ -12,7 +12,6 @@
 	<body>
 			<!-- Wrapper -->
 			<div id="wrapper">
-<@studio.iceAttr iceGroup="ICEGROUID"/>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
