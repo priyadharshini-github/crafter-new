@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/webpage</content-type>
+	<display-template>/templates/web/pages/web-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>a4d7</objectGroupId>
+	<objectId>a4d78c2c-c53d-384b-8bbb-2d5e2201e11a</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>signup</folder-name>
+	<internal-name>Signup</internal-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<rte_html/>
+	<createdDate>2020-02-04T09:50:35.084Z</createdDate>
+	<createdDate_dt>2020-02-04T09:50:35.084Z</createdDate_dt>
+	<lastModifiedDate>2020-02-04T09:50:35.084Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-04T09:50:35.084Z</lastModifiedDate_dt>
+</page>
