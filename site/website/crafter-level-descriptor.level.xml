@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/level-descriptor</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>290b</objectGroupId>
+	<objectId>290b10f9-4378-33a7-3a74-4fe4ff52413b</objectId>
+	<file-name>crafter-level-descriptor.level.xml</file-name>
+	<folder-name/>
+	<header_o item-list="true"/>
+	<footer_o item-list="true"/>
+	<createdDate>2020-02-10T11:55:54.283Z</createdDate>
+	<createdDate_dt>2020-02-10T11:55:54.283Z</createdDate_dt>
+	<lastModifiedDate>2020-02-10T11:55:54.283Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T11:55:54.283Z</lastModifiedDate_dt>
+</component>
