@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/headermain</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>27d5</objectGroupId>
+	<objectId>27d540e4-d87f-355b-8dcd-09679999e0e4</objectId>
+	<internal-name>headers</internal-name>
+	<file-name>27d540e4-d87f-355b-8dcd-09679999e0e4.xml</file-name>
+	<createdDate>2020-02-10T12:18:44.617Z</createdDate>
+	<createdDate_dt>2020-02-10T12:18:44.617Z</createdDate_dt>
+	<lastModifiedDate>2020-02-10T12:18:44.617Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T12:18:44.617Z</lastModifiedDate_dt>
+</component>
