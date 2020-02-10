@@ -8,10 +8,18 @@
 	<objectId>40613f1c-abde-90e4-a125-fdee29c094c8</objectId>
 	<file-name>crafter-level-descriptor.level.xml</file-name>
 	<folder-name/>
-	<header_o item-list="true"/>
-	<footer_o item-list="true"/>
+	<header_o item-list="true">	<item datasource="componentsHeader">	<key>/5f8e66b3-458f-351f-df54-6e2c35f6ef7f.xml</key>
+	<value>5f8e66b3-458f-351f-df54-6e2c35f6ef7f.xml</value>
+	<include>/5f8e66b3-458f-351f-df54-6e2c35f6ef7f.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
+	<footer_o item-list="true">	<item datasource="componentsFooter">	<key>/7a77cae1-340f-1773-d782-3b4db41ecf38.xml</key>
+	<value>7a77cae1-340f-1773-d782-3b4db41ecf38.xml</value>
+	<include>/7a77cae1-340f-1773-d782-3b4db41ecf38.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></footer_o>
 	<createdDate>2020-02-10T12:53:49.229Z</createdDate>
 	<createdDate_dt>2020-02-10T12:53:49.229Z</createdDate_dt>
-	<lastModifiedDate>2020-02-10T12:53:49.229Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-10T12:53:49.229Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-10T13:04:31.970Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T13:04:31.970Z</lastModifiedDate_dt>
 </component>
