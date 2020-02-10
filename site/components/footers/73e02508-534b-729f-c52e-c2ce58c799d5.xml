@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/footer</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>73e0</objectGroupId>
+	<objectId>73e02508-534b-729f-c52e-c2ce58c799d5</objectId>
+	<file-name>73e02508-534b-729f-c52e-c2ce58c799d5.xml</file-name>
+	<internal-name>Footer</internal-name>
+	<createdDate>2020-02-10T12:51:26.177Z</createdDate>
+	<createdDate_dt>2020-02-10T12:51:26.177Z</createdDate_dt>
+	<lastModifiedDate>2020-02-10T12:51:26.177Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T12:51:26.177Z</lastModifiedDate_dt>
+</component>
