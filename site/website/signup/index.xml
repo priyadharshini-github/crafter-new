@@ -9,11 +9,11 @@
 	<file-name>index.xml</file-name>
 	<folder-name>signup</folder-name>
 	<internal-name>Signup</internal-name>
-	<placeInNav>false</placeInNav>
-	<orderDefault_f>-1</orderDefault_f>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>2000</orderDefault_f>
 	<rte_html/>
 	<createdDate>2020-02-04T09:50:35.084Z</createdDate>
 	<createdDate_dt>2020-02-04T09:50:35.084Z</createdDate_dt>
-	<lastModifiedDate>2020-02-04T09:50:35.084Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-04T09:50:35.084Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-10T13:04:05.782Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T13:04:05.782Z</lastModifiedDate_dt>
 </page>
