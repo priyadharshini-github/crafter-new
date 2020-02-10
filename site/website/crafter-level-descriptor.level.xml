@@ -8,10 +8,14 @@
 	<objectId>290b10f9-4378-33a7-3a74-4fe4ff52413b</objectId>
 	<file-name>crafter-level-descriptor.level.xml</file-name>
 	<folder-name/>
-	<header_o item-list="true"/>
+	<header_o item-list="true">	<item datasource="componentsHeader">	<key>/410545ed-2863-5e59-4825-570ea69ba883.xml</key>
+	<value>410545ed-2863-5e59-4825-570ea69ba883.xml</value>
+	<include>/410545ed-2863-5e59-4825-570ea69ba883.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></header_o>
 	<footer_o item-list="true"/>
 	<createdDate>2020-02-10T11:55:54.283Z</createdDate>
 	<createdDate_dt>2020-02-10T11:55:54.283Z</createdDate_dt>
-	<lastModifiedDate>2020-02-10T11:55:54.283Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-10T11:55:54.283Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-10T12:21:11.333Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T12:21:11.333Z</lastModifiedDate_dt>
 </component>
