@@ -16,7 +16,7 @@
 					<div id="main">
 						<div class="inner">
 						<!-- Header -->
-						<@renderComponent component=contentModel.header_o.item />
+						<@renderComponent component=contentModel.header_o />
 							<!-- Banner -->
 								<section id="content">
 									<div class="content">
