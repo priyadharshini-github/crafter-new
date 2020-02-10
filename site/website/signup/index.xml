@@ -11,9 +11,9 @@
 	<internal-name>Signup</internal-name>
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>2000</orderDefault_f>
-	<rte_html/>
+	<rte_html>&lt;p&gt;Sample text&lt;/p&gt;</rte_html>
 	<createdDate>2020-02-04T09:50:35.084Z</createdDate>
 	<createdDate_dt>2020-02-04T09:50:35.084Z</createdDate_dt>
-	<lastModifiedDate>2020-02-10T13:04:05.782Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-10T13:04:05.782Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-10T13:14:46.396Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-10T13:14:46.396Z</lastModifiedDate_dt>
 </page>
