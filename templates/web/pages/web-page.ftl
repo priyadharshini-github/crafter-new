@@ -25,14 +25,11 @@
 	        </div>
 	    </div>
 	    <div class="row majenta-bg">
-	        <div class="col-12">
-	        <form>
-                <div class="form-group">
-                    <div class="input-group mb-3">
-                     
-                      <input type="text" class="form-control" aria-label="Text input with dropdown button">
-                      
-                       <div class="input-group-prepend">
+	        <div class="col-5">
+	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+            </div>
+            <div class="col-4">
+            <div class="input-group-prepend">
                         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                         <div class="dropdown-menu">
                           <a class="dropdown-item" href="#">Action</a>
@@ -42,13 +39,8 @@
                           <a class="dropdown-item" href="#">Separated link</a>
                         </div>
                       </div>
-                      
-                      <button type="submit" class="btn btn-primary mb-2">SEARCH</button>
-                    </div>
-                    
-                    
-              </div>
-            </form> 
+            </div>
+            <div class="col-3"><button type="submit" class="btn btn-primary mb-2">SEARCH</button>
             </div>
 	    </div>
 	    
