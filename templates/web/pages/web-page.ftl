@@ -10,10 +10,10 @@
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 	</head>
 	<body>
-	<div class="container">
+	<div class="container-fluid">
 	    <div class="row">
 	        <div class="col-12">
-	            <img class="logo" src="/static-assets/images/final-logo-example.png" alt="" />
+	            <img class="logo" src="/static-assets/images/sample-logo.png" alt="" />
 	       </div>
 	    </div>
 	    
