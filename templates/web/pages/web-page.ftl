@@ -17,7 +17,7 @@
 	       </div>
 	    </div>
 	    <div class="row">
-	        <div class="col-12 majenta-bg">Top Offers
+	        <div class="col-12 majenta-bg">Some sample content here
 	        </div>
 	    </div>
 	    <div class="row">
@@ -43,6 +43,8 @@
                         </div>
                       </div>
                     </div>
+                    
+                    <button type="submit" class="btn btn-primary mb-2">Search</button>
               </div>
             </form> 
             </div>
