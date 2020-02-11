@@ -32,11 +32,9 @@
             <div class="input-group-prepend">
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                         <div class="dropdown-menu">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                          <div role="separator" class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Separated link</a>
+                          <a class="dropdown-item" href="#">Travel & Vacations</a>
+                          <a class="dropdown-item" href="#">Departmental Store</a>
+                          <a class="dropdown-item" href="#">Flights</a>
                         </div>
                       </div>
             </div>
@@ -51,25 +49,6 @@
 	        </div>
 	    </div>
 	</div>
-			<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-						<!-- Header -->
-							<!-- Banner -->
-								<section id="content">
-									<div class="content">
-								        ${contentModel.templateContent_html}
-									</div>
-								</section>
-
-						</div>
-					</div>
-
-			</div>
-		
-	
  
     <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
