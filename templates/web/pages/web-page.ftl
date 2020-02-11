@@ -42,9 +42,11 @@
                           <a class="dropdown-item" href="#">Separated link</a>
                         </div>
                       </div>
+                      
+                      <button type="submit" class="btn btn-primary mb-2">SEARCH</button>
                     </div>
                     
-                    <button type="submit" class="btn btn-primary mb-2">Search</button>
+                    
               </div>
             </form> 
             </div>
