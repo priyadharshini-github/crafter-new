@@ -10,6 +10,29 @@
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 	</head>
 	<body>
+	<div class="container">
+	    <div class="row">
+	        <div class="col-12">
+	            ${contentModel.customerLogo_s}
+	        </div>
+	    </div>
+	    
+	    <div class="row">
+	        <div class="col-12">Top Offers
+	        </div>
+	    </div>
+	    <div class="row">
+	        <div class="col-12">Search are
+	        </div>
+	    </div>
+	    
+	    <div class="row">
+	        <div class="col-4">Filters
+	        </div>
+	        <div class="col-8">Results
+	        </div>
+	    </div>
+	</div>
 			<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Main -->
@@ -19,7 +42,7 @@
 							<!-- Banner -->
 								<section id="content">
 									<div class="content">
-								        ${contentModel.rte_html}
+								        ${contentModel.templateContent_html}
 									</div>
 								</section>
 
