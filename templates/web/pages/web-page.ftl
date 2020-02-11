@@ -587,17 +587,14 @@
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
 <script type="javascript">
-$(document).ready(function () {
-$('#selectedColumn').DataTable({
-  "aaSorting": [],
-  columnDefs: [{
-  orderable: false,
-  targets: 3
-  }]
-});
-  $('.dataTables_length').addClass('bs-select');
-});
+$(document).ready(function() {
+    $('#example').DataTable();
+} );
 </script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+
+
 	<@studio.toolSupport/>
 	</body>
 </html>
