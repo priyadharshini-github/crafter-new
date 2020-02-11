@@ -47,15 +47,18 @@
 	    <div class="row">
 	        <div class="col-4">Filters
 	            <div class="row">
+        	        <div class="col-12">
         	        <div class="slider">
                         <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
                     	<output id="rangevalue">50</output>
                     </div> 
+                    </div>
 	            </div>
 	            <div class="row">
-	            Categories
-	            </div>
-            
+    	            <div class="col-12">
+    	            Categories
+    	            </div>
+                </div>
 	        </div>
 	        <div class="col-8">Results
 	        </div>
