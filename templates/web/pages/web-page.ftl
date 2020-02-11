@@ -17,14 +17,14 @@
 	       </div>
 	    </div>
 	    <div class="row">
-	        <div class="col-12 blue-bg">Top Offers
+	        <div class="col-12 majenta-bg">Top Offers
 	        </div>
 	    </div>
 	    <div class="row">
 	        <div class="col-12 top-offers">Top Offers
 	        </div>
 	    </div>
-	    <div class="row blue-bg">
+	    <div class="row majenta-bg">
 	        <div class="col-12">
 	        <form>
                 <div class="form-group">
