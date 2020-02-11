@@ -43,7 +43,7 @@
             </div>
 	    </div>
 	    
-	    <section>
+	    <section class="main-content">
 	    <div class="row">
 	        <div class="col-4">
 	        <div class="slider">
