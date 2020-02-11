@@ -13,7 +13,7 @@
 	<div class="container">
 	    <div class="row">
 	        <div class="col-12">
-	            <img style="max-height: 150px;" src="/static-assets/images/final-logo-example.png" alt="" />
+	            <img class="logo" src="/static-assets/images/final-logo-example.png" alt="" />
 	       </div>
 	    </div>
 	    
