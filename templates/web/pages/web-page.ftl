@@ -16,12 +16,15 @@
 	            <img class="logo" src="/static-assets/images/sample-logo.png" alt="" />
 	       </div>
 	    </div>
-	    
+	    <div class="row">
+	        <div class="col-12 blue-bg">Top Offers
+	        </div>
+	    </div>
 	    <div class="row">
 	        <div class="col-12 top-offers">Top Offers
 	        </div>
 	    </div>
-	    <div class="row">
+	    <div class="row blue-bg">
 	        <div class="col-12">
 	        <form>
                 <div class="form-group">
