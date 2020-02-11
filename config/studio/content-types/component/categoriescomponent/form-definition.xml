@@ -139,5 +139,38 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>child-content</type>
+					<id>categorytitle</id>
+					<title>Category title</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
+							<value>true</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value>/components/category</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
