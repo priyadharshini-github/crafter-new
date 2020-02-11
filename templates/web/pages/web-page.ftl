@@ -22,8 +22,9 @@
 	        </div>
 	    </div>
 	    <div class="row">
-	        <div class="col-12">Search are
-	        </div>
+	        <div class="col-4">${contentModel.searchtext_s}</div>
+	        <div class="col-4">${contentModel.categories_s}</div>
+	        <div class="col-4"><button>Search</button></div>
 	    </div>
 	    
 	    <div class="row">
