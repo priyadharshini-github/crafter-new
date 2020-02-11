@@ -112,7 +112,7 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1581406492967</title>
+			<title>Logo</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
@@ -164,69 +164,109 @@
 						</constraint>
 					</constraints>
 				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Top Offers</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
 				<field>
-					<type>rte-tinymce5</type>
-					<id>templateContent_html</id>
+					<type>repeat</type>
+					<id>offers_o</id>
 					<iceId></iceId>
-					<title>Template Content</title>
+					<title>Offers</title>
+					<description></description>
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+					</fields>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Search bar</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>input</type>
+					<id>searchtext_s</id>
+					<iceId></iceId>
+					<title>Search text</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>width</name>
-							<value></value>
+							<name>size</name>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>height</name>
-							<value></value>
+							<name>maxlength</name>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>autoGrow</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>forceRootBlockPTag</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>forcePTags</name>
-							<value>true</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>forceBRTags</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>supportedChannels</name>
+							<name>readonly</name>
 							<value></value>
-							<type>supportedChannels</type>
+							<type>boolean</type>
 						</property>
 						<property>
-							<name>rteConfiguration</name>
-							<value>generic</value>
+							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
 							<type>string</type>
-						</property>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
+					<type>dropdown</type>
+					<id>categories_s</id>
+					<iceId></iceId>
+					<title>Categories</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
 						<property>
-							<name>imageManager</name>
-							<value></value>
-							<type>datasource:image</type>
-						</property>
-						<property>
-							<name>videoManager</name>
-							<value></value>
-							<type>datasource:video</type>
-						</property>
-						<property>
-							<name>fileManager</name>
+							<name>datasource</name>
 							<value></value>
 							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
@@ -236,6 +276,89 @@
 							<type>boolean</type>
 						</constraint>
 					</constraints>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Filters</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>repeat</type>
+					<id>catergories_o</id>
+					<iceId></iceId>
+					<title>Catergories</title>
+					<description></description>
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+				<field>
+					<type>checkbox</type>
+					<id>category_b</id>
+					<iceId></iceId>
+					<title>Category</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+					</fields>
+				</field>
+			</fields>
+		</section>
+		<section>
+			<title>Result</title>
+			<description></description>
+			<defaultOpen>false</defaultOpen>
+			<fields>
+				<field>
+					<type>repeat</type>
+					<id>searchresults_o</id>
+					<iceId></iceId>
+					<title>Search results</title>
+					<description></description>
+					<minOccurs>0</minOccurs>
+					<maxOccurs>*</maxOccurs>
+					<properties>
+						<property>
+							<name>minOccurs</name>
+							<value>0</value>
+							<type>string</type>
+						</property>
+						<property>
+							<name>maxOccurs</name>
+							<value>*</value>
+							<type>string</type>
+						</property>
+					</properties>
+					<fields>
+					</fields>
 				</field>
 			</fields>
 		</section>
