@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="/static-assets/css/main.css" />
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/css/ion.rangeSlider.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 	</head>
 	<body>
 	<div class="container-fluid">
