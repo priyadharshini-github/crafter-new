@@ -205,7 +205,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/components/category</value>
+							<value>/scripts/components</value>
 								<type>undefined</type>
 						</property>
 						<property>
