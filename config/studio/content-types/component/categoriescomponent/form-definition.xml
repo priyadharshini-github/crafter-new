@@ -157,7 +157,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>categorytitle</value>
+							<value>scripts</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -189,8 +189,8 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>child-content</type>
-					<id>categorytitle</id>
-					<title>Category title</title>
+					<id>scripts</id>
+					<title>Scripts</title>
 					<interface>item</interface>
 					<properties>
 						<property>
