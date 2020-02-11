@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/categoriescomponent</content-type>
+	<display-template>/templates/web/components/category.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>38cc</objectGroupId>
+	<objectId>38cc9279-e233-73e1-c278-73f236daddd2</objectId>
+	<file-name>38cc9279-e233-73e1-c278-73f236daddd2.xml</file-name>
+	<internal-name>Category 2</internal-name>
+	<title_s>Category 2</title_s>
+	<createdDate>2020-02-11T12:24:32.649Z</createdDate>
+	<createdDate_dt>2020-02-11T12:24:32.649Z</createdDate_dt>
+	<lastModifiedDate>2020-02-11T12:24:32.649Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-11T12:24:32.649Z</lastModifiedDate_dt>
+</component>
