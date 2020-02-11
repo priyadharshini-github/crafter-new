@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/template</content-type>
+	<display-template>/templates/web/pages/web-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f941</objectGroupId>
+	<objectId>f9411e7a-65f7-7aa4-4234-e05724a4036f</objectId>
+	<folder-name>member</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>3000</orderDefault_f>
+	<internal-name>Membership</internal-name>
+	<customerLogo_s/>
+	<templateContent_html>&lt;p&gt;test&lt;/p&gt;</templateContent_html>
+	<createdDate>2020-02-11T07:39:20.545Z</createdDate>
+	<createdDate_dt>2020-02-11T07:39:20.545Z</createdDate_dt>
+	<lastModifiedDate>2020-02-11T07:39:20.545Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-11T07:39:20.545Z</lastModifiedDate_dt>
+</page>
