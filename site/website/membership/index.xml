@@ -13,9 +13,19 @@
 	<customerLogo_s/>
 	<createdDate>2020-02-11T07:39:20.545Z</createdDate>
 	<createdDate_dt>2020-02-11T07:39:20.545Z</createdDate_dt>
-	<lastModifiedDate>2020-02-11T10:19:12.236Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-11T10:19:12.236Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-11T12:02:12.221Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-11T12:02:12.221Z</lastModifiedDate_dt>
 	<file-name>index.xml</file-name>
 	<searchtext_s/>
 	<categories_s/>
+	<categorytitle_s>Categories</categorytitle_s>
+	<categories_o item-list="true">	<item datasource="category">	<key>/b9c78c0e-3ce2-02de-223d-f301ffd55a31.xml</key>
+	<value>b9c78c0e-3ce2-02de-223d-f301ffd55a31.xml</value>
+	<include>/b9c78c0e-3ce2-02de-223d-f301ffd55a31.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="category">	<key>/08b037e8-3600-84bc-1753-91cf49e5d6f0.xml</key>
+	<value>08b037e8-3600-84bc-1753-91cf49e5d6f0.xml</value>
+	<include>/08b037e8-3600-84bc-1753-91cf49e5d6f0.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
 </page>
