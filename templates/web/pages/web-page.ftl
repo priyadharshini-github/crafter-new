@@ -45,6 +45,7 @@
 	    
 	    <div class="row">
 	        <div class="col-4">
+	        <input type="text" class="js-range-slider" name="my_range" value=""/>    
 
 	        </div>
 	        <div class="col-8">Results
@@ -58,7 +59,19 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
-    
+    <script>
+$(".js-range-slider").ionRangeSlider({
+    skin: "round",
+    step: 50,
+    type: "double",
+    grid: true,
+    min: 0,
+    max: 1000,
+    from: 200,
+    to: 800,
+    prefix: "$"
+});
+</script>
 
 	<@studio.toolSupport/>
 	</body>
