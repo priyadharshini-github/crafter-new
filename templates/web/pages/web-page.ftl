@@ -43,6 +43,7 @@
             </div>
 	    </div>
 	    
+	    <section>
 	    <div class="row">
 	        <div class="col-4">
 	        <div class="slider">
@@ -54,6 +55,7 @@
 	        <div class="col-8">Results
 	        </div>
 	    </div>
+	    </section>
 	</div>
  
     <!-- jQuery library -->
