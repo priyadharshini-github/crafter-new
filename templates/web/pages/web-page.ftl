@@ -13,7 +13,8 @@
 	<div class="container">
 	    <div class="row">
 	        <div class="col-12">
-	            <img src="${contentModel.customerLogo_s}"  />        </div>
+	            <img style="max-height: 150px;" src="${liveUrl}/static-assets/images/final-logo-example.png" alt="" />
+	       </div>
 	    </div>
 	    
 	    <div class="row">
