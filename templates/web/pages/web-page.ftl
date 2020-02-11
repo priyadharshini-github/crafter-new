@@ -580,7 +580,7 @@
 	    </section>
 	</div>
  
- <script>
+ <script  type="text/javascript">
  $(document).ready(function() {
    $("#sort").DataTable({
       columnDefs : [
