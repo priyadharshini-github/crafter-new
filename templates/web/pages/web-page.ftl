@@ -76,7 +76,9 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        
+        <#list contentModel.categories_s.item as module>
+        	<@renderComponent component=module />
+        </#list>
       </div>
     </div>
   </div>
