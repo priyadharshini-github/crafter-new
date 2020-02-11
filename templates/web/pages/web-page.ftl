@@ -45,12 +45,17 @@
 	    
 	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-4">
-	        <div class="slider">
-  <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-	<output id="rangevalue">50</output>
-  </div> 
-
+	        <div class="col-4">Filters
+	            <div class="row">
+        	        <div class="slider">
+                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
+                    	<output id="rangevalue">50</output>
+                    </div> 
+	            </div>
+	            <div class="row">
+	            Categories
+	            </div>
+            
 	        </div>
 	        <div class="col-8">Results
 	        </div>
@@ -64,19 +69,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
-    <script>
-$(".js-range-slider").ionRangeSlider({
-    skin: "round",
-    step: 50,
-    type: "double",
-    grid: true,
-    min: 0,
-    max: 1000,
-    from: 200,
-    to: 800,
-    prefix: "$"
-});
-</script>
 
 	<@studio.toolSupport/>
 	</body>
