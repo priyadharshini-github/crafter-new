@@ -580,10 +580,22 @@
 	    </section>
 	</div>
  
+ <script>
+ $(document).ready(function() {
+   $("#sort").DataTable({
+      columnDefs : [
+    { type : 'date', targets : [3] }
+],  
+   });
+});
+ </script>
     <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<script src "https://cdn.datatables.net/plug-ins/1.10.15/sorting/stringMonthYear.js"></script>
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
 
