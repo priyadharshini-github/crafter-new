@@ -586,13 +586,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
-<script type="javascript">
-$(document).ready(function() {
-    $('#example').DataTable();
-} );
-</script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap.min.js"></script>
+
 
 
 	<@studio.toolSupport/>
