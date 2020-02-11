@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/articles-widget</content-type>
+	<display-template>/templates/web/components/articles-widget.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9180</objectGroupId>
+	<objectId>91809627-6299-aeee-b53a-369fdcae4599</objectId>
+	<internal-name>Latest Article</internal-name>
+	<title_s>Latest</title_s>
+	<file-name>91809627-6299-aeee-b53a-369fdcae4599.xml</file-name>
+	<disabled>false</disabled>
+	<scripts item-list="true">	<item datasource="scripts">	<key>/scripts/components/latest-articles.groovy</key>
+	<value>latest-articles.groovy</value>
+	</item></scripts>
+	<createdDate>2020-02-11T12:51:29.242Z</createdDate>
+	<createdDate_dt>2020-02-11T12:51:29.242Z</createdDate_dt>
+	<lastModifiedDate>2020-02-11T12:51:29.242Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-11T12:51:29.242Z</lastModifiedDate_dt>
+</component>
