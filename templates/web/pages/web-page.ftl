@@ -18,13 +18,31 @@
 	    </div>
 	    
 	    <div class="row">
-	        <div class="col-12">Top Offers
+	        <div class="col-12 top-offers">Top Offers
 	        </div>
 	    </div>
 	    <div class="row">
-	        <div class="col-4">${contentModel.searchtext_s}</div>
-	        <div class="col-4">${contentModel.categories_s}</div>
-	        <div class="col-4"><button>Search</button></div>
+	        <div class="col-12">
+	        <form>
+                <div class="form-group">
+                    <div class="input-group mb-3">
+                     
+                      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                      
+                       <div class="input-group-prepend">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                          <div role="separator" class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </form> 
+            </div>
 	    </div>
 	    
 	    <div class="row">
