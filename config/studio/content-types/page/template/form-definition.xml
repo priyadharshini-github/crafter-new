@@ -32,9 +32,9 @@
 			<fields>
 				<field>
 					<type>file-name</type>
-					<id>membership</id>
+					<id>file-name</id>
 					<iceId></iceId>
-					<title>Membership</title>
+					<title>File Name</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -167,36 +167,6 @@
 			</fields>
 		</section>
 		<section>
-			<title>Top Offers</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>repeat</type>
-					<id>offers_o</id>
-					<iceId></iceId>
-					<title>Offers</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-					</fields>
-				</field>
-			</fields>
-		</section>
-		<section>
 			<title>Search bar</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
@@ -279,89 +249,6 @@
 				</field>
 			</fields>
 		</section>
-		<section>
-			<title>Filters</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>repeat</type>
-					<id>catergories_o</id>
-					<iceId></iceId>
-					<title>Catergories</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-				<field>
-					<type>checkbox</type>
-					<id>category_b</id>
-					<iceId></iceId>
-					<title>Category</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>required</name>
-							<value><![CDATA[]]></value>
-							<type>boolean</type>
-						</constraint>
-					</constraints>
-				</field>
-					</fields>
-				</field>
-			</fields>
-		</section>
-		<section>
-			<title>Result</title>
-			<description></description>
-			<defaultOpen>false</defaultOpen>
-			<fields>
-				<field>
-					<type>repeat</type>
-					<id>searchresults_o</id>
-					<iceId></iceId>
-					<title>Search results</title>
-					<description></description>
-					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
-					<properties>
-						<property>
-							<name>minOccurs</name>
-							<value>0</value>
-							<type>string</type>
-						</property>
-						<property>
-							<name>maxOccurs</name>
-							<value>*</value>
-							<type>string</type>
-						</property>
-					</properties>
-					<fields>
-					</fields>
-				</field>
-			</fields>
-		</section>
 	</sections>
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
@@ -371,6 +258,24 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
+							<value></value>
+								<type>undefined</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>site-component</type>
+					<id>category</id>
+					<title>category</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;Data Type&quot;,&quot;selected&quot;:false}]</value>
+								<type>undefined</type>
+						</property>
+						<property>
+							<name>componentPath</name>
 							<value></value>
 								<type>undefined</type>
 						</property>
