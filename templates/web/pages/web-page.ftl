@@ -13,8 +13,7 @@
 	<div class="container">
 	    <div class="row">
 	        <div class="col-12">
-	            ${contentModel.customerLogo_s}
-	        </div>
+	            <img src="${contentModel.customerLogo_s}"  />        </div>
 	    </div>
 	    
 	    <div class="row">
