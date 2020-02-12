@@ -318,7 +318,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value>category</value>
+							<value>category-dropdown</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -362,44 +362,6 @@
 					</properties>
 				</datasource>
 				<datasource>
-					<type>shared-content</type>
-					<id>category</id>
-					<title>category</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>enableCreateNew</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableBrowseExisting</name>
-							<value>true</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>enableSearchExisting</name>
-							<value>false</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>repoPath</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>browsePath</name>
-							<value>components/category</value>
-								<type>undefined</type>
-						</property>
-						<property>
-							<name>type</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-				<datasource>
 					<type>key-value-list</type>
 					<id>category-dropdown</id>
 					<title>Category-dropdown</title>
@@ -417,7 +379,7 @@
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value>true</value>
+							<value>false</value>
 								<type>undefined</type>
 						</property>
 					</properties>
