@@ -36,7 +36,7 @@
                   
                         <ul class="dropdown-menu">
                           <li v-for="category_o in category" v-bind:class="{ active: selection.category_o == category_o }">
-                            <a href="#" v-on:click="selection.category_o = category_o; currentPage = 1">{{ category_o.value }}</a>
+                            <a href="#" v-on:click="selection.category_o = category_o; currentPage = 1">{{ category_o }}</a>
                           </li>
                         </ul>
                       </div>
