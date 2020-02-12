@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/template</content-type>
+	<display-template>/templates/web/pages/web-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fd04</objectGroupId>
+	<objectId>fd0490df-6618-47b3-c4b3-57369944e2c2</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>sample-member</folder-name>
+	<placeInNav>true</placeInNav>
+	<orderDefault_f>4000</orderDefault_f>
+	<internal-name>Sample Membership</internal-name>
+	<category_o item-list="true">	<item datasource="category">	<key>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</key>
+	<value>Category 1</value>
+	<include>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="category">	<key>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</key>
+	<value>Category 2</value>
+	<include>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="category">	<key>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</key>
+	<value>Category 3</value>
+	<include>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></category_o>
+	<createdDate>2020-02-12T11:29:40.635Z</createdDate>
+	<createdDate_dt>2020-02-12T11:29:40.635Z</createdDate_dt>
+	<lastModifiedDate>2020-02-12T11:29:40.635Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-12T11:29:40.635Z</lastModifiedDate_dt>
+</page>
