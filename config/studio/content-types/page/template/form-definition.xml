@@ -220,8 +220,8 @@
 					<iceId></iceId>
 					<title>Categories</title>
 					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<defaultValue>All Categories</defaultValue>
+					<help>&lt;p&gt;&amp;lt;option&amp;gt;Travel&amp;lt;/option&amp;gt;&lt;/p&gt;</help>
 					<properties>
 						<property>
 							<name>datasource</name>
