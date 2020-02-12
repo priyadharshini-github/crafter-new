@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/product</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>9807</objectGroupId>
+	<objectId>9807338f-f26a-0e4c-8f33-980cc63dc147</objectId>
+	<internal-name>Product 1</internal-name>
+	<name_s>Product 1</name_s>
+	<cashback_s>15</cashback_s>
+	<offer_s>3</offer_s>
+	<file-name>9807338f-f26a-0e4c-8f33-980cc63dc147.xml</file-name>
+	<logo_s>/static-assets/item/images/products/2020/02/12/rakuten.png</logo_s>
+	<createdDate>2020-02-12T11:26:09.017Z</createdDate>
+	<createdDate_dt>2020-02-12T11:26:09.017Z</createdDate_dt>
+	<lastModifiedDate>2020-02-12T11:26:09.017Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-12T11:26:09.017Z</lastModifiedDate_dt>
+</component>
