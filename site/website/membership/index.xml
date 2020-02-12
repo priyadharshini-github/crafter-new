@@ -13,11 +13,15 @@
 	<customerLogo_s/>
 	<createdDate>2020-02-11T07:39:20.545Z</createdDate>
 	<createdDate_dt>2020-02-11T07:39:20.545Z</createdDate_dt>
-	<lastModifiedDate>2020-02-11T12:33:21.991Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-11T12:33:21.991Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-12T05:46:20.194Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-12T05:46:20.194Z</lastModifiedDate_dt>
 	<file-name>index.xml</file-name>
 	<searchtext_s/>
 	<categories_s/>
 	<categorytitle_s>Categories</categorytitle_s>
-	<categories_o item-list="true"/>
+	<categories_o item-list="true">	<item datasource="category">	<key>/f9332182-9c21-0f85-1553-9ff7503e2c31.xml</key>
+	<value>f9332182-9c21-0f85-1553-9ff7503e2c31.xml</value>
+	<include>/f9332182-9c21-0f85-1553-9ff7503e2c31.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></categories_o>
 </page>
