@@ -76,10 +76,11 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-
        ${contentModel.categorytitle_s}
-       <#list contentModel.categorytitle_s.item as module>
+       ${contentModel.categories_o.item[0].key}
+       <#list contentModel.categories_o.item[0].key.item as module>
 	<@renderComponent component=module />
+</#list>
 </#list>
       </div>
     </div>
