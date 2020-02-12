@@ -389,7 +389,7 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>component/category</value>
+							<value>components/category</value>
 								<type>undefined</type>
 						</property>
 						<property>
