@@ -119,7 +119,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
@@ -188,12 +188,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>1</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>100</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -210,12 +210,12 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
 							<name>pattern</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[^[\d\.]+$]]></value>
 							<type>string</type>
 						</constraint>
 					</constraints>
@@ -231,12 +231,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>5</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>10</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -253,12 +253,12 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[true]]></value>
 							<type>boolean</type>
 						</constraint>
 						<constraint>
 							<name>pattern</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[^[\d\.]+$]]></value>
 							<type>string</type>
 						</constraint>
 					</constraints>
