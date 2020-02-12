@@ -10,14 +10,23 @@
 	<placeInNav>true</placeInNav>
 	<orderDefault_f>3000</orderDefault_f>
 	<internal-name>Membership</internal-name>
-	<customerLogo_s/>
 	<createdDate>2020-02-11T07:39:20.545Z</createdDate>
 	<createdDate_dt>2020-02-11T07:39:20.545Z</createdDate_dt>
-	<lastModifiedDate>2020-02-12T05:56:39.630Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-12T05:56:39.630Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-02-12T07:58:44.120Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-12T07:58:44.120Z</lastModifiedDate_dt>
 	<file-name>index.xml</file-name>
-	<searchtext_s/>
-	<categories_s>Travel</categories_s>
-	<categorytitle_s>Categories</categorytitle_s>
 	<categories_o item-list="true"/>
+	<category_o item-list="true">	<item datasource="category">	<key>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</key>
+	<value>Category 1</value>
+	<include>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="category">	<key>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</key>
+	<value>Category 2</value>
+	<include>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item datasource="category">	<key>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</key>
+	<value>Category 3</value>
+	<include>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</include>
+	<disableFlattening>false</disableFlattening>
+	</item></category_o>
 </page>
