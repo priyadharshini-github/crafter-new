@@ -268,7 +268,7 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>components/category/</value>
+							<value>site/components/category/</value>
 								<type>undefined</type>
 						</property>
 						<property>
