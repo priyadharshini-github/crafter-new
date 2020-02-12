@@ -77,7 +77,7 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-${contentModel.categories_o.item[0].value}
+
       </div>
     </div>
   </div>
