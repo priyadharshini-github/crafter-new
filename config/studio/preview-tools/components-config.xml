@@ -40,14 +40,5 @@
 <config>
     <category>
         <label>General</label>
-        <component>
-                <label>category</label>
-                <type>/component/category</type>
-                <path>/site/components/category</path>
-            </component>
     </category>
-     <browse>
-            <label>Features</label>
-            <path>/site/components/category</path>
-        </browse>
 </config>
