@@ -412,7 +412,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value></value>
+							<value>[{&quot;key&quot;:&quot;Travel&quot;,&quot;value&quot;:&quot;travel&quot;},{&quot;key&quot;:&quot;Departmental Store&quot;,&quot;value&quot;:&quot;store&quot;},{&quot;key&quot;:&quot;Services&quot;,&quot;value&quot;:&quot;services&quot;},{&quot;key&quot;:&quot;Flights&quot;,&quot;value&quot;:&quot;flights&quot;}]</value>
 								<type>undefined</type>
 						</property>
 						<property>
