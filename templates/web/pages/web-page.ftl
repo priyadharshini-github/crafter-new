@@ -34,7 +34,7 @@
     <div class="input-group-prepend">
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                         <div class="dropdown-menu" v-for="cate in category">
-                          <a class="dropdown-item" href="#">{{ cate.categories_o.item }}</a>
+                          <a class="dropdown-item" href="#">{{ cate.categories_o.item[].key }}</a>
                          <!-- <a class="dropdown-item" href="#">Departmental Store</a>
                           <a class="dropdown-item" href="#">Flights</a>-->
                         </div>
