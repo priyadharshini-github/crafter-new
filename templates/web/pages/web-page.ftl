@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 	</head>
 	<body>
-	<div class="container-fluid">
+	<div class="container-fluid" v-cloak>
 	    <div class="row">
 	        <div class="col-12">
 	            <img class="logo" src="/static-assets/images/sample-logo.png" alt="" />
@@ -33,11 +33,12 @@
 
     <div class="input-group-prepend">
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
-                        <div class="dropdown-menu" v-for="category_o in category">
-                          <a class="dropdown-item" href="#">${contentModel.category_o.item[0].value}</a>
-                         <!-- <a class="dropdown-item" href="#">Departmental Store</a>
-                          <a class="dropdown-item" href="#">Flights</a>-->
-                        </div>
+                  
+                        <ul class="dropdown-menu">
+                          <li v-for="category_o in category" v-bind:class="{ active: selection.category_o == category_o }">
+                            <a href="#" v-on:click="selection.category_o = category_o; currentPage = 1">{{ category_o.value }}</a>
+                          </li>
+                        </ul>
                       </div>
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-primary mb-2">SEARCH</button>
