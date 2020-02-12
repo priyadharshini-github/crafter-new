@@ -30,7 +30,10 @@
 	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
-            <div class="input-group-prepend">
+            <#list contentModel.categories_o.item[0].key.item as module>
+	<@renderComponent component=module />
+</#list>
+            <!-- <div class="input-group-prepend">
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                         <div class="dropdown-menu">
                           <a class="dropdown-item" href="#">Travel & Vacations</a>
@@ -38,6 +41,7 @@
                           <a class="dropdown-item" href="#">Flights</a>
                         </div>
                       </div>
+                      -->
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-primary mb-2">SEARCH</button>
             </div>
