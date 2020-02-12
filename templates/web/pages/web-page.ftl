@@ -87,14 +87,6 @@ ${contentModel.category_o.item[2].value}
 </div>
 	        </div>
 	        <div class="col-8">
-	        <div class="row">
-	            <div v-for="(product, i) in products">
-	            <div v-bind:data-studio-component="product.localId" data-studio-ice="" ><img v-bind:src="product.image_s">
-	            {{ product.name_s }}
-	            </div>
-	            </div>
-	        </div>
-	        
 	        <table class="table table-striped">
   <thead>
     <tr>
