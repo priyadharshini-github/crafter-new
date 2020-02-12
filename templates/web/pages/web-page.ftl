@@ -36,7 +36,7 @@
                   
                         <ul class="dropdown-menu">
                           <li v-for="(category_o, i) in category.items">
-                            <a href="#">${contentModel.categorytitle_s}</a>
+                            <a href="#">{{ category_o.categorytitle_s}}</a>
                           </li>
                         </ul>
                       </div>
