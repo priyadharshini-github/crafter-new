@@ -35,8 +35,8 @@
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                   
                         <ul class="dropdown-menu">
-                          <li v-for="category_o in category" v-bind:class="{ active: selection.category_o == category_o }">
-                            <a href="#" v-on:click="selection.category_o = category_o; currentPage = 1">{{ category_o }}</a>
+                          <li v-for="category_o in category">
+                            <a href="#">${contentModel.category_o.item[0].value}</a>
                           </li>
                         </ul>
                       </div>
