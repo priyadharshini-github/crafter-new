@@ -88,7 +88,7 @@ ${contentModel.category_o.item[2].value}
 	        </div>
 	        <div class="col-8">
 	        <div class="row">
-	            <div v-for="(product, i) in products.items">
+	            <div v-for="(product, i) in products">
 	            <img v-bind:src="product.image_s">
 	            {{ product.name_s }}
 	            </div>
