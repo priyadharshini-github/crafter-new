@@ -220,8 +220,8 @@
 					<iceId></iceId>
 					<title>Categories</title>
 					<description></description>
-					<defaultValue>All Categories</defaultValue>
-					<help>&lt;p&gt;&amp;lt;option&amp;gt;Travel&amp;lt;/option&amp;gt;&lt;/p&gt;</help>
+					<defaultValue></defaultValue>
+					<help></help>
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -389,7 +389,7 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value></value>
+							<value>/component/category</value>
 								<type>undefined</type>
 						</property>
 						<property>
