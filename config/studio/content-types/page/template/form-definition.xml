@@ -152,7 +152,7 @@
 						</property>
 						<property>
 							<name>useSingleValueFilename</name>
-							<value></value>
+							<value>true</value>
 							<type>boolean</type>
 						</property>
 					</properties>
