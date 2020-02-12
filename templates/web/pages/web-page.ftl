@@ -34,7 +34,11 @@
     <div class="input-group-prepend">
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                         <div class="dropdown-menu" v-for="category_o in category">
-                          <a class="dropdown-item" href="#">${contentModel.category_o.item.value}</a>
+                          <a class="dropdown-item" href="#">
+                          <#list contentModel.category_o as myItem>
+                        	<#assign myContentItem =  siteItemService.getSiteItem(myItem.key) />
+                        	${myContentItem.variableName}
+                        </#list></a>
                          <!-- <a class="dropdown-item" href="#">Departmental Store</a>
                           <a class="dropdown-item" href="#">Flights</a>-->
                         </div>
