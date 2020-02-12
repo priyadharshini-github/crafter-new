@@ -87,6 +87,13 @@ ${contentModel.category_o.item[2].value}
 </div>
 	        </div>
 	        <div class="col-8">
+	        <div class="row">
+	            <div v-for="(product, i) in products.items">
+	            <img v-bind:src="product.image_s">
+	            {{ product.name_s }}
+	            </div>
+	        </div>
+	        
 	        <table class="table table-striped">
   <thead>
     <tr>
