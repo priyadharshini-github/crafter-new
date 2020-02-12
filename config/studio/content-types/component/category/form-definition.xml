@@ -89,33 +89,28 @@
 			</fields>
 		</section>
 		<section>
-			<title>Default Section Title 1581421726947</title>
+			<title>Title</title>
 			<description></description>
 			<defaultOpen>false</defaultOpen>
 			<fields>
 				<field>
-					<type>node-selector</type>
-					<id>category_o</id>
+					<type>input</type>
+					<id>categorytitle_s</id>
 					<iceId></iceId>
-					<title>Category</title>
+					<title>Category title</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
-							<name>minSize</name>
-							<value></value>
+							<name>size</name>
+							<value>50</value>
 							<type>int</type>
 						</property>
 						<property>
-							<name>maxSize</name>
-							<value></value>
+							<name>maxlength</name>
+							<value>50</value>
 							<type>int</type>
-						</property>
-						<property>
-							<name>itemManager</name>
-							<value>category</value>
-							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -123,39 +118,26 @@
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>disableFlattening</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>useSingleValueFilename</name>
-							<value></value>
+							<name>tokenize</name>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 					</properties>
 					<constraints>
 						<constraint>
-							<name>allowDuplicates</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
+						</constraint>
+						<constraint>
+							<name>pattern</name>
+							<value><![CDATA[]]></value>
+							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
 			</fields>
 		</section>
 	</sections>
-	<datasources>				<datasource>
-					<type>embedded-content</type>
-					<id>category</id>
-					<title>Category</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>contentType</name>
-							<value></value>
-								<type>undefined</type>
-						</property>
-					</properties>
-				</datasource>
-	</datasources>
+	<datasources>	</datasources>
 </form>
