@@ -35,8 +35,8 @@
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                   
                         <ul class="dropdown-menu">
-                          <li v-for="(category_o, i) in category.items">
-                            <a href="#">{{ category_o.categorytitle_s}}</a>
+                          <li v-for="(category, i) in category.items">
+                            <a href="#">{{ category.categorytitle_s}}</a>
                           </li>
                         </ul>
                       </div>
