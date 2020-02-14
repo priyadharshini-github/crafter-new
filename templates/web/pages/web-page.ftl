@@ -98,11 +98,11 @@
             <select class="btn btn-danger">
             <option class="dropdown-item">All Categories</option>
                 <option class="dropdown-item">Travel</option>
-                 <option>Lifestyle</option>
-                  <option>Realtor</option>
+                 <option class="dropdown-item">Lifestyle</option>
+                  <option class="dropdown-item">Realtor</option>
                   <option class="dropdown-item">Bank</option>
-                 <option>Online Store</option>
-                  <option>Professional Services</option>
+                 <option class="dropdown-item">Online Store</option>
+                  <option class="dropdown-item">Professional Services</option>
                   <option class="dropdown-item">Others</option>
             </select>
             
