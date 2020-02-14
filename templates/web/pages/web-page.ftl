@@ -95,22 +95,22 @@
 	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
-
-    <div class="input-group-prepend">
-                        <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
-                  
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Lifestyle</a></li>
-                            <li><a href="#">Realtor</a></li>
-                            <li><a href="#">Bank</a></li>
-                            <li><a href="#">Online Store</a></li>
-                            <li><a href="#">Professional Services</a></li>
-                            <li><a href="#">Others</a></li>
-                        </ul>
-                      </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Categories
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Travel</a>
+                <a class="dropdown-item" href="#">Lifestyle</a>
+                <a class="dropdown-item" href="#">Realtor</a>
+                <a class="dropdown-item" href="#">Bank</a>
+                <a class="dropdown-item" href="#">Online Store</a>
+                <a class="dropdown-item" href="#">Professional Services</a>
+                <a class="dropdown-item" href="#">Others</a>
+              </div>
             </div>
-            <div class="col-3"><button type="submit" class="btn btn-block btn-primary mb-2">SEARCH</button>
+            </div>
+            <div class="col-3"><button type="submit" class="btn btn-block btn-danger mb-2">SEARCH</button>
             </div>
 	    </div>
 	    
