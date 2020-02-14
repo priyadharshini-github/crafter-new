@@ -96,7 +96,7 @@
             </div>
             <div class="col-3">
             <div class="btn-group">
-              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button type="button" class="btn btn-danger btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Categories
               </button>
               <div class="dropdown-menu">
