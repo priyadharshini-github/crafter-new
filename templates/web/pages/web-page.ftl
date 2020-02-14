@@ -114,7 +114,7 @@
 	    
 	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-3">
+	        <div class="col-4">
 	        <div class="flex"><h4>Filters</h4>
 	        <small class="ml-auto mtop-5"><a href="#">Reset</a></small></div>
 	        <div id="accordion" class="accordion">
@@ -147,7 +147,7 @@
 		    </div>
 	        
 	        </div>
-	        <div class="col-9">
+	        <div class="col-8">
 	        <div style="margin-left: auto; text-align: right;">
     	        <div class="dropdown">
                   <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
