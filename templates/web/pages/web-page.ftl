@@ -22,7 +22,58 @@
 	        </div>
 	    </div>
 	    <div class="row">
-	        <div class="col-12 top-offers">Top Offers
+	        <div class="col-12 top-offers">
+	            <div class="col-12 top-offers">
+	        <h3 align="center">Top Offers</h3>
+	        
+	        <div class="row">
+			<div class="col-3">
+				<div class="offer offer-radius">
+					<div class="offer-content center-align" align="center">
+						<img src="images/130063_large.png" class="img-responsive">						
+						<i>And a little description for the offer.</i>
+						<div class="offer-per" align="center">
+						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="offer offer-radius">
+					<div class="offer-content center-align" align="center">
+						<img src="images/130063_large.png" class="img-responsive">						
+						<i>And a little description for the offer.</i>
+						<div class="offer-per" align="center">
+						<div class="flex min-content" align="center">3% <span class="cashback">Cash<br>back</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="offer offer-radius">
+					<div class="offer-content center-align" align="center">
+						<img src="images/130063_large.png" class="img-responsive">				
+						<i>And a little description for the offer.</i>
+						<div class="offer-per" align="center">
+						<div class="flex min-content" align="center">10% <span class="cashback">Cash<br>back</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-3">
+				<div class="offer offer-radius">
+					<div class="offer-content center-align" align="center">
+						<img src="images/130063_large.png" class="img-responsive">				
+						<i>And a little description for the offer.</i>
+						<div class="offer-per" align="center">
+						<div class="flex min-content" align="center">15% <span class="cashback">Cash<br>back</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        
+	        </div>
 	        </div>
 	    </div>
 	    <div class="row majenta-bg">
