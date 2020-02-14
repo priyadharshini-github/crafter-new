@@ -5,11 +5,6 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
-  
-  // With JQuery
-$("#ex2").slider({});
-  // Without JQuery
-//var slider = new Slider('#ex2', {});
 });
 
 
