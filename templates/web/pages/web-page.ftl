@@ -92,6 +92,8 @@
         </div>
 	        </div>
 	    </div>
+	    
+	    <#assign mcats = merchCategories>
 	      
 	    <div class="row blue-bg">
 	        <div class="col-6">
@@ -99,14 +101,9 @@
             </div>
             <div class="col-3">
             <select class="btn btn-dark btn-block">
-            <option class="dropdown-item">All Categories</option>
-                <option class="dropdown-item">Travel</option>
-                 <option class="dropdown-item">Lifestyle</option>
-                  <option class="dropdown-item">Realtor</option>
-                  <option class="dropdown-item">Bank</option>
-                 <option class="dropdown-item">Online Store</option>
-                  <option class="dropdown-item">Professional Services</option>
-                  <option class="dropdown-item">Others</option>
+                <#list mcats as cat>
+                    <option class="dropdown-item">${cat}</option>
+                </#list>
             </select>
             
             </div>
@@ -125,7 +122,7 @@
 		                <a class="card-title">Cashback Range</a>
 		            </div>
 		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-		                <b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+		                
 		                <div class="slider">
 		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
 		                    	<output id="rangevalue">50</output>
@@ -136,7 +133,6 @@
 		            </div>
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
-		        <#assign mcats = merchCategories>
                 <ul class="list-group list-group-flush">
                     <#list mcats as cat>
                         <li class="list-group-item">
@@ -163,7 +159,7 @@
                   </div>
                 </div>
             </div>
-	        <table class="table table-striped">\
+	        <table class="table table-striped">
   <thead>
     <tr>
       <th scope="col">#</th>
