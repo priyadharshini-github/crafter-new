@@ -39,6 +39,9 @@ background: linear-gradient(180deg, rgba(8,119,148,1) 0%, rgba(0,212,255,1) 8%, 
 .main-content{
     padding: 50px 10px;
 }
+.card-title{
+    font-family: 'Roboto Slab', serif;
+}
 .accordion .card-header:after {
     font-family: 'FontAwesome';  
     content: "\f068";
