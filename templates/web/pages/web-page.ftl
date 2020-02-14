@@ -118,7 +118,7 @@
 	    <div class="row">
 	        <div class="col-3">
 	        <div class="flex"><h4>Filters</h4>
-	        <span class="ml-auto"><a href="#">Reset</a></span></div>
+	        <small class="ml-auto mt-5"><a href="#">Reset</a></small></div>
 	        <div id="accordion" class="accordion">
 		        <div class="card mb-0">
 		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
