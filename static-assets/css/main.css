@@ -19,7 +19,7 @@
 .nav-item{
     padding: 10px;
     border-right:1px solid #70b1f7;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto Slab:700', serif;
 }
 .bg-blue{
     background: rgb(8,119,148);
