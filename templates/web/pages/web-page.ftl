@@ -98,7 +98,7 @@
 	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
-            <select class="btn btn-danger">
+            <select class="btn btn-dark btn-block">
             <option class="dropdown-item">All Categories</option>
                 <option class="dropdown-item">Travel</option>
                  <option class="dropdown-item">Lifestyle</option>
