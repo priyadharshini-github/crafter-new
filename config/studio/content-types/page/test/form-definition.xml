@@ -120,7 +120,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>ddstd</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
