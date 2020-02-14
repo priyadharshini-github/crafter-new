@@ -35,10 +35,14 @@
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                   
                         <ul class="dropdown-menu">
-                          <li v-for="(category, i) in category.items">
-                            <a href="#">{{ category.categorytitle_s}}</a>
-                          </li>
-                        </ul>
+                <li>Travel</li>
+                <li>Lifestyle</li>
+                <li>Realtor</li>
+                <li>Bank</li>
+                <li>Online Store</li>
+                <li>Professional Services</li>
+                <li>Others</li>
+            </ul>
                       </div>
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-primary mb-2">SEARCH</button>
