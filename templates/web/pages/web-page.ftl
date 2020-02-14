@@ -181,6 +181,9 @@
 	        
 	        <#assign item = merchCategories>
 	        <div>${item[0]}</div>
+	        <div>${item[1]}</div>
+	        <div>${item[2]}</div>
+	        <div>${item[3]}</div>
   <thead>
     <tr>
       <th scope="col">#</th>
