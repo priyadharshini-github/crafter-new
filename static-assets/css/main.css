@@ -114,6 +114,7 @@
 
 .offer-per{
 	font-size: 60px;
+	margin-top: -10px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -126,4 +127,7 @@
 }
 .flex{
 	display: flex;
+}
+.min-content{
+	width: min-content;
 }
