@@ -101,6 +101,7 @@
             </div>
             <div class="col-3">
             <select class="btn btn-dark btn-block">
+                <option class="dropdown-item">Categories</option>
                 <#list mcats as cat>
                     <option class="dropdown-item">${cat}</option>
                 </#list>
