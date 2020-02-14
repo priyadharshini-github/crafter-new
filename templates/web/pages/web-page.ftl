@@ -52,49 +52,49 @@
 	    <section class="main-content">
 	    <div class="row">
 	        <div class="col-4">Filters
+	        <div id="accordion" class="accordion">
+		        <div class="card mb-0">
+		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
+		                <a class="card-title">Cashback Range</a>
+		            </div>
+		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
+		                <div class="slider">
+		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
+		                    	<output id="rangevalue">50</output>
+		                    </div> 
+		            </div>
+		            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+		                <a class="card-title"> Categories </a>
+		            </div>
+		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
+		                 
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                    	<label class="checkbox">Travel <input type="checkbox" /><span class="default"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="checkbox">Lifestyle <input type="checkbox" /><span class="primary"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="checkbox">Realtor <input type="checkbox" /><span class="success"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                         <label class="checkbox">Bank <input type="checkbox" /><span class="info"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="checkbox">Online Store <input type="checkbox" /><span class="info"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="checkbox">Professional Services <input type="checkbox" /><span class="info"></span></label>
+                    </li>
+                    <li class="list-group-item">
+                        <label class="checkbox">Others <input type="checkbox" /><span class="info"></span></label>
+                    </li>
+                </ul>
+		            </div>
+		        </div>
+		    </div>
 	        
-	        <div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Cashback Range
-        </button>
-      </h2>
-    </div>
-
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        <div class="slider">
-                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-                    	<output id="rangevalue">50</output>
-                    </div> 
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Categories
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-            <ul>
-                <li>Travel</li>
-                <li>Lifestyle</li>
-                <li>Realtor</li>
-                <li>Bank</li>
-                <li>Online Store</li>
-                <li>Professional Services</li>
-                <li>Others</li>
-            </ul>
-      </div>
-    </div>
-  </div>
-</div>
 	        </div>
 	        <div class="col-8">
 	        <table class="table table-striped">
