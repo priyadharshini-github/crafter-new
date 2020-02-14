@@ -35,13 +35,13 @@
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                   
                         <ul class="dropdown-menu">
-                <li>Travel</li>
-                <li>Lifestyle</li>
-                <li>Realtor</li>
-                <li>Bank</li>
-                <li>Online Store</li>
-                <li>Professional Services</li>
-                <li>Others</li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Realtor</a></li>
+                <li><a href="#">Bank</a></li>
+                <li><a href="#">Online Store</a></li>
+                <li><a href="#">Professional Services</a></li>
+                <li><a href="#">Others</a></li>
             </ul>
                       </div>
             </div>
