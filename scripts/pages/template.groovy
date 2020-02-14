@@ -1,0 +1,1 @@
+templateModel.merchCat = "Luxury Cruises"
