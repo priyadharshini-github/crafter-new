@@ -160,7 +160,7 @@
 		    </div>
 	        
 	        </div>
-	        <div class="col-9">${contentModel.merchCategories}
+	        <div class="col-9">
 	        <table class="table table-striped">
   <thead>
     <tr>
