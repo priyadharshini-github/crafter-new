@@ -116,7 +116,7 @@
 	    
 	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-3"><h3>Filters</h3>
+	        <div class="col-3"><h4>Filters</h4>
 	        <div id="accordion" class="accordion">
 		        <div class="card mb-0">
 		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
