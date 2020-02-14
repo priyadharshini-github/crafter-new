@@ -47,7 +47,7 @@
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>And a little description for the offer.</i>
+						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
 						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
 						</div>
@@ -58,7 +58,7 @@
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>And a little description for the offer.</i>
+						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
 						<div class="flex min-content" align="center">3% <span class="cashback">Cash<br>back</span></div>
 						</div>
@@ -69,7 +69,7 @@
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">				
-						<i>And a little description for the offer.</i>
+						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
 						<div class="flex min-content" align="center">10% <span class="cashback">Cash<br>back</span></div>
 						</div>
@@ -80,7 +80,7 @@
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">				
-						<i>And a little description for the offer.</i>
+						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
 						<div class="flex min-content" align="center">15% <span class="cashback">Cash<br>back</span></div>
 						</div>
@@ -116,7 +116,7 @@
 	    
 	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-4">Filters
+	        <div class="col-3">Filters
 	        <div id="accordion" class="accordion">
 		        <div class="card mb-0">
 		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
@@ -161,7 +161,7 @@
 		    </div>
 	        
 	        </div>
-	        <div class="col-8">
+	        <div class="col-9">
 	        <table class="table table-striped">
   <thead>
     <tr>
