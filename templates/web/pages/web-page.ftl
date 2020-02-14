@@ -17,7 +17,6 @@
 	            <img class="logo" src="/static-assets/images/sample-logo.png" alt="" />
 	       </div>
 	    </div>
-	    <div class="row">
 	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -37,7 +36,8 @@
     </ul>
     
   </div>
-</nav></div>
+</nav>
+
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
