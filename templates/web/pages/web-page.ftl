@@ -136,28 +136,14 @@
 		            </div>
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
+		        <#assign mcats = merchCategories>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item">
-                    	<label class="checkbox">Travel<input type="checkbox" /><span class="default"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                        <label class="checkbox">Lifestyle <input type="checkbox" /><span class="primary"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                        <label class="checkbox">Realtor <input type="checkbox" /><span class="success"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                         <label class="checkbox">Bank <input type="checkbox" /><span class="info"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                        <label class="checkbox">Online Store <input type="checkbox" /><span class="info"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                        <label class="checkbox">Professional Services <input type="checkbox" /><span class="info"></span></label>
-                    </li>
-                    <li class="list-group-item">
-                        <label class="checkbox">Others <input type="checkbox" /><span class="info"></span></label>
-                    </li>
+                    <#list mcats as cat>
+                        <li class="list-group-item">
+                    	    <label class="checkbox">${cat}<input type="checkbox" /><span class="default"></span></label>
+                        </li>
+                    </#list>
+                    
                 </ul>
 		            </div>
 		        </div>
@@ -178,12 +164,6 @@
                 </div>
             </div>
 	        <table class="table table-striped">\
-	        
-	        <#assign item = merchCategories>
-	        <div>${item[0]}</div>
-	        <div>${item[1]}</div>
-	        <div>${item[2]}</div>
-	        <div>${item[3]}</div>
   <thead>
     <tr>
       <th scope="col">#</th>
