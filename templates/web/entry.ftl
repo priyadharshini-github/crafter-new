@@ -14,6 +14,8 @@
     	<div <@studio.iceAttr iceGroup="main"/>>
             ${model.body_html}
         </div>
+        
+        ${contentModel.std_s}
 
 		<@studio.toolSupport/>	
 	</body>
