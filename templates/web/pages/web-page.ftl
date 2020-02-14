@@ -23,7 +23,6 @@
 	    </div>
 	    <div class="row">
 	        <div class="col-12 top-offers">
-	            <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	        
 	        <div class="row">
@@ -72,8 +71,6 @@
 				</div>
 			</div>
         </div>
-        
-	        </div>
 	        </div>
 	    </div>
 	    <div class="row majenta-bg">
