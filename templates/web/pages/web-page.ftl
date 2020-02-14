@@ -116,7 +116,9 @@
 	    
 	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-3"><h4>Filters</h4>
+	        <div class="col-3">
+	        <div class="flex"><h4>Filters</h4>
+	        <span class="ml-auto">Reset</span></div>
 	        <div id="accordion" class="accordion">
 		        <div class="card mb-0">
 		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
