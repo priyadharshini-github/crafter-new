@@ -180,7 +180,7 @@
 	        <table class="table table-striped">\
 	        
 	        <#assign item = merchCategories>
-	        <div>${item}</div>
+	        <div>${item[0]}</div>
   <thead>
     <tr>
       <th scope="col">#</th>
