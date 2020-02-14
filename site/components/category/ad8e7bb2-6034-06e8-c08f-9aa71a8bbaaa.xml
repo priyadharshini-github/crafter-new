@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/component/category</content-type>
+	<display-template>/templates/web/components/category.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ad8e</objectGroupId>
+	<objectId>ad8e7bb2-6034-06e8-c08f-9aa71a8bbaaa</objectId>
+	<file-name>ad8e7bb2-6034-06e8-c08f-9aa71a8bbaaa.xml</file-name>
+	<internal-name>Travel</internal-name>
+	<categorytitle_s>Travel</categorytitle_s>
+	<createdDate>2020-02-14T04:16:22.913Z</createdDate>
+	<createdDate_dt>2020-02-14T04:16:22.913Z</createdDate_dt>
+	<lastModifiedDate>2020-02-14T04:16:22.913Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-02-14T04:16:22.913Z</lastModifiedDate_dt>
+</component>
