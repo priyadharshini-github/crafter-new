@@ -153,6 +153,9 @@ body{
 .min-content{
 	width: min-content;
 }
+.mt-5{
+    margin-top: 5px;
+}
 .ml-auto{
 	margin-left: auto;
 }
