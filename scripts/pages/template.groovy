@@ -6,7 +6,7 @@ import java.net.URI;
 import org.json.XML;
 
 def uri = new URI("https://api.rakutenmarketing.com/linklocator/1.0/getCreativeCategories/44543")
-def authString = "Bearer cd757420243fa0a87ed9ecf1787d4ee8"
+def authString = "Bearer 26e92250e3a95c80898abaa2338afd0"
 
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
