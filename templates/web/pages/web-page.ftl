@@ -170,7 +170,7 @@
       <th scope="col">Offers</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody id="myTable">
     <tr>
       <th scope="row">1</th>
       <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></td>
