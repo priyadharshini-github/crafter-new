@@ -78,9 +78,15 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-${contentModel.category_o.item[0].value}
-${contentModel.category_o.item[1].value}
-${contentModel.category_o.item[2].value}
+            <ul>
+                <li>Travel</li>
+                <li>Lifestyle</li>
+                <li>Realtor</li>
+                <li>Bank</li>
+                <li>Online Store</li>
+                <li>Professional Services</li>
+                <li>Others</li>
+            </ul>
       </div>
     </div>
   </div>
