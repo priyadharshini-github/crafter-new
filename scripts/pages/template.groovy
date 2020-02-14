@@ -39,4 +39,4 @@ def catArray = categories.toString().split(',')
 
 templateModel.merchCategories = catArray;
 
-return categories
+return catArray
