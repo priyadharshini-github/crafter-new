@@ -9,7 +9,8 @@
 		<link rel="stylesheet" href="/static-assets/css/main.css" />
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-
+		<script src="/static-assets/js/jquery.min.js"></script>
+        <script src="/static-assets/js/table.js"></script>
 	</head>
 	<body>
 	<div class="container-fluid" v-cloak>
