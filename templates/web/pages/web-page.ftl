@@ -178,7 +178,9 @@
                 </div>
             </div>
 	        <table class="table table-striped">\
-	        <div>${merchCategories}</div>
+	        
+	        <#assign item = merchCategories.item[0]>
+	        <div>${item}</div>
   <thead>
     <tr>
       <th scope="col">#</th>
