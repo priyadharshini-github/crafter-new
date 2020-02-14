@@ -167,12 +167,12 @@
 	        <div style="margin-left: auto;">
     	        <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown button
+                    Sort by
                   </button>
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="#">Newest </a>
+                    <a class="dropdown-item" href="#">Expiry Date </a>
+                    <a class="dropdown-item" href="#">Cash back: High to Low</a>
                   </div>
                 </div>
             </div>
