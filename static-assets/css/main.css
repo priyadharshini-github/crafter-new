@@ -16,7 +16,7 @@
     padding: 10px;
     border-right: 1px solid #333;
 }
-bg-blue{
+.bg-blue{
     background: rgb(0,212,255);
 background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(3,3,184,1) 100%);
 }
