@@ -95,6 +95,11 @@
 	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
+            <select>
+                <option>q</option>
+                 <option>t</option>
+                  <option>s</option>
+            </select>
             <div class="btn-group btn-block">
               <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Categories
