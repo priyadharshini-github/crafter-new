@@ -35,14 +35,14 @@
                         <button class="btn btn-secondary btn-block dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">All Categories</button>
                   
                         <ul class="dropdown-menu">
-                <li><a href="#">Travel</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Realtor</a></li>
-                <li><a href="#">Bank</a></li>
-                <li><a href="#">Online Store</a></li>
-                <li><a href="#">Professional Services</a></li>
-                <li><a href="#">Others</a></li>
-            </ul>
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Lifestyle</a></li>
+                            <li><a href="#">Realtor</a></li>
+                            <li><a href="#">Bank</a></li>
+                            <li><a href="#">Online Store</a></li>
+                            <li><a href="#">Professional Services</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
                       </div>
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-primary mb-2">SEARCH</button>
