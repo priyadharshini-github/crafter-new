@@ -96,24 +96,16 @@
             </div>
             <div class="col-3">
             <select class="btn btn-danger">
+            <option class="dropdown-item">All Categories</option>
                 <option class="dropdown-item">Travel</option>
-                 <option>t</option>
-                  <option>s</option>
+                 <option>Lifestyle</option>
+                  <option>Realtor</option>
+                  <option class="dropdown-item">Bank</option>
+                 <option>Online Store</option>
+                  <option>Professional Services</option>
+                  <option class="dropdown-item">Others</option>
             </select>
-            <div class="btn-group btn-block">
-              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Categories
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Travel</a>
-                <a class="dropdown-item" href="#">Lifestyle</a>
-                <a class="dropdown-item" href="#">Realtor</a>
-                <a class="dropdown-item" href="#">Bank</a>
-                <a class="dropdown-item" href="#">Online Store</a>
-                <a class="dropdown-item" href="#">Professional Services</a>
-                <a class="dropdown-item" href="#">Others</a>
-              </div>
-            </div>
+            
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-danger mb-2">SEARCH</button>
             </div>
