@@ -20,6 +20,9 @@
     background: rgb(0,212,255);
 background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(3,3,184,1) 100%);
 }
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
 .blue-bg{
     background: #0089ff;
     padding: 20px;
