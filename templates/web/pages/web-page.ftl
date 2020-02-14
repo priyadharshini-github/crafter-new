@@ -176,19 +176,31 @@
   <tbody id="myTable">
     <tr>
       <th scope="row">1</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></td>
+      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
       <td>1.5% Cashback</td>
       <td>3 Offers</td>
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td><img class="logo" src="/static-assets/images/rakuten1.png" alt="" /></td>
+      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
       <td>2% Cashback</td>
       <td>3 Offers</td>
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></td>
+      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
+      <td>2.5% Cashback</td>
+      <td>3 Offers</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td><img class="logo" src="/static-assets/images/rakuten1.png" alt="" /><br>Rakuten Marketing</td>
+      <td>2.5% Cashback</td>
+      <td>3 Offers</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
       <td>2.5% Cashback</td>
       <td>3 Offers</td>
     </tr>
