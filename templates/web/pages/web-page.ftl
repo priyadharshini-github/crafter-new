@@ -178,7 +178,7 @@
                 </div>
             </div>
 	        <table class="table table-striped">\
-	        <div>${merchCategories.toString()}</div>
+	        <div>${merchCategories}</div>
   <thead>
     <tr>
       <th scope="col">#</th>
