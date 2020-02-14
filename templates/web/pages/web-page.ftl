@@ -17,7 +17,7 @@
 	            <img class="logo" src="/static-assets/images/sample-logo.png" alt="" />
 	       </div>
 	    </div>
-	    <nav class="navbar navbar-expand-lg navbar-light bg-blue">
+	    <nav class="navbar navbar-expand-lg navbar-light blue-bg">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -90,7 +90,7 @@
         </div>
 	        </div>
 	    </div>
-	    <div class="row majenta-bg">
+	    <div class="row blue-bg">
 	        <div class="col-6">
 	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
             </div>
