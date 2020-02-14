@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="/static-assets/css/main.css" />
 		<link rel="stylesheet" href="/static-assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+		<script src="/static-assets/js/jquery.min.js"></script>
+<script src="/static-assets/js/table.js"></script>
 	</head>
 	<body>
 	<div class="container-fluid" v-cloak>
@@ -197,8 +199,7 @@
 	</div>
  
     <!-- jQuery library -->
-<script src="/static-assets/js/jquery.min.js"></script>
-<script src="/static-assets/js/table.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
