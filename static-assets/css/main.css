@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+
 .logo{
     max-height: 80px;
     padding: 5px 0px;
@@ -15,6 +19,7 @@
 .nav-item{
     padding: 10px;
     border-right: 1px solid #333;
+    font-family: 'Roboto Slab', serif;
 }
 .bg-blue{
     background: rgb(8,119,148);
