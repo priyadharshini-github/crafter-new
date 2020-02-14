@@ -92,7 +92,7 @@
 	    </div>
 	    <div class="row blue-bg">
 	        <div class="col-6">
-	        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
             <select class="btn btn-danger">
