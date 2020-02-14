@@ -35,8 +35,8 @@ def jo = xmlJSONObj.toString(textIndent)
 def ParsingResult = new XmlSlurper().parseText(returnMessage)
 def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
-def catArray = categories.toString().split(',')
+//def catArray = categories.toString().split(',')
 
-templateModel.merchCategories = catArray;
+templateModel.merchCategories = categories;
 
-return categories.toString()
+return categories
