@@ -8,7 +8,9 @@
     background: rgba(209, 234, 255, 0.55);
     padding: 20px;
 }
-
+.nav-bar{
+    margin: 0px -15px;
+}
 .blue-bg{
     background: #0089ff;
     padding: 20px;
