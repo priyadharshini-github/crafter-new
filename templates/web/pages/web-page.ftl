@@ -161,7 +161,6 @@
 	        
 	        </div>
 	        <div class="col-9">
-	        <div>${merchCategories}</div>
 	        <table class="table table-striped">
   <thead>
     <tr>
