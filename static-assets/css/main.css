@@ -28,6 +28,9 @@ background: linear-gradient(180deg, rgba(8,119,148,1) 0%, rgba(0,212,255,1) 8%, 
 .nav-link{
     color: #fff !important;
 }
+.dropdown-item {
+    background-color: white !important;
+}
 .blue-bg{
     background: #1485ff;
     padding: 20px;
