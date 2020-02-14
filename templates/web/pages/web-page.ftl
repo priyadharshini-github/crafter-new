@@ -125,7 +125,7 @@
 		                <a class="card-title">Cashback Range</a>
 		            </div>
 		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-		                <b>€ 10</b> <input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/> <b>€ 1000</b>
+		             
 		                <div class="slider">
 		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
 		                    	<output id="rangevalue">50</output>
