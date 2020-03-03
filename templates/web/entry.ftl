@@ -4,15 +4,15 @@
 <html lang="en">
 	<head>
       <meta charset="utf-8">
-      <title>${model.title_t}</title>
+      <title>Test Page</title>
 	</head>
 	<body>
     	<div <@studio.iceAttr iceGroup="title"/>>
-			<h1>${model.title_t}</h1>
+			<h1>Title</h1>
         </div>
       
     	<div <@studio.iceAttr iceGroup="main"/>>
-            ${model.body_html}
+            Content
         </div>
         
         ${contentModel.std_s}
