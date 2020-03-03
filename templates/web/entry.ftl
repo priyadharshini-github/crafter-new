@@ -12,11 +12,14 @@
 			<a href="http://ec2-3-21-12-154.us-east-2.compute.amazonaws.com:8080/studio/site-dashboard">Click here</a>
         </div>
       
+        <div>
+        ...
+        </div>
     	<div <@studio.iceAttr iceGroup="main"/>>
-            Content
+            ${contentModel.std_s}
         </div>
         
-        ${contentModel.std_s}
+        
 
 		<@studio.toolSupport/>	
 	</body>
