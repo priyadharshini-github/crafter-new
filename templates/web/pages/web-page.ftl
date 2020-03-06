@@ -198,11 +198,11 @@
     </thead>
     <tbody>
       <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone">
-<td class="expand-button"></td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
 
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td class="expand-button"></td>
 </tr>
 <tr class="hide-table-padding">
 <td></td>
@@ -226,17 +226,17 @@
   </div>
 </div></td>
 </tr>
-      <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tableone">
-<td class="expand-button"></td>
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
+      <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo">
 
+<td>Cell</td>
+<td>Cell</td>
+<td>Cell</td>
+<td class="expand-button"></td>
 </tr>
 <tr class="hide-table-padding">
 <td></td>
 <td colspan="4">
-<div id="tableone" class="collapse in p-3">
+<div id="tabletwo" class="collapse in p-3">
   <div class="row">
     <div class="col-2">label</div>
     <div class="col-6">value</div>
