@@ -11,9 +11,17 @@ def token = ""
 
 org.apache.http.impl.client.DefaultHttpClient httpTokenClient = new org.apache.http.impl.client.DefaultHttpClient();
 
+List<NameValuePair> form = new ArrayList<>();
+form.add(new BasicNameValuePair("grant_type", "password"));
+form.add(new BasicNameValuePair("username", "syzegee"));
+form.add(new BasicNameValuePair("password", "Platform2019"));
+form.add(new BasicNameValuePair("scope", "3653353"));
+UrlEncodedFormEntity entity = new UrlEncodedFormEntity(form, Consts.UTF_8);
+            
 org.apache.http.client.methods.HttpPost tokenRequest= new org.apache.http.client.methods.HttpPost(tokenUri);
 tokenRequest.addHeader("Authorization", tokenAuthString);
 tokenRequest.addHeader("Content-Type", "application/x-www-form-urlencoded");
+tokenRequest.setEntity(entity)
 org.apache.http.HttpResponse tokenResponse = httpTokenClient.execute(tokenRequest);
 
 def tokenStatus = tokenResponse.getStatusLine().getStatusCode()
