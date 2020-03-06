@@ -197,7 +197,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr class="accordion-toggle collapsed" id="acc-collapse1" data-toggle="collapse" data-parent="#accordion1" href="#tableone">
+      <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone">
 <td class="expand-button"></td>
 <td>Cell</td>
 <td>Cell</td>
@@ -226,7 +226,7 @@
   </div>
 </div></td>
 </tr>
-      <tr class="accordion-toggle collapsed" id="acc-collapse2" data-toggle="collapse" data-parent="#accordion2" href="#tableone">
+      <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tableone">
 <td class="expand-button"></td>
 <td>Cell</td>
 <td>Cell</td>
