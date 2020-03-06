@@ -11,7 +11,7 @@ def token = ""
 
 org.apache.http.impl.client.DefaultHttpClient httpTokenClient = new org.apache.http.impl.client.DefaultHttpClient();
 
-org.apache.http.client.methods.HttpPost tokenRequest= new org.apache.http.client.methods.HttpGet(tokenUri);
+org.apache.http.client.methods.HttpPost tokenRequest= new org.apache.http.client.methods.HttpPost(tokenUri);
 tokenRequest.addHeader("Authorization", tokenAuthString);
 tokenRequest.addHeader("Content-Type", "application/x-www-form-urlencoded");
 org.apache.http.HttpResponse tokenResponse = httpTokenClient.execute(tokenRequest);
