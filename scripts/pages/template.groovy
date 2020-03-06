@@ -10,12 +10,12 @@ def tokenData = "grant_type=password&username=syzegee&password=Platform2019&scop
 def tokenAuthString = "Basic SEJma0wxbGlkZG1kbTB3YURQZkNQM2l5U3Q0YTpmMjJPT3pWU1l6cHNlQlNRVUkzS0JvMFlJR2dh"
 def token = ""
 
-org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
+org.apache.http.impl.client.DefaultHttpClient httpTokenClient = new org.apache.http.impl.client.DefaultHttpClient();
 
 org.apache.http.client.methods.HttpGet tokenRequest= new org.apache.http.client.methods.HttpGet(tokenUri + "?" + tokenData);
 tokenRequest.addHeader("Authorization", tokenAuthString);
 tokenRequest.addHeader("Content-Type", "application/x-www-form-urlencoded");
-org.apache.http.HttpResponse tokenResponse = httpClient.execute(tokenRequest);
+org.apache.http.HttpResponse tokenResponse = httpTokenClient.execute(tokenRequest);
 
 def tokenStatus = tokenResponse.getStatusLine().getStatusCode()
 if( tokenStatus >= 300) {
@@ -29,7 +29,7 @@ if (tokenResponseEntity != null) {
 
 def uri = new URI("https://api.rakutenmarketing.com/linklocator/1.0/getCreativeCategories/44543")
 def authString = "Bearer " + token
-
+org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
 getRequest.addHeader("Accept", "application/xml");
 getRequest.addHeader("Authorization", authString);
