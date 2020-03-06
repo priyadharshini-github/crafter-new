@@ -4,6 +4,7 @@ import java.net.URI;
 // import groovy.json.JsonSlurper;
 // import org.json.JSONObject;
 import org.json.XML;
+import org.apache.http.Consts;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
