@@ -4,6 +4,7 @@ import java.net.URI;
 // import groovy.json.JsonSlurper;
 // import org.json.JSONObject;
 import org.json.XML;
+import org.apache.http.NameValuePair;
 
 def tokenUri = new URI("https://api.rakutenmarketing.com/token?grant_type=password&username=syzegee&password=Platform2019&scope=3653353")
 def tokenAuthString = "Basic SEJma0wxbGlkZG1kbTB3YURQZkNQM2l5U3Q0YTpmMjJPT3pWU1l6cHNlQlNRVUkzS0JvMFlJR2dh"
