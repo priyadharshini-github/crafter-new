@@ -5,14 +5,13 @@ import java.net.URI;
 // import org.json.JSONObject;
 import org.json.XML;
 
-def tokenUri = new URI("https://api.rakutenmarketing.com/token")
-def tokenData = "grant_type=password&username=syzegee&password=Platform2019&scope=3653353"
+def tokenUri = new URI("https://api.rakutenmarketing.com/token?grant_type=password&username=syzegee&password=Platform2019&scope=3653353")
 def tokenAuthString = "Basic SEJma0wxbGlkZG1kbTB3YURQZkNQM2l5U3Q0YTpmMjJPT3pWU1l6cHNlQlNRVUkzS0JvMFlJR2dh"
 def token = ""
 
 org.apache.http.impl.client.DefaultHttpClient httpTokenClient = new org.apache.http.impl.client.DefaultHttpClient();
 
-org.apache.http.client.methods.HttpGet tokenRequest= new org.apache.http.client.methods.HttpGet(tokenUri + "?" + tokenData);
+org.apache.http.client.methods.HttpGet tokenRequest= new org.apache.http.client.methods.HttpGet(tokenUri);
 tokenRequest.addHeader("Authorization", tokenAuthString);
 tokenRequest.addHeader("Content-Type", "application/x-www-form-urlencoded");
 org.apache.http.HttpResponse tokenResponse = httpTokenClient.execute(tokenRequest);
