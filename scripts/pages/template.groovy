@@ -5,10 +5,31 @@ import java.net.URI;
 // import org.json.JSONObject;
 import org.json.XML;
 
-def uri = new URI("https://api.rakutenmarketing.com/linklocator/1.0/getCreativeCategories/44543")
-def authString = "Bearer 15dc811fce57d323c44e9b187d944f80"
+def tokenUri = new URI("https://api.rakutenmarketing.com/token")
+def tokenData = "grant_type=password&username=syzegee&password=Platform2019&scope=3653353"
+def tokenAuthString = "Basic SEJma0wxbGlkZG1kbTB3YURQZkNQM2l5U3Q0YTpmMjJPT3pWU1l6cHNlQlNRVUkzS0JvMFlJR2dh"
+def token = ""
 
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
+
+org.apache.http.client.methods.HttpGet tokenRequest= new org.apache.http.client.methods.HttpGet(tokenUri + "?" + tokenData);
+tokenRequest.addHeader("Authorization", tokenAuthString);
+tokenRequest.addHeader("Content-Type", "application/x-www-form-urlencoded");
+org.apache.http.HttpResponse tokenResponse = httpClient.execute(tokenRequest);
+
+def tokenStatus = tokenResponse.getStatusLine().getStatusCode()
+if( tokenStatus >= 300) {
+  throw new org.apache.http.client.ClientProtocolException("Unexpected response status: " + tokenStatus)  
+}
+
+org.apache.http.HttpEntity tokenResponseEntity = tokenResponse.getEntity();
+if (tokenResponseEntity != null) {
+ token = org.apache.http.util.EntityUtils.toString(tokenResponseEntity);
+}
+
+def uri = new URI("https://api.rakutenmarketing.com/linklocator/1.0/getCreativeCategories/44543")
+def authString = "Bearer " + token
+
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
 getRequest.addHeader("Accept", "application/xml");
 getRequest.addHeader("Authorization", authString);
