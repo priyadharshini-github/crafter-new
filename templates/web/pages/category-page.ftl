@@ -85,7 +85,8 @@
 	        </div>
 	    </div>
 	    
-	    <div class="row">
+	    <hr>
+	    <div class="row offer-codebox">
 	        <div class="col-2">
 	            Upto 20% OFF
 	        </div>
@@ -98,7 +99,7 @@
 	        </div>
 	    </div>
 	    
-	    <div class="row">
+	    <div class="row offer-codebox">
 	        <div class="col-2">
 	            Upto 20% OFF
 	        </div>
@@ -110,7 +111,7 @@
 	        </div>
 	    </div>
 	    
-	    <div class="row">
+	    <div class="row offer-codebox">
 	        <div class="col-2">
 	            Upto 20% OFF
 	        </div>
