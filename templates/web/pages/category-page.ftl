@@ -71,7 +71,7 @@
 	            <img class="logo" src="/static-assets/images/rakuten.png" alt="" />
 	        </div>
 	        <div class="col-10">
-	            <h3>iCheapFlights</h3><br>
+	            <div class="offer-title">iCheapFlights</div><br>
 	            <h6>Subtitle goes here</h6>
 	        </div>
 	    </div>
