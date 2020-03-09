@@ -62,248 +62,47 @@
     
   </div>
 </nav>
+</div>	    
 
+<div class="container" v-cloak>	 
+	<section class="main-content">
 	    <div class="row">
-	        <div class="col-12 top-offers">
-	        <h3 align="center">Top Offers</h3>
-	        
-	        <div class="row">
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">3% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">				
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">10% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">				
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">15% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-        </div>
+	        <div class="col-2">
+	            <img src="" class="img-fluid">
+	        </div>
+	        <div class="col-10">
+	            Sample text here
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories>
-	      
-	    <div class="row blue-bg">
-	        <div class="col-6">
-	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
-            </div>
-            <div class="col-3">
-            <select class="btn btn-dark btn-block">
-                <option class="dropdown-item">Categories</option>
-                <#list mcats as cat>
-                    <option class="dropdown-item">${cat}</option>
-                </#list>
-            </select>
-            
-            </div>
-            <div class="col-3"><button type="submit" class="btn btn-block btn-dark mb-2">SEARCH</button>
-            </div>
+	    <div class="row">
+	        <div class="col-2">
+	            <img src="" class="img-fluid">
+	        </div>
+	        <div class="col-10">
+	            Sample text here
+	        </div>
 	    </div>
 	    
-	    <section class="main-content">
 	    <div class="row">
-	        <div class="col-4">
-	        <div class="flex"><h4>Filters</h4>
-	        <small class="ml-auto mtop-5"><a href="#">Reset</a></small></div>
-	        <div id="accordion" class="accordion">
-		        <div class="card mb-0">
-		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
-		                <a class="card-title">Cashback Range</a>
-		            </div>
-		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
-		                
-		                <div class="slider">
-		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-		                    	<output id="rangevalue">50</output>
-		                    </div> 
-		            </div>
-		            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-		                <a class="card-title"> Categories </a>
-		            </div>
-		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
-		                 
-                <ul class="list-group list-group-flush">
-                    <#list mcats as cat>
-                        <li class="list-group-item">
-                    	    <label class="checkbox">${cat}<input type="checkbox" /><span class="default"></span></label>
-                        </li>
-                    </#list>
-                    
-                </ul>
-		            </div>
-		        </div>
-		    </div>
-	        
-	        </div>
-	        <div class="col-8">
-	        <div style="margin-left: auto; text-align: right;">
-    	        <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sort by
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#">Newest </a>
-                    <a class="dropdown-item" href="#">Expiry Date </a>
-                    <a class="dropdown-item" href="#">Cash back: High to Low</a>
-                  </div>
-                </div>
-            </div>
-            
-            
-            
-            <div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Heading</th>
-        <th scope="col">Heading</th>
-        <th scope="col">Heading</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone">
-
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td class="expand-button"></td>
-</tr>
-<tr class="hide-table-padding">
-<td></td>
-<td colspan="3">
-<div id="tableone" class="collapse in p-3">
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value 1</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value 2</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value 3</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value 4</div>
-  </div>
-</div></td>
-</tr>
-      <tr class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo">
-
-<td>Cell</td>
-<td>Cell</td>
-<td>Cell</td>
-<td class="expand-button"></td>
-</tr>
-<tr class="hide-table-padding">
-<td></td>
-<td colspan="4">
-<div id="tabletwo" class="collapse in p-3">
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value</div>
-  </div>
-  <div class="row">
-    <div class="col-2">label</div>
-    <div class="col-6">value</div>
-  </div>
-</div></td>
-</tr>
-    </tbody>
-  </table>
-</div>
-	        <table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Company Name</th>
-      <th scope="col">Cashback</th>
-      <th scope="col">Offers</th>
-    </tr>
-  </thead>
-  <tbody id="myTable">
-    <tr>
-      <th scope="row">1</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
-      <td>1.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
-      <td>2% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><img class="logo" src="/static-assets/images/rakuten1.png" alt="" /><br>Rakuten Marketing</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-  </tbody>
-</table>
+	        <div class="col-12">
+	            
 	        </div>
 	    </div>
-	    </section>
-	</div>
+	    
+	    <div class="row">
+	        <div class="col-12">
+	            
+	        </div>
+	    </div>
+	    
+	    <div class="row">
+	        <div class="col-12">
+	            
+	        </div>
+	    </div>
+	</section>
+</div>	
  
     <!-- jQuery library -->
 
