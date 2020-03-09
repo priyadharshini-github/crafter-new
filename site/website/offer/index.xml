@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/categorypage</content-type>
+	<display-template>/templates/web/pages/category-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>2ec8</objectGroupId>
+	<objectId>2ec844c7-ee19-8bce-8075-e77e001d9a6f</objectId>
+	<internal-name>Offer Page</internal-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<file-name>index.xml</file-name>
+	<folder-name>offer</folder-name>
+	<createdDate>2020-03-09T07:27:22.654Z</createdDate>
+	<createdDate_dt>2020-03-09T07:27:22.654Z</createdDate_dt>
+	<lastModifiedDate>2020-03-09T07:27:22.654Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-09T07:27:22.654Z</lastModifiedDate_dt>
+</page>
