@@ -179,9 +179,10 @@ body{
 .display-block{
     display: block !important;
 }
+
 .vertical-align{
-    margin-right: auto !important;
-    margin-left: auto !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
     vertical-align: middle !important;
 }
 
