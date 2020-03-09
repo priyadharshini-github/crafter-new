@@ -75,7 +75,7 @@
 	            <h6>Subtitle goes here</h6>
 	        </div>
 	    </div>
-	    
+	    <hr>
 	    <div class="row">
 	        <div class="col-2">
 	            <img class="logo" src="/static-assets/images/rakuten.png" alt="" />
