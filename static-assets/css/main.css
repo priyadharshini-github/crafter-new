@@ -182,7 +182,7 @@ body{
 .vertical-align{
     margin-right: auto !important;
     margin-left: auto !important;
-    text-align: center !important;
+    vertical-align: middle !important;
 }
 
 .font-12 {
@@ -261,4 +261,5 @@ body{
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 10px;
+    margin-bottom: 15px;
 }
