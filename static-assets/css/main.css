@@ -167,3 +167,20 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+.border-r1{
+    border-right: 1px solid #ababab;
+}
+.center-align{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
+}
+
+.display-block{
+    display: block !important;
+}
+.vertical-align{
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: center !important;
+}
