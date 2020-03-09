@@ -78,7 +78,7 @@
 	    <hr>
 	    <div class="row">
 	        <div class="col-2">
-	            <img class="logo" src="/static-assets/images/rakuten.png" alt="" />
+	            <span class="font-28 bold">15%</span> Cash back
 	        </div>
 	        <div class="col-10">
 	            iCheapFlight merchant information will be displayed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
