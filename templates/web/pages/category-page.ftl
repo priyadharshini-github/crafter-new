@@ -67,7 +67,7 @@
 <div class="container" v-cloak>	 
 	<section class="main-content">
 	    <div class="row">
-	        <div class="col-2">
+	        <div class="col-2 center-align display-block border-r1">
 	            <img class="logo" src="/static-assets/images/rakuten.png" alt="" />
 	        </div>
 	        <div class="col-10">
