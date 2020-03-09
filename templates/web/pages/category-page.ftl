@@ -87,20 +87,19 @@
 	    
 	    <div class="row">
 	        <div class="col-2">
-	            
+	            Upto 20% OFF
 	        </div>
 	        <div class="col-8">
 	            Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!
-	            Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!
 	        </div>
 	        <div class="col-2">
-	            
+	            <div class="code-css">Copy Code: TRIP20</div>
 	        </div>
 	    </div>
 	    
 	    <div class="row">
 	        <div class="col-2">
-	            
+	            Upto 20% OFF
 	        </div>
 	        <div class="col-8">
 	            Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!
@@ -112,7 +111,7 @@
 	    
 	    <div class="row">
 	        <div class="col-2">
-	            
+	            Upto 20% OFF
 	        </div>
 	        <div class="col-8">
 	            Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!
