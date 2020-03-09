@@ -94,6 +94,7 @@
 	        </div>
 	        <div class="col-2">
 	            <div class="code-css">Copy Code: TRIP20</div>
+	            <span class="red">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
 	    
@@ -105,7 +106,7 @@
 	            Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!
 	        </div>
 	        <div class="col-2">
-	            
+	            <span class="blue">Expires in 5 Days, 12 hours!</span>
 	        </div>
 	    </div>
 	    
@@ -117,7 +118,7 @@
 	            Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!
 	        </div>
 	        <div class="col-2">
-	            
+	            <span class="grey">Expiry : 10.06.2020</span>
 	        </div>
 	    </div>
 	</section>
