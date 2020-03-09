@@ -199,7 +199,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a href="${contentModel.offer}"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
+        <td><a href="${offer}"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td>Rakuten</td>
         <td>1.5% Cashback</td>
         <td>3 Offers</td>
