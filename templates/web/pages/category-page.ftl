@@ -78,10 +78,10 @@
 	    <hr>
 	    <div class="row">
 	        <div class="col-3 vertical-align center-align">
-	            <span class="font-34 bold">15%</span><br> Cash back
+	            <span class="font-60 bold">15%</span><br> Cash back
 	        </div>
 	        <div class="col-9">
-	            iCheapFlight merchant information will be displayed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+	            iCheapFlight merchant information will be displayed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. 
 	        </div>
 	    </div>
 	    
