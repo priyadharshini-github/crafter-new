@@ -68,7 +68,7 @@
 	<section class="main-content">
 	    <div class="row">
 	        <div class="col-2">
-	            <img src="" class="img-fluid">
+	            <img class="logo" src="/static-assets/images/rakuten.png" alt="" />
 	        </div>
 	        <div class="col-10">
 	            Sample text here
