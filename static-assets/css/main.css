@@ -236,3 +236,19 @@ body{
 .bold {
 	font-weight: bold;
 }
+
+.code-css{
+    border: 1px dashed;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.grey{
+    color: grey;
+}
