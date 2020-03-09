@@ -252,3 +252,10 @@ body{
 .grey{
     color: grey;
 }
+
+.offer-codebox{
+    background: #eae9e9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
