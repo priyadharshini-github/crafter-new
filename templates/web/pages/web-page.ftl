@@ -203,7 +203,7 @@
         <td>Rakuten</td>
         <td>1.5% Cashback</td>
         <td>3 Offers</td>
-        <td class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="expand-button"></div></td>
+        <td class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn">+</div></td>
     </tr>
     <tr class="hide-table-padding">
     
@@ -212,18 +212,6 @@
       <div class="row">
         <div class="col-2">label</div>
         <div class="col-6">value 1</div>
-      </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value 2</div>
-      </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value 3</div>
-      </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value 4</div>
       </div>
     </div></td>
     <td></td>
@@ -234,7 +222,7 @@
       <td>iCheapflights</td>
       <td>2% Cashback</td>
       <td>3 Offers</td>
-      <td class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="expand-button"></div></td>
+      <td class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn">+</div></td>
     </tr>
     
     <tr class="hide-table-padding">
@@ -245,68 +233,12 @@
         <div class="col-2">label</div>
         <div class="col-6">value</div>
       </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value</div>
-      </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value</div>
-      </div>
-      <div class="row">
-        <div class="col-2">label</div>
-        <div class="col-6">value</div>
-      </div>
     </div></td>
     <td></td>
     </tr>
     </tbody>
   </table>
 </div>
-
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Company Name</th>
-      <th scope="col">Cashback</th>
-      <th scope="col">Offers</th>
-    </tr>
-  </thead>
-  <tbody id="myTable">
-    <tr>
-      <th scope="row">1</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
-      <td>1.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
-      <td>2% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td><img class="logo" src="/static-assets/images/rakuten.png" alt="" /><br>Rakuten</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td><img class="logo" src="/static-assets/images/rakuten1.png" alt="" /><br>Rakuten Marketing</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /><br>iCheapflights</td>
-      <td>2.5% Cashback</td>
-      <td>3 Offers</td>
-    </tr>
-  </tbody>
-</table>
 	        </div>
 	    </div>
 	    </section>
