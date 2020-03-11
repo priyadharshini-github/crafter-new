@@ -198,7 +198,7 @@
         </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr class="vertical-align">
         <td><a href="/offer"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td>Rakuten</td>
         <td>1.5% Cashback</td>
