@@ -116,7 +116,7 @@ body{
 	border-color: rgba(255,255,255,0) #428bca rgba(255,255,255,0) rgba(255,255,255,0);
 }
 .offer-info {	border-color: #5bc0de; }
-.offer-info .shape{
+.offer-info .shape{a
 	border-color: transparent #5bc0de transparent transparent;
 	border-color: rgba(255,255,255,0) #5bc0de rgba(255,255,255,0) rgba(255,255,255,0);
 }
@@ -270,4 +270,9 @@ body{
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 15px;
+}
+
+.arrow-btn{
+    color: blue;
+    cursor: pointer;
 }
