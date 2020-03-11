@@ -197,7 +197,9 @@
           <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody><#include "/templates/web/navigation/navigation.ftl">
+	...
+	<@renderNavigation "/site/website", 1 />
       <tr>
         <td><a href="${contentModel["file-name"]}/preview/#/?page=/offer&site=${siteName}"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td>Rakuten</td>
