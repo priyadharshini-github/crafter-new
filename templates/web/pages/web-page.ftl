@@ -200,7 +200,7 @@
     <tbody>
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
-        <td width="40%" class="vertical-align">Rakuten</td>
+        <td width="40%" class="vertical-align"><a href="/offer">Rakuten</a></td>
         <td width="25%" class="vertical-align center-align">1.5%</td>
         <td width="20%" class="vertical-align center-align">3 Offers</td>
         <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
@@ -243,8 +243,8 @@
     </tr>
 
     <tr>
-      <td class="vertical-align"><img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" /></td>
-      <td class="vertical-align">iCheapflights</td>
+      <td class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" /></a></td>
+      <td class="vertical-align"><a href="/offer">iCheapflights</a></td>
       <td class="vertical-align center-align">2%</td>
       <td class="vertical-align center-align">3 Offers</td>
       <td class="accordion-toggle collapsed vertical-align" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
