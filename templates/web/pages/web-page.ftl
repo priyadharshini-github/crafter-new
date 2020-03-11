@@ -147,6 +147,18 @@
 		            </div>
 		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
 		                
+		                <div class="range-slider">
+                            <input type="text" class="js-range-slider" value="" />
+                        </div>
+                          <hr>
+                        <div class="extra-controls form-inline">
+                          <div class="form-group">
+                            <input type="text" class="js-input-from form-control" value="0" />
+                            <input type="text" class="js-input-to form-control" value="0" />
+                        </div>
+                          </div>
+                        </div>
+                        
 		                <div class="slider">
 		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
 		                    	<output id="rangevalue">50</output>
