@@ -217,7 +217,7 @@
     <td></td>
     </tr>
 
-    <tr>
+    <tr class="vertical-align">
       <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /></td>
       <td>iCheapflights</td>
       <td>2% Cashback</td>
