@@ -10,10 +10,10 @@ $(document).ready(function() {
     decimals: 0,
   });
   noUiSlider.create(rangeSlider, {
-    start: [1, 100],
+    start: [1.0, 100],
     step: 1,
     range: {
-      'min': [1],
+      'min': [1.0],
       'max': [100]
     },
     format: moneyFormat,
