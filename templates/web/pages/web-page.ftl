@@ -198,12 +198,12 @@
         </tr>
     </thead>
     <tbody>
-      <tr class="vertical-align">
-        <td><a href="/offer"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
-        <td>Rakuten</td>
-        <td>1.5% Cashback</td>
-        <td>3 Offers</td>
-        <td class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
+      <tr>
+        <td class="vertical-align"><a href="/offer"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
+        <td class="vertical-align">Rakuten</td>
+        <td class="vertical-align">1.5% Cashback</td>
+        <td class="vertical-align">3 Offers</td>
+        <td class="accordion-toggle collapsed vertical-align" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
     </tr>
     <tr class="hide-table-padding">
     
