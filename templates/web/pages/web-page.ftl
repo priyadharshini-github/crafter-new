@@ -169,11 +169,6 @@
       </form>
     </div>
   </div>
-                        
-		                <div class="slider">
-		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
-		                    	<output id="rangevalue">50</output>
-		                    </div> 
 		            </div>
 		            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 		                <a class="card-title"> Categories </a>
