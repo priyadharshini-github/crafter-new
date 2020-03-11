@@ -199,7 +199,7 @@
     </thead>
     <tbody>
       <tr>
-        <td class="vertical-align"><a href="/offer"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
+        <td class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td class="vertical-align">Rakuten</td>
         <td class="vertical-align">1.5% Cashback</td>
         <td class="vertical-align">3 Offers</td>
@@ -218,11 +218,11 @@
     </tr>
 
     <tr>
-      <td class="vertical-align"><img class="logo" src="/static-assets/images/130063_large.png" alt="" /></td>
+      <td class="vertical-align"><img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" /></td>
       <td class="vertical-align">iCheapflights</td>
       <td class="vertical-align">2% Cashback</td>
       <td class="vertical-align">3 Offers</td>
-      <td class="accordion-toggle collapsed vertical-align" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn">+</div></td>
+      <td class="accordion-toggle collapsed vertical-align" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
     </tr>
     
     <tr class="hide-table-padding">
