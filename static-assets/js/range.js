@@ -7,12 +7,12 @@ $(document).ready(function() {
   });
   var rangeSlider = document.getElementById('slider-range');
   var moneyFormat = wNumb({
-    decimals: 2,
+    decimals: 1,
     mark: '.'
   });
   noUiSlider.create(rangeSlider, {
     start: [0.0, 100],
-    step: 1,
+    step: 0.5,
     range: {
       'min': [0.0],
       'max': [100]
