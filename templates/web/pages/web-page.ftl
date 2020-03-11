@@ -217,12 +217,12 @@
     <td></td>
     </tr>
 
-    <tr class="vertical-align">
-      <td><img class="logo" src="/static-assets/images/130063_large.png" alt="" /></td>
-      <td>iCheapflights</td>
-      <td>2% Cashback</td>
-      <td>3 Offers</td>
-      <td class="accordion-toggle collapsed" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn">+</div></td>
+    <tr>
+      <td class="vertical-align"><img class="logo" src="/static-assets/images/130063_large.png" alt="" /></td>
+      <td class="vertical-align">iCheapflights</td>
+      <td class="vertical-align">2% Cashback</td>
+      <td class="vertical-align">3 Offers</td>
+      <td class="accordion-toggle collapsed vertical-align" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn">+</div></td>
     </tr>
     
     <tr class="hide-table-padding">
