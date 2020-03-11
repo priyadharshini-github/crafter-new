@@ -282,3 +282,7 @@ body{
     color: blue;
     cursor: pointer;
 }
+
+.hide-table-padding td{
+    border-top: 0px;
+}
