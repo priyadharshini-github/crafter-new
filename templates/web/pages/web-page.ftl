@@ -210,39 +210,30 @@
     <td colspan="4">
     <div id="tableone" class="collapse in p-3">
       <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
+	        <div class="col-6 center-align display-block vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
 	    
 	    <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
+	        <div class="col-6 center-align display-block vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
 	        </div>
 	    </div>
 	    
 	    <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!
-	        </div>
-	        <div class="col-3 center-align vertical-align">
+	        <div class="col-6 center-align vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="grey font-12">Expiry : 10.06.2020</span>
 	        </div>
@@ -264,39 +255,30 @@
     <td colspan="4">
     <div id="tabletwo" class="collapse in p-3">
       <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
+	        <div class="col-6 center-align display-block vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
 	    
 	    <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
+	        <div class="col-6 center-align display-block vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
 	        </div>
 	    </div>
 	    
 	    <div class="row offer-codebox1">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
-	            Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!
-	        </div>
-	        <div class="col-3 center-align vertical-align">
+	        <div class="col-6 center-align vertical-align">
 	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="grey font-12">Expiry : 10.06.2020</span>
 	        </div>
