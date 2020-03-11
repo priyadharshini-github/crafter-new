@@ -155,10 +155,10 @@
                         </div>
                       <div class="row slider-labels">
                         <div class="col-6 caption">
-                          <span id="slider-range-value1"></span>
+                          <span id="slider-range-value1"></span>%
                         </div>
                         <div class="col-6 text-right caption">
-                          <span id="slider-range-value2"></span>
+                          <span id="slider-range-value2"></span>%
                         </div>
                       </div>
 		            </div>
