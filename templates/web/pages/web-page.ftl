@@ -203,7 +203,7 @@
         <td>Rakuten</td>
         <td>1.5% Cashback</td>
         <td>3 Offers</td>
-        <td class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn">+</div></td>
+        <td class="accordion-toggle collapsed" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
     </tr>
     <tr class="hide-table-padding">
     
