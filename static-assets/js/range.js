@@ -8,15 +8,13 @@ $(document).ready(function() {
   var rangeSlider = document.getElementById('slider-range');
   var moneyFormat = wNumb({
     decimals: 0,
-    thousand: ',',
-    prefix: '$'
   });
   noUiSlider.create(rangeSlider, {
-    start: [500000, 1000000],
+    start: [1, 100],
     step: 1,
     range: {
-      'min': [100000],
-      'max': [1000000]
+      'min': [1],
+      'max': [100]
     },
     format: moneyFormat,
     connect: true
