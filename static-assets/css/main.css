@@ -284,5 +284,5 @@ body{
 }
 
 .hide-table-padding td{
-    border-top: 0px;
+    border-top: 0px !important;
 }
