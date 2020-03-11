@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 		<script src="/static-assets/js/jquery.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
+        <script src="/static-assets/js/range.js"></script>
 	</head>
 	<style>
 	
@@ -147,17 +148,27 @@
 		            </div>
 		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
 		                
-		                <div class="range-slider">
-                            <input type="text" class="js-range-slider" value="" />
-                        </div>
-                          <hr>
-                        <div class="extra-controls form-inline">
-                          <div class="form-group">
-                            <input type="text" class="js-input-from form-control" value="0" />
-                            <input type="text" class="js-input-to form-control" value="0" />
-                        </div>
-                          </div>
-                        </div>
+		                <div class="row">
+    <div class="col-sm-12">
+      <div id="slider-range"></div>
+    </div>
+  </div>
+  <div class="row slider-labels">
+    <div class="col-xs-6 caption">
+      <strong>Min:</strong> <span id="slider-range-value1"></span>
+    </div>
+    <div class="col-xs-6 text-right caption">
+      <strong>Max:</strong> <span id="slider-range-value2"></span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <form>
+        <input type="hidden" name="min-value" value="">
+        <input type="hidden" name="max-value" value="">
+      </form>
+    </div>
+  </div>
                         
 		                <div class="slider">
 		                        <input type = "range" min="0" max="100" onchange="rangevalue.value=value"/>
