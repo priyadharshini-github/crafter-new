@@ -199,7 +199,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a href="${authoringUrl}/offer"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
+        <td><a href="http://ec2-35-171-45-30.compute-1.amazonaws.com:8080/studio/preview/#/?page=/offer&site=${siteName}"><img class="logo" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td>Rakuten</td>
         <td>1.5% Cashback</td>
         <td>3 Offers</td>
