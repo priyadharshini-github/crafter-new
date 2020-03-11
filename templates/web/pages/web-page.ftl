@@ -208,7 +208,7 @@
     <tr class="hide-table-padding">
     
     <td colspan="5">
-    <div id="tableone" class="collapse in mb-3">
+    <div id="tableone" class="col collapse in mb-3">
       <div class="row offer-codebox1">
 	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
@@ -253,7 +253,7 @@
     <tr class="hide-table-padding">
 
     <td colspan="5">
-    <div id="tabletwo" class="collapse in mb-3">
+    <div id="tabletwo" class="col collapse in mb-3">
       <div class="row offer-codebox1">
 	        <div class="col-6 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
