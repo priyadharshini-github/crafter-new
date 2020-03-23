@@ -94,7 +94,7 @@
 	            Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12"><a href="/" data-toggle="popover" title="Click To Copy" data-content="XyFDSadnV">Copy Code: TRIP20</a></div>
+	            <div class="code-css font-12">Copy Code: TRIP20</div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
