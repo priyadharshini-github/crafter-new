@@ -5,7 +5,7 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
-  $('button.link').click(function () {
+  $('button.container').click(function () {
     	window.location.href = "https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&offerid=692069.5&type=3&subid=0";
     });
 });
