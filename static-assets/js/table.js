@@ -17,8 +17,10 @@ $(document).ready(function(){
 		},
 		success: function (res) {
 			console.log("data", res);
-		}
-	}).done(function (data) {
+		},
+		error: function(errorThrown){
+         alert(errorThrown);
+      }
 	});
 	
     });
