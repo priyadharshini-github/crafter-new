@@ -429,3 +429,11 @@ body{
 [disabled].noUi-origin,[disabled] .noUi-handle {
   cursor: not-allowed;
 }
+
+.no-uline{
+    text-decoration: none !important;
+}
+
+.black{
+    color: #000 !important;
+}
