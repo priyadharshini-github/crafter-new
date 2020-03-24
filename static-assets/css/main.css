@@ -247,6 +247,7 @@ body{
 
 .code-css{
     border: 1px dashed;
+    cursor: pointer;
     background: white;
     padding: 10px 5px;
 }
