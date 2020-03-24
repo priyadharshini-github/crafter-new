@@ -94,7 +94,7 @@
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12"><a href="" id="link" class="display-block no-uline black">Copy Code: TRIP20</a></div>
+	            <div class="code-css font-12"><a href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&offerid=692069.5&type=3&subid=0" id="link" class="display-block no-uline black">Copy Code: TRIP20</a></div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
