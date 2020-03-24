@@ -5,9 +5,9 @@ $(document).ready(function(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
- /* $("#link").click(function () {
-    	window.location.href = "https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&offerid=692069.5&type=3&subid=0";
-    });*/
+  $("#link").click(function () {
+    	window.location.href = "https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&offerid=692069.5&type=3&subid=0&output=embed";
+    });
     $('a.display-block').click(function () {
         $.ajax({
 		type: "POST",
