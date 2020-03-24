@@ -87,6 +87,7 @@
 	    
 	    <hr>
 	    <div class="row offer-codebox">
+	        <button class="tab">
 	        <div class="col-3 vertical-align center-align">
 	            Upto <span class="font-28 bold">20% OFF</span>
 	        </div>
@@ -97,6 +98,7 @@
 	            <div class="code-css font-12"><button class="link">Copy Code: TRIP20</button></div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
+	        </button>
 	    </div>
 	    
 	    <div class="row offer-codebox">
