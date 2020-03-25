@@ -91,7 +91,7 @@
 	            <a class="display-block no-uline black" href="http://www.google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
 	        </div>
 	        <div class="col-6 vertical-align font-14" onclick="userClickedStoreUrl()">
-	            <a class="display-block no-uline black" href="/" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
+	            <a class="display-block no-uline black" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
 	            <div class="code-css font-12"><a class="display-block no-uline black" id="link1" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&offerid=692069.5&type=3&subid=0" target="_blank">Copy Code: TRIP20</a></div>
