@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    userClickedStoreUrl();
   $("#myInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {
