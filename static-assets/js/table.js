@@ -49,7 +49,7 @@ $(document).ready(function(){
     
     function userClickedStoreUrl() {
         userAction = {
-            memberID: memberID,
+            memberID: this.memberID,
             mid: 560
         }
         console.log(userAction);
