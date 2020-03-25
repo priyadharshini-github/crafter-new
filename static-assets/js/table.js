@@ -46,6 +46,7 @@ $(document).ready(function(){
     var allUserAction = [];
     
     function userClickedStoreUrl() {
+        window.location.href = "http://www.google.com";
         var memberID = 1;
         userAction = {
             memberID: memberID,
