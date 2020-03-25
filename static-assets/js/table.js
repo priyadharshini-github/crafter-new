@@ -45,11 +45,11 @@ $(document).ready(function(){
 
     var userAction = {};
     var allUserAction = [];
-    this.memberID = 1;
     
     function userClickedStoreUrl() {
+        var memberID = 1;
         userAction = {
-            memberID: this.memberID,
+            memberID: memberID,
             mid: 560
         }
         console.log(userAction);
