@@ -45,7 +45,7 @@ $(document).ready(function(){
 
     var userAction = {};
     var allUserAction = [];
-    var memberID = 1;
+    this.memberID = 1;
     
     function userClickedStoreUrl() {
         userAction = {
