@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    console.log("Page entered");
   $("#myInput").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {
@@ -42,6 +41,18 @@ $(document).ready(function(){
     	});
 	
     });
+
+    var userAction = {};
+    var allUserAction = [];
+    var memberID = 1;
+    
+    function userClickedStoreUrl() {
+        userAction = {
+            memberID: memberID,
+            mid: 560
+        }
+        console.log(userAction);
+    }
 });
 
 
