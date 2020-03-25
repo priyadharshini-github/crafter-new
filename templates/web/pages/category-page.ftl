@@ -88,7 +88,7 @@
 	    <hr>
 	    <div class="row offer-codebox">
 	        <div class="col-3 vertical-align center-align">
-	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
+	            <a class="display-block no-uline black" href="/" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
 	        </div>
 	        <div class="col-6 vertical-align font-14">
 	            <a class="display-block no-uline black" onclick="userClickedStoreUrl()" href="http://www.google.com" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
