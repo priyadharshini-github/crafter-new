@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('button').magnificPopup({
+	$('div.code-css').magnificPopup({
 		items: {
 			src: '<div class="white-popup">Code Copied</div>',
 			type: 'inline',
