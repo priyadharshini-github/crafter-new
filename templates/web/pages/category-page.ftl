@@ -14,6 +14,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script src="/static-assets/js/useraction.js"></script>
+        <script>
+        function copyToClipboard(element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(element).html()).select();
+            document.execCommand("copy");
+            $temp.remove();
+        }
+    </script>
 	</head>
 	<style>
 	
