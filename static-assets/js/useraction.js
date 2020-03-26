@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('#link').click( function (){
+    $('#link').on('click', function (){
         var $temp = $("<input>");
         $("body").append($temp);
         $temp.val($(element).html()).select();
