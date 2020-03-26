@@ -132,7 +132,7 @@
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align vertical-align">
-	            <div class="code-css font-12"><a class="display-block no-uline black" id="link3" href="/" data-toggle="popover" data-content="TRIP20" target="_blank">Copy Code: TRIP20</a></div>
+	            <div class="code-css font-12"><a class="display-block no-uline black" id="link3" href="/">Copy Code: TRIP20</a></div>
 	            <span class="grey font-12">Expiry : 10.06.2020</span>
 	        </div>
 	    </div>
