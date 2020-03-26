@@ -15,15 +15,7 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            $('label').magnificPopup({
-        		items: {
-        			src: '<div class="white-popup">Code Copied</div>',
-        			type: 'inline'
-        		},
-        		closeBtnInside: true
-        	});
-	
-            function copyToClipboard(element) {
+          function copyToClipboard(element) {
                 var $temp = $("<input>");
                 $("body").append($temp);
                 $temp.val($(element).html()).select();
