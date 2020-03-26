@@ -1,4 +1,11 @@
 $(document).ready(function(){
+    $('#link').click( function (){
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).html()).select();
+        document.execCommand("copy");
+        $temp.remove();
+    });
 	$('#link').magnificPopup({
 		items: {
 			src: '<div class="white-popup">Code Copied</div>',
