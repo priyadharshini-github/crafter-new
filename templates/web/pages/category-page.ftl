@@ -25,7 +25,7 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            $('div.code-css').magnificPopup({
+            $('#link1').magnificPopup({
         		items: {
         			src: '<div class="white-popup">Code Copied</div>',
         			type: 'inline'
