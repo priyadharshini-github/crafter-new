@@ -1,16 +1,6 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <html lang="en">
 <head>
-<style>
-.white-popup {
-    position: relative;
-    background: #FFF;
-    padding: 20px;
-    width: auto;
-    max-width: 500px;
-    margin: 20px auto;
-}
-</style>
 		<title></title>
 		<!-- Required meta tags -->
     <meta charset="utf-8">
@@ -25,7 +15,7 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            $('#link1').magnificPopup({
+            $('label#texttocopy').magnificPopup({
         		items: {
         			src: '<div class="white-popup">Code Copied</div>',
         			type: 'inline'
@@ -63,6 +53,14 @@
 .accordion-toggle.collapsed .expand-button:after
 {
   content: '+';
+}
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
 }
 </style>
 	<body>
