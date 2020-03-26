@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('div.code-css').magnificPopup({
 		items: {
 			src: '<div class="white-popup">Code Copied</div>',
-			type: 'inline',
+			type: 'inline'
 		},
 		closeBtnInside: true,
 		showCloseBtn: false
