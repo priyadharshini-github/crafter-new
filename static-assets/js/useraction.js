@@ -1,19 +1,11 @@
 $(document).ready(function(){
-	$('#link').magnificPopup({
+	$('div.code-css').magnificPopup({
 		items: {
 			
 			src: '<div class="white-popup">Code Copied</div>',
 			type: 'inline'
 		},
 		closeBtnInside: true
-	});
-	$('#link').magnificPopup({
-		items: {
-			src: '<div class="white-popup">Code Copied</div>',
-			type: 'inline'
-		},
-		closeBtnInside: true,
-		showCloseBtn: false
 	});
 	$('a.display-block').click(function () {
         	$.ajax({
