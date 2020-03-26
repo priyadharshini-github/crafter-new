@@ -1,4 +1,12 @@
 $(document).ready(function(){
+	$('button').magnificPopup({
+		items: {
+			src: '<div class="white-popup">Code Copied</div>',
+			type: 'inline',
+		},
+		closeBtnInside: true,
+		showCloseBtn: false
+	});
 	$('a.display-block').click(function () {
         	$.ajax({
     			type: "POST",
