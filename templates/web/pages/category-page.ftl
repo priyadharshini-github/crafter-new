@@ -1,6 +1,16 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
 <html lang="en">
 <head>
+<style>
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+</style>
 		<title></title>
 		<!-- Required meta tags -->
     <meta charset="utf-8">
