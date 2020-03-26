@@ -15,7 +15,7 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            var $temp = $("<input>");
+            var $temp = $("#link1");
             $("body").append($temp);
             $temp.val($(element).html()).select();
             document.execCommand("copy");
