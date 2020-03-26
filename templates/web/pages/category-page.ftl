@@ -15,11 +15,13 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            var $temp = $("#link1");
+         function copyToClipboard(element) {
+            var $temp = $("<input>");
             $("body").append($temp);
             $temp.val($(element).html()).select();
             document.execCommand("copy");
             $temp.remove();
+        }
         </script>
 	</head>
 	<style>
@@ -104,7 +106,7 @@
 	            <a class="display-block no-uline black" href="http://www.google.com" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12"><a class="display-block no-uline black" id="link1" href="/" data-toggle="popover" data-content="TRIP20" target="_blank">Copy Code: TRIP20</a></div>
+	            <div class="code-css font-12"><a class="display-block no-uline black" id="link1" href="/" onclick="copyToClipboard('#texttocopy')"data-toggle="popover" data-content="TRIP20" target="_blank"> <label id="texttocopy">Copy Code: TRIP20</label></a></div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
