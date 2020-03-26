@@ -15,7 +15,7 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script>
-            $('label#texttocopy').magnificPopup({
+            $('label #texttocopy').magnificPopup({
         		items: {
         			src: '<div class="white-popup">Code Copied</div>',
         			type: 'inline'
