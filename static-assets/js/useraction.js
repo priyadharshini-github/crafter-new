@@ -1,11 +1,12 @@
 $(document).ready(function(){
-    $('#link').on('click', function (){
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val($(element).html()).select();
-        document.execCommand("copy");
-        $temp.remove();
-    });
+	$('#link').magnificPopup({
+		items: {
+			
+			src: '<div class="white-popup">Code Copied</div>',
+			type: 'inline'
+		},
+		closeBtnInside: true
+	});
 	$('#link').magnificPopup({
 		items: {
 			src: '<div class="white-popup">Code Copied</div>',
