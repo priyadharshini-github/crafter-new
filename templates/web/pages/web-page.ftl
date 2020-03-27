@@ -70,8 +70,8 @@
 	  
 	        <#assign moffers = merchantOffers?eval>
 
-            <#list 0..moffers.length() as i>
-                <div>${i}</div>
+            <#list moffers as mo>
+                <div>${mo.merchant.merchantName}</div>
             </#list>
             
 	        <div class="row">
