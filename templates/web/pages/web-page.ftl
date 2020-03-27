@@ -70,8 +70,9 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-                  <div>${moffers?eval[0]}</div>
-                  
+              <#list moffers as value>
+	            ${value_index}: ${value}
+            </#list>
 
 	        <div class="row">
 			<div class="col-3">
