@@ -7,6 +7,7 @@ $(document).ready(function(){
     				"Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
     				"Accept": "application/json"
     			},
+    			crossDomain: true,
     			data: {
                      "MerchantID"	: "23456",
                      "MerchantName" : "iCheapFlight",
