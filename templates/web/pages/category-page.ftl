@@ -14,6 +14,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="/static-assets/js/useraction.js"></script>
         <script src="/static-assets/js/table.js"></script>
+        <script>
+            function clickToCopy (element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                $temp.val($(element).html()).select();
+                document.execCommand("copy");
+                $temp.remove();
+            }
+        </script>
 	</head>
 	<style>
 	
@@ -105,7 +114,7 @@
 	            <a class="display-block no-uline black" href="http://www.google.com" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12 code"><button class="display-block no-uline black" data-content="TRIP20"> <label id="texttocopy">Copy Code: TRIP20</label></button></div>
+	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="clickToCopy(#texttocopy)"> <label id="texttocopy">Copy Code: TRIP20</label></button></div>
 	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
 	        </div>
 	    </div>
@@ -118,7 +127,7 @@
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="copyToClipboard('#texttocopy')"><label id="texttocopy">Copy Code: TRIP20</label></button></div>
+	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="clickToCopy(#texttocopy)"><label id="texttocopy">Copy Code: TRIP20</label></button></div>
 	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
 	        </div>
 	    </div>
@@ -131,7 +140,7 @@
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align vertical-align">
-	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="copyToClipboard('#texttocopy')"><label id="texttocopy">Copy Code: TRIP20</label></button></div>
+	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="clickToCopy(#texttocopy)"><label id="texttocopy">Copy Code: TRIP20</label></button></div>
 	            <span class="grey font-12">Expiry : 10.06.2020</span>
 	        </div>
 	    </div>
