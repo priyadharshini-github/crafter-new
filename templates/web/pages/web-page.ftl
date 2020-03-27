@@ -74,6 +74,10 @@
 	                ${mo}: <#list moffers[mo] as value>'${value}'<#sep> + '|' + </#list><#sep>,
               </#list>
 
+            <#list moffers as mof>
+                <#list mof?keys as prop>${prop}: '<#list mof[prop] as val>${val}<#sep>|</#list>'</#list><#sep>,
+            </#list>
+
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
