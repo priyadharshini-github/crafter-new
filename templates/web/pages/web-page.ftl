@@ -68,9 +68,9 @@
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	  
-	        <#assign moffers = merchantOffers>
+	        <#assign moffers = merchantOffers?eval>
 
-            <div>${moffers}</div>
+            <div>${moffers[0]}</div>
               
 
             <#list moffers as mof>
