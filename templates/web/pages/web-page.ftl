@@ -119,7 +119,7 @@
 	    
 	    <#assign mcats = merchCategories?eval>
 	    
-	    	    <div>${merchantOffers}</div>
+	    	    <div>${merchantOffers?eval[0]}</div>
 	    	    
 	    <#assign moffers = merchantOffers?eval>
 
