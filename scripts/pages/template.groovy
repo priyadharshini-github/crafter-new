@@ -19,7 +19,7 @@ def uri = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com
 def authString = "Basic dXNlcjE6cGFzc3dvcmQx"
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
-// getRequest.addHeader("Accept", "application/json");
+getRequest.addHeader("Accept", "application/json");
 getRequest.addHeader("Authorization", authString);
 org.apache.http.HttpResponse response = httpClient.execute(getRequest);
 
@@ -33,7 +33,8 @@ if (status>= 300) {
 }
 org.apache.http.HttpEntity responseEntity = response.getEntity();
 if (responseEntity != null) {
- categories = org.apache.http.util.EntityUtils.toString(responseEntity);
+ categories = responseEntity;
+ // categories = org.apache.http.util.EntityUtils.toString(responseEntity);
 }
 
 /*
@@ -45,7 +46,6 @@ def jo = xmlJSONObj.toString(textIndent)
 // def ParsingResult = new XmlSlurper().parseText(returnMessage)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
-def categories = categories.'**'.findAll { node -> node.name() == 'categoryName' }*.text()
 templateModel.merchCategories = categories;
 templateModel.status = status;
 
