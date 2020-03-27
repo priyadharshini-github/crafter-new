@@ -55,8 +55,8 @@
 }
 </style>
 	<body>
-	<div id="toast" class="toast-css">
-	    <div>Code Copied!</div>
+	<div id="toast">
+	    <div class="toast-css">Code Copied!</div>
 	</div>
 	<div class="container-fluid" v-cloak>
 	    <div class="row">
