@@ -165,7 +165,7 @@
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats as cat?eval>
+                    <#list mcats?eval as cat>
                         <div>${cat.categoryId}</div>
                         <div>${cat.categoryName}</div>
                     </#list>
