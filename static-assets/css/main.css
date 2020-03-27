@@ -450,8 +450,8 @@ body{
 }
 #toast.show {
   visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+/*  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;*/
   min-width: 250px;
     background-color: rgba(51, 51, 51, 0.25);
     color: #000;
