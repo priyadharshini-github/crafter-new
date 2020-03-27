@@ -166,7 +166,6 @@
 
 		                 
                 <ul class="list-group list-group-flush">
-                <div>${mcats[0]}</div>
                     <#list mcats as cat>
                         <div>${cat}</div>
                         
