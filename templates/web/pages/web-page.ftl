@@ -166,7 +166,7 @@
 		                 
                 <ul class="list-group list-group-flush">
                     <#list mcats as cat>
-                        <div>${cat}</div>
+                        <div>${cat.categoryName}</div>
                         
                     </#list>                    
                     
