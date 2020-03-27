@@ -126,7 +126,7 @@
             <div class="col-3">
             <select class="btn btn-dark btn-block">
                 <option class="dropdown-item">Categories</option>
-                <#list mcats.Categories as cat>
+                <#list mcats.categories as cat>
                     <option class="dropdown-item">${cat.categoryName}</option>
                 </#list>
             </select>
@@ -168,7 +168,7 @@
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats as cat>
+                    <#list mcats.categories as cat>
                         <li class="list-group-item">
                     	    <label class="checkbox">${cat}<input type="checkbox" /><span class="default"></span></label>
                         </li>
