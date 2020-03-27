@@ -1,7 +1,7 @@
 @Grab(group='org.json', module='json', version='20190722')
 
 import java.net.URI;
-// import groovy.json.JsonSlurper;
+import groovy.json.JsonSlurper;
 // import org.json.JSONObject;
 /*
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -24,7 +24,7 @@ getRequest.addHeader("Authorization", authString);
 org.apache.http.HttpResponse response = httpClient.execute(getRequest);
 
 def status = response.getStatusLine().getStatusCode();
-def returnMessage = ""
+def result = ""
 def categories
 def customerName = ""
 
@@ -33,8 +33,7 @@ if (status>= 300) {
 }
 org.apache.http.HttpEntity responseEntity = response.getEntity();
 if (responseEntity != null) {
- categories = responseEntity;
- // categories = org.apache.http.util.EntityUtils.toString(responseEntity);
+ result = org.apache.http.util.EntityUtils.toString(responseEntity);
 }
 
 /*
@@ -45,6 +44,8 @@ def jo = xmlJSONObj.toString(textIndent)
 
 // def ParsingResult = new XmlSlurper().parseText(returnMessage)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
+
+def categories = new JsonSlurper().parseText(result)
 
 templateModel.merchCategories = categories;
 templateModel.status = status;
