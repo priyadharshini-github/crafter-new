@@ -67,6 +67,6 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 templateModel.merchCategories = categories;
-templateModel.merchantOffers = "{\"array\":" + merchantOffers + "}";
+templateModel.merchantOffers = merchantOffers.toString();
 
 return merchantOffers
