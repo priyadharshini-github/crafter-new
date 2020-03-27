@@ -140,7 +140,7 @@
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12 code"><a class="display-block no-uline black" href="/" onclick="copyToClipboard('#texttocopy')" data-toggle="popover" target="_blank"><label id="texttocopy">Copy Code: TRIP20</label></a></div>
+	            <div class="code-css font-12 code"><button class="display-block no-uline black" onclick="copyToClipboard('#texttocopy')" data-toggle="popover"><label id="texttocopy">Copy Code: TRIP20</label></button></div>
 	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
 	        </div>
 	    </div>
