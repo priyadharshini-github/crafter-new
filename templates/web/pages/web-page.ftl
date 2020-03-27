@@ -119,9 +119,9 @@
 	    
 	    <#assign mcats = merchCategories>
 	    
-	    <div>merchCategories</div>
+	    <div>${merchCategories}</div>
 	    
-	    <div>status</div>
+	    <div>${status}</div>
 	      
 	    <div class="row blue-bg">
 	        <div class="col-6">
