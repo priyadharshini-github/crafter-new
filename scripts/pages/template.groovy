@@ -36,7 +36,7 @@ if (responseEntity != null) {
 }
 
 // get Merchant store list
-/*
+
 def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/true")
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
@@ -54,7 +54,7 @@ org.apache.http.HttpEntity storeResponseEntity = storeResponse.getEntity();
 if (storeResponseEntity != null) {
  merchantOffers = org.apache.http.util.EntityUtils.toString(storeResponseEntity);
 }
-*/
+
 
 
 /*
@@ -67,6 +67,6 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 templateModel.merchCategories = categories;
-//templateModel.merchantOffers = merchantOffers;
+templateModel.merchantOffers = merchantOffers;
 
 return categories
