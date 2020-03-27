@@ -15,6 +15,7 @@ import org.apache.http.util.EntityUtils;
 import org.json.XML;
 
 
+// get list of categories
 def uri = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/categories")
 def authString = "Basic dXNlcjE6cGFzc3dvcmQx"
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
@@ -24,16 +25,35 @@ getRequest.addHeader("Authorization", authString);
 org.apache.http.HttpResponse response = httpClient.execute(getRequest);
 
 def status = response.getStatusLine().getStatusCode();
-def result = ""
-def customerName = ""
+def categories = ""
 
 if (status>= 300) {
  throw new org.apache.http.client.ClientProtocolException("Unexpected response status: " + status)
 }
 org.apache.http.HttpEntity responseEntity = response.getEntity();
 if (responseEntity != null) {
- result = org.apache.http.util.EntityUtils.toString(responseEntity);
+ categories = org.apache.http.util.EntityUtils.toString(responseEntity);
 }
+
+// get Merchant store list
+def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/rakuten/merchantoffers/true")
+org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
+getRequest.addHeader("Accept", "application/json");
+getRequest.addHeader("Authorization", authString);
+org.apache.http.HttpResponse storeResponse = httpClient.execute(getStoreRequest);
+
+status = storeResponse.getStatusLine().getStatusCode();
+def merchantOffers = ""
+
+if (status>= 300) {
+ throw new org.apache.http.client.ClientProtocolException("Unexpected response status: " + status)
+}
+org.apache.http.HttpEntity storeResponseEntity = storeResponse.getEntity();
+if (storeResponseEntity != null) {
+ merchantOffers = org.apache.http.util.EntityUtils.toString(storeResponseEntity);
+}
+
+
 
 /*
 def textIndent = 2
@@ -44,9 +64,7 @@ def jo = xmlJSONObj.toString(textIndent)
 // def ParsingResult = new XmlSlurper().parseText(returnMessage)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
-// def categories = new JsonSlurper().parseText(result)
-
-templateModel.merchCategories = result;
-templateModel.status = status;
+templateModel.merchCategories = categories;
+templateModel.merchantOffers = merchantOffers;
 
 return result
