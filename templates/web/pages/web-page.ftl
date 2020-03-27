@@ -163,11 +163,12 @@
 		                <a class="card-title"> Categories </a>
 		            </div>
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
+
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats as cat>
-                        <div>${cat}</div>
-                    </#list>
+                    <#list mcats?keys as key>
+                        <div>${mcats[key]}</div>
+                    </#list>                    
                     
                 </ul>
 		            </div>
