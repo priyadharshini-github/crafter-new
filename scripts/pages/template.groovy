@@ -28,7 +28,7 @@ def status = response.getStatusLine().getStatusCode();
 def categories = ""
 
 if (status>= 300) {
- throw new org.apache.http.client.ClientProtocolException("Unexpected response status: " + status)
+ throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching categories - status: " + status)
 }
 org.apache.http.HttpEntity responseEntity = response.getEntity();
 if (responseEntity != null) {
@@ -40,13 +40,14 @@ def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbean
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
-org.apache.http.HttpResponse storeResponse = httpClient.execute(getStoreRequest);
+org.apache.http.impl.client.DefaultHttpClient httpStoreClient = new org.apache.http.impl.client.DefaultHttpClient();
+org.apache.http.HttpResponse storeResponse = httpStoreClient.execute(getStoreRequest);
 
 status = storeResponse.getStatusLine().getStatusCode();
 def merchantOffers = ""
 
 if (status>= 300) {
- throw new org.apache.http.client.ClientProtocolException("Unexpected response status: " + status)
+ throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching merchant offers - status: " + status)
 }
 org.apache.http.HttpEntity storeResponseEntity = storeResponse.getEntity();
 if (storeResponseEntity != null) {
