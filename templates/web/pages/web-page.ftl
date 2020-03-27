@@ -117,7 +117,7 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories>
+	    <#assign mcats = merchCategories.categories>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
