@@ -70,9 +70,6 @@
 	  
 	        <#assign moffers = merchantOffers?eval>
 
-            <div>${moffers}</div>
-              
-
             <#list moffers as mof>
                 <#list mof?keys as prop>${prop}: '<#list mof[prop] as val>${val}<#sep>|</#list>'</#list><#sep>,
             </#list>
