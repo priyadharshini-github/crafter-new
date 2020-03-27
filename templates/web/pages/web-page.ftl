@@ -119,7 +119,7 @@
 	    
 	    <#assign mcats = merchCategories>
 	    
-	    <div>${mcats}</div>
+	    <div>${mcats[0]}</div>
 	    
 	    <div class="row blue-bg">
 	        <div class="col-6">
