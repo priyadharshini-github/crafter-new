@@ -22,6 +22,19 @@
                 document.execCommand("copy");
                 $temp.remove();
             }
+            
+            $(function () {
+                $("#texttocopy").dialog({
+                    modal: true,
+                    autoOpen: false,
+                    title: "jQuery Dialog",
+                    width: 300,
+                    height: 150
+                });
+                $("a.display-block").click(function () {
+                    $('#texttocopy').dialog('open');
+                });
+            });
         </script>
 	</head>
 	<style>
