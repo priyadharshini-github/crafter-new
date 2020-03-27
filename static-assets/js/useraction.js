@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('a.display-block').click(function () {
+	$('#nav').click(function () {
         	$.ajax({
     			type: "POST",
     			url: "https://api.rakutenmarketing.com/coupon/1.0?mid=44543",
