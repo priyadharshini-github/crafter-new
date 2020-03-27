@@ -166,8 +166,8 @@
 
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats?keys as key>
-                        <div>${mcats[key]}</div>
+                    <#list mcats as key, value>
+                        <div>${key} = ${value}</div>
                     </#list>                    
                     
                 </ul>
