@@ -70,6 +70,7 @@
 	  
 	        <#assign moffers = merchantOffers>
 
+            <div>moffers</div>
               
 
             <#list moffers as mof>
