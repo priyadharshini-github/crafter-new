@@ -133,10 +133,10 @@
 	    </div>
 	    
 	    <div class="row offer-codebox">
-	        <div class="col-3 vertical-align center-align">
+	        <div class="col-3 vertical-align center-align off">
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
 	        </div>
-	        <div class="col-6 vertical-align font-14">
+	        <div class="col-6 vertical-align font-14 off">
 	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
