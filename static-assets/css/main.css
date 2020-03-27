@@ -453,6 +453,12 @@ body{
     position: fixed;
     display: table;
 }
+.toast-css{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
 #toast.show {
   visibility: visible;
   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
