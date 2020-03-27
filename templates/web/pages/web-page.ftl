@@ -117,8 +117,8 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories>
-        <div>${mcats}</div>
+	    <#assign mcats = merchCategories?eval[0]>
+        <div>${mcats.categoryName}</div>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
