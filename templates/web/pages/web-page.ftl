@@ -68,14 +68,13 @@
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	  
-	        <#assign moffers = merchantOffers?eval>
+	        <#assign moffers = jsonFactoryUtil.looseDeserializeSafe(merchantOffers)>
 
+            <#list moffers as mo>
+                <div>${mo}</div>
+            </#list>
             
             
-            <script>
-    var moMap = ${jsonFactoryUtil.looseSerializeDeep(moffers)};
-    console.log(moMap);
-</script>
 
 	        <div class="row">
 			<div class="col-3">
