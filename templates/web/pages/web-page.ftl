@@ -129,9 +129,8 @@
                 <#list mcats as cat>
                     <option class="dropdown-item">${cat.categoryName}</option>
                 </#list>
-
             </select>
-            
+        
             </div>
             <div class="col-3"><button type="submit" class="btn btn-block btn-dark mb-2">SEARCH</button>
             </div>
