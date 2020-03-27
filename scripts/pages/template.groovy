@@ -25,7 +25,6 @@ org.apache.http.HttpResponse response = httpClient.execute(getRequest);
 
 def status = response.getStatusLine().getStatusCode();
 def result = ""
-def categories
 def customerName = ""
 
 if (status>= 300) {
