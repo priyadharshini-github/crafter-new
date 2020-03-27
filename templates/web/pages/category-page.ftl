@@ -13,7 +13,10 @@
 		<script src="/static-assets/js/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="/static-assets/js/useraction.js"></script>
-        <script src="/static-assets/js/main.js"></script>
+        <script
+ src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<link rel="stylesheet"
+ href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
         <script>
             function clickToCopy (element) {
                 var $temp = $("<input>");
