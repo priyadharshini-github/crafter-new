@@ -134,10 +134,10 @@
 	    
 	    <div class="row offer-codebox">
 	        <div class="col-3 vertical-align center-align">
-	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
+	            <a class="display-block no-uline black" id="nav" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
 	        </div>
 	        <div class="col-6 vertical-align font-14">
-	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
+	            <a class="display-block no-uline black" id="nav" href="https://google.com" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align display-block vertical-align">
 	            <div class="code-css font-12"><a class="display-block no-uline black" id="link2" href="/" onclick="copyToClipboard('#texttocopy')" data-toggle="popover" target="_blank"><label id="texttocopy">Copy Code: TRIP20</label></a></div>
@@ -147,10 +147,10 @@
 	    
 	    <div class="row offer-codebox">
 	        <div class="col-3 vertical-align center-align">
-	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
+	            <a class="display-block no-uline black" id="nav" href="https://google.com" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
 	        </div>
 	        <div class="col-6 vertical-align font-14">
-	            <a class="display-block no-uline black" href="https://google.com" target="_blank">Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!</a>
+	            <a class="display-block no-uline black" id="nav" href="https://google.com" target="_blank">Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!</a>
 	        </div>
 	        <div class="col-3 center-align vertical-align">
 	            <div class="code-css font-12"><a class="display-block no-uline black" id="link3" href="/" onclick="copyToClipboard('#texttocopy')" data-toggle="popover" target="_blank"><label id="texttocopy">Copy Code: TRIP20</label></a></div>
