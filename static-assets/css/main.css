@@ -439,7 +439,7 @@ body{
     color: #000 !important;
 }
 #toast{
-    visibility: hidden;
+    visibility: visible;
     
 }
 .toast-css{
