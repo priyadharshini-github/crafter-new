@@ -169,8 +169,11 @@
 
 		                 
                 <ul class="list-group list-group-flush">
-                    
-                    
+                    <#list mcats as cat>
+                        <li class="list-group-item">
+                    	    <label class="checkbox">${cat.categoryName}<input type="checkbox" /><span class="default"></span></label>
+                        </li>
+                    </#list>
                 </ul>
 		            </div>
 		        </div>
