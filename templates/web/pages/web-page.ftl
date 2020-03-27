@@ -119,15 +119,6 @@
 	    
 	    <#assign mcats = merchCategories>
 
-                    <#assign object = mcats?eval[0]> 
-                    <#list object?keys as key>
-                        "${key}":"${object[key]}"
-                    </#list>
-
-            <#list mcats as categoryId, categoryName>
-                ${categoryName}"
-            </#list>
-
 	    <div class="row blue-bg">
 	        <div class="col-6">
 	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
