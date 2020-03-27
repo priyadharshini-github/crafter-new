@@ -117,8 +117,11 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories?eval[0]>
-        <div>${mcats.categoryName}</div>
+	    <#assign mcats = merchCategories?eval>
+	    
+	    <#list mcats as cat>
+            <div>${cat.categoryName}</div>
+        </#list>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
