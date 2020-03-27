@@ -71,7 +71,7 @@
 	        <#assign moffers = merchantOffers>
 
             <#list 0..moffers.length() as i>
-                <div>${moffers.get(i)}</div>
+                <div>${i}</div>
             </#list>
             
 	        <div class="row">
