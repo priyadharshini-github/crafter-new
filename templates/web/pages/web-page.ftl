@@ -70,9 +70,9 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-              <#list moffers as value>
-	            ${value_index}: ${value}
-            </#list>
+              <#list moffers?keys as mo>
+	                ${mo}: <#list moffers[mo] as value>'${value}'<#sep> + '|' + </#list><#sep>,
+              </#list>
 
 	        <div class="row">
 			<div class="col-3">
