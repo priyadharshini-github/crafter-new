@@ -117,7 +117,7 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories>
+	    <#assign mcats = merchCategories.getList()>
 	    
 	    <div class="row blue-bg">
 	        <div class="col-6">
