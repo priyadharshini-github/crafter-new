@@ -119,8 +119,8 @@
 	    
 	    <#assign mcats = merchCategories?eval>
 	    
-	    <#assign moffers = merchantOffers?eval>
-            <div>${moffers[0]}</div>
+	    <#assign moffers = merchantOffers>
+
                 <#list moffers as mo>
                     <div>${mo.merchant.merchantName}</div>
                 </#list>
