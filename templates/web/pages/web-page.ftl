@@ -70,8 +70,8 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-            <#list moffers as mo>
-                <div>${mo.merchant.merchantName}</div>
+            <#list moffers?keys as mo>
+                <div>${mo}</div>
             </#list>
             
             
