@@ -168,7 +168,7 @@
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats["categories"] as cat>
+                    <#list mcats.categories as cat>
                         <li class="list-group-item">
                     	    <label class="checkbox">${cat.categoryName}<input type="checkbox" /><span class="default"></span></label>
                         </li>
