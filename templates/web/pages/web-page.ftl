@@ -117,7 +117,7 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = jsonFactoryUtil.looseDeserializeSafe(merchCategories)>
+	    <#assign mcats = merchCategories>
 	    
 	    <div class="row blue-bg">
 	        <div class="col-6">
@@ -170,7 +170,7 @@
                 <ul class="list-group list-group-flush">
                     <#list mcats as cat>
                         <li class="list-group-item">
-                    	    <label class="checkbox">${cat.categoryName}<input type="checkbox" /><span class="default"></span></label>
+                    	    <label class="checkbox">${cat.categoryId}<input type="checkbox" /><span class="default"></span></label>
                         </li>
                     </#list>
                     
