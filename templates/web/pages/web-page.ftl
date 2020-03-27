@@ -69,7 +69,6 @@
 	        <h3 align="center">Top Offers</h3>
 	  
 	        <#assign moffers = merchantOffers?eval>
-<div>${moffers}</div>
 
             <#list 0..moffers.length() as i>
                 <div>${i}</div>
