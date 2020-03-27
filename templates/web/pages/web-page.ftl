@@ -70,11 +70,9 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-              <#list moffers?keys as mo>
-	                ${mo}: <#list moffers[mo] as value>'${value}'<#sep> + '|' + </#list><#sep>,
-              </#list>
+              
 
-            <#list moffers?eval as mof>
+            <#list moffers as mof>
                 <#list mof?keys as prop>${prop}: '<#list mof[prop] as val>${val}<#sep>|</#list>'</#list><#sep>,
             </#list>
 
