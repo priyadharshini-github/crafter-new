@@ -69,14 +69,10 @@
 	        <h3 align="center">Top Offers</h3>
 	  
 	        <#assign moffers = merchantOffers>
-                  <div>${moffers}</div>
-                  
+
                   <div>${moffers?eval[0]}</div>
                   
-                <#list moffers as mof>
-                    <div>${mof.merchant}</div>
-                </#list>
-                
+
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
