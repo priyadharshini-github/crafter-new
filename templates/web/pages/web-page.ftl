@@ -71,7 +71,7 @@
 	        <#assign moffers = jsonFactoryUtil.looseDeserializeSafe(merchantOffers)>
 
             <#list moffers as mo>
-                <div>${mo}</div>
+                <div>${mo.merchant.merchantName}</div>
             </#list>
             
             
