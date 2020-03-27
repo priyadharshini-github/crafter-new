@@ -117,12 +117,8 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories?eval[0]>
-
-	    <#assign object = mcats?eval[0]>
-        <#list object?keys as key>
-            "${key}":"${object[key]}"
-        </#list>
+	    <#assign mcats = merchCategories>
+        <div>${mcats}</div>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
