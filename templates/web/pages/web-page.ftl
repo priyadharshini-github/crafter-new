@@ -118,10 +118,6 @@
 	    </div>
 	    
 	    <#assign mcats = merchCategories?eval>
-	    
-	    <#list mcats as cat>
-            <div>${cat.categoryName}</div>
-        </#list>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
@@ -130,6 +126,10 @@
             <div class="col-3">
             <select class="btn btn-dark btn-block">
                 <option class="dropdown-item">Categories</option>
+                <#list mcats as cat>
+                    <option class="dropdown-item">${cat.categoryName}</option>
+                </#list>
+
             </select>
             
             </div>
