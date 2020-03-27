@@ -2,10 +2,23 @@ $(document).ready(function(){
 	$('div.off').click(function () {
         	$.ajax({
     			type: "POST",
-    			url: "https://api.rakutenmarketing.com/coupon/1.0?mid=44543",
+    			url: "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/736",
     			headers: {
-    				"Authorization": "Bearer a5865b14e1b4ecd5944921cc88b8ff7"
+    				"Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+    				"Accept": "application/json"
     			},
+    			data: {
+                     "MerchantID"	: "23456",
+                     "MerchantName" : "iCheapFlight",
+                     "VendorID" : "1",
+                     "UserAction": "Code copied",
+                     "OfferID": "124",
+                     "OfferDescription": "20% Discount upto 20$",
+                     "CouponCode": "DTRIP20",
+                     "UserActionID": "1"
+                    
+    			},
+    			dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
     			},
