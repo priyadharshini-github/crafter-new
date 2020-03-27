@@ -69,4 +69,4 @@ def jo = xmlJSONObj.toString(textIndent)
 templateModel.merchCategories = categories;
 templateModel.merchantOffers = merchantOffers;
 
-return categories
+return merchantOffers
