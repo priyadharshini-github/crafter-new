@@ -145,7 +145,7 @@
 	        </div>
 	    </div>
 	</section>
-	<div class="toast">Code Copied!</div>
+	<div id="toast">Code Copied!</div>
 </div>	
  
     <!-- jQuery library -->
