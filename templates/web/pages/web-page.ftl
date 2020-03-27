@@ -73,6 +73,10 @@
             <#list 0 ..moffers.length() as i>
                 <div>${moffers.get(i)}</div>
             </#list>
+            
+            <#list 1..7 as index>
+                <li>${index}</li>
+            </#list>
 
 	        <div class="row">
 			<div class="col-3">
