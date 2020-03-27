@@ -33,7 +33,8 @@ if (status>= 300) {
 }
 org.apache.http.HttpEntity responseEntity = response.getEntity();
 if (responseEntity != null) {
- categories = org.apache.http.util.EntityUtils.toString(responseEntity);
+ //categories = org.apache.http.util.EntityUtils.toString(responseEntity);
+ categories = Eval.me(responseEntity)
 }
 
 /*
