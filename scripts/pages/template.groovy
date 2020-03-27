@@ -44,5 +44,6 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 templateModel.merchCategories = categories;
+templateModel.status = status;
 
 return categories
