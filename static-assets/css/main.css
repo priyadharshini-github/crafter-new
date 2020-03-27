@@ -258,7 +258,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    outline: none;
+    outline: none !important;
 }
 .red{
     color: red;
