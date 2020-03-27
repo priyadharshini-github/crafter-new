@@ -70,8 +70,8 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-            <#list moffers as mof>
-                <#list mof?keys as prop>${prop}: '<#list mof[prop] as val>${val}<#sep>|</#list>'</#list><#sep>,
+            <#list moffers.merchant as key>
+                <div>${key.merchantName}</div>
             </#list>
 
 	        <div class="row">
