@@ -4,6 +4,8 @@ $(document).ready(function(){
     			type: "POST",
     			url: "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
     			headers: {
+    			    "Access-Control-Allow-Origin": "*",
+                    "Access-Control-Allow-Methods": "*",
     				"Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
     				"Accept": "application/json"
     			},
