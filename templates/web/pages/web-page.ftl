@@ -74,7 +74,7 @@
 	                ${mo}: <#list moffers[mo] as value>'${value}'<#sep> + '|' + </#list><#sep>,
               </#list>
 
-            <#list moffers as mof>
+            <#list moffers?eval as mof>
                 <#list mof?keys as prop>${prop}: '<#list mof[prop] as val>${val}<#sep>|</#list>'</#list><#sep>,
             </#list>
 
