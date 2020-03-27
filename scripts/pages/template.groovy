@@ -38,8 +38,8 @@ if (responseEntity != null) {
 // get Merchant store list
 def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/rakuten/merchantoffers/true")
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
-getRequest.addHeader("Accept", "application/json");
-getRequest.addHeader("Authorization", authString);
+getStoreRequest.addHeader("Accept", "application/json");
+getStoreRequest.addHeader("Authorization", authString);
 org.apache.http.HttpResponse storeResponse = httpClient.execute(getStoreRequest);
 
 status = storeResponse.getStatusLine().getStatusCode();
