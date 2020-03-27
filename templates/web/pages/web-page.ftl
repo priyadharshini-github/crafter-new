@@ -118,7 +118,10 @@
 	    </div>
 	    
 	    <#assign mcats = merchCategories?eval>
+	    <#assign moffers = merchantOffers?eval>
 
+        <div>${moffers}</div>
+        
 	    <div class="row blue-bg">
 	        <div class="col-6">
 	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
