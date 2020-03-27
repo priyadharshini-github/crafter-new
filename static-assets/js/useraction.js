@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
     	});
     
-    	$('div.code').click(function () {
+    	$('button.display-block').click(function () {
     	    var $temp = $("<input>");
             $("body").append($temp);
             $temp.val($(element).html()).select();
