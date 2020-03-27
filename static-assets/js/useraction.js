@@ -17,8 +17,24 @@ $(document).ready(function(){
     	});
     
     	$('div.code').click(function () {
- 		    var x = document.getElementById("toast");
-          x.className = "show";
-          setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+ 		   toastr.options = {
+          "positionClass" : "toast-center-center",
+          "closeButton" : false,
+          "debug" : false,
+          "newestOnTop" : false,
+          "progressBar" : false,
+          "preventDuplicates" : false,
+          "onclick" : null,
+          "showDuration" : "300",
+          "hideDuration" : "1000",
+          "timeOut" : "5000",
+          "extendedTimeOut" : "1000",
+          "showEasing" : "swing",
+          "hideEasing" : "linear",
+          "showMethod" : "fadeIn",
+          "hideMethod" : "fadeOut"
+         }
+   Command: toastr["success"]
+           ("Code Copied!")
     	});
 });
