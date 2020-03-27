@@ -70,12 +70,13 @@
 	  
 	        <#assign moffers = merchantOffers?eval>
 
-            <div>${moffers[0]}</div>
             
-            <#list moffers?eval as mo>
-                <div>${mo}</div>
-            </#list>
             
+            <script>
+    var moMap = ${jsonFactoryUtil.looseSerializeDeep(moffers)};
+    console.log(moMap);
+</script>
+
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
