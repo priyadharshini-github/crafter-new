@@ -126,8 +126,8 @@
             <div class="col-3">
             <select class="btn btn-dark btn-block">
                 <option class="dropdown-item">Categories</option>
-                <#list mcats?Categories as cat>
-                    <option class="dropdown-item">${cat.categoryName}</option>
+                <#list mcats as categoryId, categoryName>
+                    <option class="dropdown-item">${categoryName}</option>
                 </#list>
             </select>
             
