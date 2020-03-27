@@ -70,8 +70,8 @@
 	  
 	        <#assign moffers = merchantOffers>
 
-            <#list moffers.merchant as key>
-                <div>${key.merchantName}</div>
+            <#list 0 ..moffers.length() as i>
+                <div>${moffers.get(i)}</div>
             </#list>
 
 	        <div class="row">
