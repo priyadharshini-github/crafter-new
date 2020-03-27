@@ -117,7 +117,7 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories>
+	    <#assign mcats = merchCategories.contentAsString?eval>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
@@ -168,9 +168,9 @@
 		            <div id="collapseTwo" class="card-body collapse show" data-parent="#accordion">
 		                 
                 <ul class="list-group list-group-flush">
-                    <#list mcats.categories as cat>
+                    <#list mcats as cat>
                         <li class="list-group-item">
-                    	    <label class="checkbox">${cat}<input type="checkbox" /><span class="default"></span></label>
+                    	    <label class="checkbox">${cat.categoryName}<input type="checkbox" /><span class="default"></span></label>
                         </li>
                     </#list>
                     
