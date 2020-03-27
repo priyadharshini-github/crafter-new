@@ -67,6 +67,7 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 templateModel.merchCategories = categories;
-templateModel.merchantOffers = groovy.json.JsonOutput.toJson(merchantOffers);
+//templateModel.merchantOffers = groovy.json.JsonOutput.toJson(merchantOffers);
+templateModel.merchantOffers = merchantOffers;
 
 return merchantOffers
