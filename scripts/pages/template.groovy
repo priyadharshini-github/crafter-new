@@ -45,6 +45,7 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 def categories = new JsonSlurper().parseText(result)
+list.each { println it }
 
 templateModel.merchCategories = categories;
 templateModel.status = status;
