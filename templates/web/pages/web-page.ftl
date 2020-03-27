@@ -124,7 +124,7 @@
                         "${key}":"${object[key]}"
                     </#list>
 
-            <#list mcats mc>
+            <#list mcats as mc>
                 ${mc[categoryName]}"
             </#list>
 
