@@ -67,7 +67,13 @@
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
-	        
+	  
+	        <#assign moffers = merchantOffers?eval>
+
+                <#list moffers as mof>
+                    <div>${mof.merchant}</div>
+                </#list>
+                
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
@@ -119,11 +125,7 @@
 	    
 	    <#assign mcats = merchCategories?eval>
 	    
-	    <#assign moffers = merchantOffers>
-
-                <#list moffers as mo>
-                    <div>${mo.merchant.merchantName}</div>
-                </#list>
+	    
         
 	    <div class="row blue-bg">
 	        <div class="col-6">
