@@ -124,8 +124,8 @@
                         "${key}":"${object[key]}"
                     </#list>
 
-            <#list mcats as mc>
-                ${mc[categoryName]}"
+            <#list mcats as categoryId, categoryName>
+                ${categoryName}"
             </#list>
 
 	    <div class="row blue-bg">
