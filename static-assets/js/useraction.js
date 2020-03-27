@@ -16,7 +16,7 @@ $(document).ready(function(){
 	
     	});
     
-    	$('#link1').click(function () {
+    	$('div.code').click(function () {
  			alert("Code copied");
     	});
 });
