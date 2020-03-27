@@ -117,7 +117,7 @@
 	        </div>
 	    </div>
 	    
-	    <#assign mcats = merchCategories.getList()>
+	    <#assign mcats = jsonFactoryUtil.looseDeserializeSafe(merchCategories)>
 	    
 	    <div class="row blue-bg">
 	        <div class="col-6">
