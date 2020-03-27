@@ -70,7 +70,7 @@
 	  
 	        <#assign moffers = merchantOffers?eval>
 
-            <div>${moffers[0].merchant}</div>
+            <div>${moffers[0]}</div>
             
             <#list moffers?eval as mo>
                 <div>${mo}</div>
