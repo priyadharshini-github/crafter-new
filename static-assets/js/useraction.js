@@ -17,8 +17,8 @@ $(document).ready(function(){
     	});
     
     	$('div.code').click(function () {
- 		  var x = document.getElementById("toast");
-        x.className = "show";
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+ 		    var x = document.getElementById("toast");
+            x.className = "show";
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 1000);
     	});
 });
