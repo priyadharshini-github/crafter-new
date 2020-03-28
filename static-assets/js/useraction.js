@@ -7,12 +7,13 @@ $(document).ready(function(){
                   "headers": {
                     "Content-Type": "application/json",
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+                    "Accept": "application/json",
                   },
                   "data": {
                 	 "merchantId" : 2,
                 	 "merchantName" : "iCheapFlight",
                 	 "vendorId" : "1",
-                	 "userAction": "Code copied",
+                	 "userAction": "Availed coupon",
                 	 "offerId": "124",
                 	 "offerDescription": "20% Discount upto 20$",
                 	 "couponCode": "DTRIP20"
