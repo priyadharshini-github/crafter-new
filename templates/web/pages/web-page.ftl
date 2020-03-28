@@ -212,7 +212,7 @@
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
-        <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms}</td>
+        <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
         <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
         <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
       </tr>
