@@ -18,6 +18,7 @@ $(document).ready(function(){
                 	 "offerDescription": "20% Discount upto 20$",
                 	 "couponCode": "DTRIP20"
                   },
+                  dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
     			},
