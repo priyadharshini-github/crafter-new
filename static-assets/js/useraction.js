@@ -9,15 +9,7 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                     "Accept": "application/json",
                   },
-                  "data": {
-                	 "merchantId" : "2",
-                	 "merchantName" : "iCheapFlight",
-                	 "vendorId" : "1",
-                	 "userAction": "Availed coupon",
-                	 "offerId": "124",
-                	 "offerDescription": "20% Discount upto 20$",
-                	 "couponCode": "DTRIP20"
-                  },
+                  "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"Code copied\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
                   dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
