@@ -209,18 +209,20 @@
     </thead>
     <tbody>
       <#list moffers as mo>
+      <#assign accordionId = "accordion" + ${mo?index}>
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
         <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
-        <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion"+${mo?index} data-toggle="collapse" data-parent="#accordion"+${mo?index} href="#tableone"++${mo?index}><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
+        <td width="10%" class="accordion-toggle collapsed vertical-align" id=${accordionId} data-toggle="collapse" data-parent="#"+${accordionId} href="#tableone"+${mo?index}><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
       </tr>
       <tr class="hide-table-padding">
         <#assign cpOffers = mo.couponOffers>
         
-        <td colspan="5">++${mo?index} class="col collapse in mb-3">
+        <td colspan="5">
           <#list cpOffers as co>  
+          <div id="tableone"+${mo?index} class="col collapse in mb-3">
             <div class="row offer-codebox1">
     	        <div class="col-6 vertical-align center-align">
     	            Upto <span class="font-28 bold">20% OFF</span>
@@ -230,6 +232,7 @@
     	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
     	        </div>
     	      </div>
+    	     </div>
     	    </#list>
 
         </td>
