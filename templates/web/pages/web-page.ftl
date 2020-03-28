@@ -211,8 +211,8 @@
       <#list moffers as mo>
       <#assign accordionId = "accordion" + mo?index>
       <#assign accordionDataParent = "#accordion" + mo?index>
-      <#assign accordionHref = "#tableone" + ${mo?index}>
-      <#assign tableOneId = "tableone" + ${mo?index}>
+      <#assign accordionHref = "#tableone" + mo?index>
+      <#assign tableOneId = "tableone" + mo?index>
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
