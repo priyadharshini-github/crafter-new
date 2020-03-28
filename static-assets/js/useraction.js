@@ -5,7 +5,7 @@ $(document).ready(function(){
                   "method": "POST",
                   "timeout": 0,
                   "headers": {
-                    "Content-Type": ["application/json", "text/plain"],
+                    "Content-Type": "application/json",
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                   },
                   "data": {
