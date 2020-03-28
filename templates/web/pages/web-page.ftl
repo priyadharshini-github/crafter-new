@@ -225,7 +225,7 @@
         
         <td colspan="5">
           <#list cpOffers as co>  
-          <#assign clickUrl = co.clickurl>
+          <#assign clickUrl = "http://google.com">
           <div id=${tableOneId} class="col collapse in mb-3">
             <div class="row offer-codebox1">
     	        <div class="col-6 vertical-align center-align">Upto 
