@@ -69,7 +69,8 @@
 	        <h3 align="center">Top Offers</h3>
 	  
 	        <#assign moffers = merchantOffers>
-
+            <div>${moffers}</div>
+            
             <#list moffers as mo>
                 <div>${mo.getMerchant().getMerchantName()}</div>
             </#list>
