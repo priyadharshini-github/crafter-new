@@ -214,8 +214,8 @@
       <#assign accordionHref = "#tableone" + mo?index>
       <#assign tableOneId = "tableone" + mo?index>
       <tr>
-        <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
-        <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
+        <td width="15%" class="vertical-align"><a href="#"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
+        <td width="40%" class="vertical-align"><a href="#">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
         <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
         <td width="10%" class="accordion-toggle collapsed vertical-align" id=${accordionId} data-toggle="collapse" data-parent=${accordionDataParent} href=${accordionHref}><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
@@ -227,8 +227,8 @@
           <#list cpOffers as co>  
           <div id=${tableOneId} class="col collapse in mb-3">
             <div class="row offer-codebox1">
-    	        <div class="col-6 vertical-align center-align">
-    	            Upto <span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span>
+    	        <div class="col-6 vertical-align center-align">Upto 
+    	            <a href=${co.clickurl}><span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
     	        </div>
     	        <div class="col-6 center-align display-block vertical-align">
     	            <div class="code-css font-12">Copy Code: ${co.couponCode}</div>
