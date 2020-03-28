@@ -225,10 +225,11 @@
         
         <td colspan="5">
           <#list cpOffers as co>  
+          <#assign clickUrl = co.clickurl>
           <div id=${tableOneId} class="col collapse in mb-3">
             <div class="row offer-codebox1">
     	        <div class="col-6 vertical-align center-align">Upto 
-    	            <a href=${co.clickurl}><span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
+    	            <a href=${clickUrl}><span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
     	        </div>
     	        <div class="col-6 center-align display-block vertical-align">
     	            <div class="code-css font-12">Copy Code: ${co.couponCode}</div>
