@@ -10,7 +10,7 @@ $(document).ready(function(){
                     "Accept": "application/json",
                   },
                   "data": {
-                	 "merchantId" : 2,
+                	 "merchantId" : "2",
                 	 "merchantName" : "iCheapFlight",
                 	 "vendorId" : "1",
                 	 "userAction": "Availed coupon",
