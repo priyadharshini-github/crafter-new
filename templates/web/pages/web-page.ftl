@@ -69,6 +69,7 @@
 	        <h3 align="center">Top Offers</h3>
 	  
 	        <#assign moffers = merchantOffers?eval>
+	        Size - ${moffers?size}
             <#list moffers as mo>
                 <div>${mo.merchant.merchantName} - ${mo.couponOffers?size} Offers - ${mo.cbOffer.commissionTerms}</div>
             </#list>
