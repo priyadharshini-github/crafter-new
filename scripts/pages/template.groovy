@@ -37,7 +37,7 @@ if (responseEntity != null) {
 
 // get Merchant store list
 
-def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/false")
+def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/true")
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
@@ -68,9 +68,9 @@ def jo = xmlJSONObj.toString(textIndent)
 // def categories = ParsingResult.'**'.findAll { node -> node.name() == 'catName' }*.text()
 
 templateModel.merchCategories = categories;
-// templateModel.merchantOffers = merchantOffers;
+templateModel.merchantOffers = merchantOffers;
 // templateModel.merchantOffers = merchantOffers.toString();
-templateModel.merchantOffers = groovy.json.JsonOutput.toJson(merchantOffers);
+// templateModel.merchantOffers = groovy.json.JsonOutput.toJson(merchantOffers);
 // templateModel.merchantOffers = "[{ \"merchant\": { \"mid\": \"7001\", \"merchantName\": \"Works\" }, \"couponOffers\": [{ \"categories\": [ \"Accessories\" ], \"promotionTypes\": [ \"Dollar off\" ], \"couponCode\": \"COUP01\", \"offerDescription\": \"offer desc 1\" }, { \"categories\": [ \"Clothes\" ], \"promotionTypes\": [ \"Cashback\" ], \"couponCode\": \"COUP02\", \"offerDescription\": \"offer desc 2\" } ], \"cbOffer\": { \"mid\": 78, \"commissionTerms\": \"sale : 0 and above 3%\", \"offerId\": \"546633\", \"offerName\": \"Works Discount Offer\" } }, { \"merchant\": { \"mid\": \"7002\", \"merchantName\": \"Facto\" }, \"couponOffers\": [{ \"categories\": [ \"Accessories\" ], \"promotionTypes\": [ \"Dollar off\" ], \"couponCode\": \"COUP03\", \"offerDescription\": \"offer desc 3\" }, { \"categories\": [ \"Clothes\" ], \"promotionTypes\": [ \"Cashback\" ], \"couponCode\": \"COUP04\", \"offerDescription\": \"offer desc 4\" } ], \"cbOffer\": { \"mid\": 85, \"commissionTerms\": \"sale : 0 and above 5%\", \"offerId\": \"7933\", \"offerName\": \"Facto Cashback Offer\" } } ]";
 
 return merchantOffers
