@@ -210,7 +210,7 @@
     <tbody>
       <#list moffers as mo>
       <tr>
-        <td  width="5%" class="vertical-align">${index}</td>
+        <td  width="5%" class="vertical-align">${mo?index}</td>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="35%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
