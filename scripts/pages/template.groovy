@@ -52,7 +52,8 @@ if (status>= 300) {
 }
 org.apache.http.HttpEntity storeResponseEntity = storeResponse.getEntity();
 if (storeResponseEntity != null) {
- merchantOffers = org.apache.http.util.EntityUtils.toString(storeResponseEntity);
+ // merchantOffers = org.apache.http.util.EntityUtils.toString(storeResponseEntity);
+ merchantOffers = storeResponseEntity;
 }
 
 
