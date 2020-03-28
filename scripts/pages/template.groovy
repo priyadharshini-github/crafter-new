@@ -69,6 +69,6 @@ def jo = xmlJSONObj.toString(textIndent)
 
 templateModel.merchCategories = categories;
 //templateModel.merchantOffers = groovy.json.JsonOutput.toJson(merchantOffers);
-templateModel.merchantOffers = merchantOffers.toString();
+templateModel.merchantOffers = merchantOffers.toString().toString();
 
 return merchantOffers
