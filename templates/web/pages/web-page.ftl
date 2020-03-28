@@ -71,8 +71,11 @@
 	        <#assign moffers = merchantOffers?eval>
 
             <#list moffers as mo>
-                <div>${mo}</div>
                 <div>${mo.merchant.merchantName}</div>
+                <#assign cpOffers = mo.couponOffers>
+                <#list cpOffers as co>
+                  <div>${co.couponCode}</div>
+                </#list>
             </#list>
 
 	        <div class="row">
