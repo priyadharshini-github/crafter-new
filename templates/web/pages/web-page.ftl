@@ -68,15 +68,10 @@
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	  
-	        <#assign moffers = merchantOffers>
+	        <#assign moffers = merchantOffers?eval>
 
             <#list moffers as mo>
                 <div>${mo.merchant.merchantName} - ${mo.couponOffers?size} Offers - ${mo.cbOffer.commissionTerms}</div>
-                <!-- <#assign cpOffers = mo.couponOffers>
-                <#list cpOffers as co>
-                  <div>${co.couponCode}</div>
-                </#list>
-                -->
             </#list>
 
 	        <div class="row">
