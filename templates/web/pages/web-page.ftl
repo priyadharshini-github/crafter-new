@@ -72,7 +72,8 @@
             <div>${moffers}</div>
             
             <#list moffers as mo>
-                <div>${mo.getMerchant().getMerchantName()}</div>
+                <div>${mo}</div>
+                <div>${mo.merchant.merchantName}</div>
             </#list>
 
 	        <div class="row">
