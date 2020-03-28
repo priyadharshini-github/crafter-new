@@ -67,12 +67,6 @@
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
-	  
-	        <#assign moffers = merchantOffers?eval>
-            <#list moffers as mo>
-                <div>${mo.merchant.merchantName} - ${mo.couponOffers?size} Offers - ${mo.cbOffer.commissionTerms}</div>
-            </#list>
-
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
@@ -123,9 +117,8 @@
 	    </div>
 	    
 	    <#assign mcats = merchCategories?eval>
-	    
-	    
-        
+	    <#assign moffers = merchantOffers?eval>
+
 	    <div class="row blue-bg">
 	        <div class="col-6">
 	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
@@ -215,94 +208,52 @@
         </tr>
     </thead>
     <tbody>
+      <#list moffers as mo>
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
-        <td width="40%" class="vertical-align"><a href="/offer">Rakuten</a></td>
-        <td width="25%" class="vertical-align center-align">1.5%</td>
-        <td width="20%" class="vertical-align center-align">3 Offers</td>
+        <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
+        <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms}</td>
+        <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
         <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
-    </tr>
-    <tr class="hide-table-padding">
+      </tr>
+      <tr class="hide-table-padding">
     
-    <td colspan="5">
-    <div id="tableone" class="col collapse in mb-3">
-      <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align display-block vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
-	        </div>
-	    </div>
-	    
-	    <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align display-block vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
-	        </div>
-	    </div>
-	    
-	    <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="grey font-12">Expiry : 10.06.2020</span>
-	        </div>
-	    </div>
-    </div></td>
-    <td></td>
+        <td colspan="5">
+        <div id="tableone" class="col collapse in mb-3">
+          <div class="row offer-codebox1">
+    	        <div class="col-6 vertical-align center-align">
+    	            Upto <span class="font-28 bold">20% OFF</span>
+    	        </div>
+    	        <div class="col-6 center-align display-block vertical-align">
+    	            <div class="code-css font-12">Copy Code: TRIP20</div>
+    	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
+    	        </div>
+    	    </div>
+    	    
+    	    <div class="row offer-codebox1">
+    	        <div class="col-6 vertical-align center-align">
+    	            Upto <span class="font-28 bold">20% OFF</span>
+    	        </div>
+    	        <div class="col-6 center-align display-block vertical-align">
+    	            <div class="code-css font-12">Copy Code: TRIP20</div>
+    	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
+    	        </div>
+    	    </div>
+    	    
+    	    <div class="row offer-codebox1">
+    	        <div class="col-6 vertical-align center-align">
+    	            Upto <span class="font-28 bold">20% OFF</span>
+    	        </div>
+    	        <div class="col-6 center-align vertical-align">
+    	            <div class="code-css font-12">Copy Code: TRIP20</div>
+    	            <span class="grey font-12">Expiry : 10.06.2020</span>
+    	        </div>
+    	    </div>
+        </div></td>
+        <td></td>
     </tr>
+    </#list>
 
-    <tr>
-      <td class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" /></a></td>
-      <td class="vertical-align"><a href="/offer">iCheapflights</a></td>
-      <td class="vertical-align center-align">2%</td>
-      <td class="vertical-align center-align">3 Offers</td>
-      <td class="accordion-toggle collapsed vertical-align" id="accordion2" data-toggle="collapse" data-parent="#accordion2" href="#tabletwo"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
-    </tr>
-    
-    <tr class="hide-table-padding">
-
-    <td colspan="5">
-    <div id="tabletwo" class="col collapse in mb-3">
-      <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align display-block vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
-	        </div>
-	    </div>
-	    
-	    <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align display-block vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
-	        </div>
-	    </div>
-	    
-	    <div class="row offer-codebox1">
-	        <div class="col-6 vertical-align center-align">
-	            Upto <span class="font-28 bold">20% OFF</span>
-	        </div>
-	        <div class="col-6 center-align vertical-align">
-	            <div class="code-css font-12">Copy Code: TRIP20</div>
-	            <span class="grey font-12">Expiry : 10.06.2020</span>
-	        </div>
-	    </div>
-    </div></td>
-    <td></td>
-    </tr>
     </tbody>
   </table>
 </div>
