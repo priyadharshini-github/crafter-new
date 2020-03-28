@@ -71,15 +71,8 @@
 	        <#assign moffers = merchantOffers>
 
             <#list moffers as mo>
- <div>${mo.merchant.merchantName}</div>
-
-  <#assign coffers =  mo.couponOffers>
-
-   <#list coffers as co>
-     <div>${co.couponCode}</div>
-     <div>${co.offerDescription}</div>
-   </#list>
-</#list>
+                <div>${mo.getMerchant().getMerchantName()}</div>
+            </#list>
 
 	        <div class="row">
 			<div class="col-3">
