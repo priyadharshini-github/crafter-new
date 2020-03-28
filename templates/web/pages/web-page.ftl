@@ -69,7 +69,9 @@
 	        <h3 align="center">Top Offers</h3>
 	  
 	        <#assign moffers = merchantOffers>
-
+            <div>ACTUAL DATA</div>
+            ${moffers}
+            <div>PARSED DATA</div>
             <#list moffers as mo>
                 <div>${mo.merchant.merchantName} - ${mo.couponOffers?size} Offers - ${mo.cbOffer.commissionTerms}</div>
             </#list>
