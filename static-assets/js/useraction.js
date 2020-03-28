@@ -9,7 +9,7 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                   },
                   "data": {
-                	 "merchantId" : 1,
+                	 "merchantId" : 2,
                 	 "merchantName" : "iCheapFlight",
                 	 "vendorId" : "1",
                 	 "userAction": "Code copied",
