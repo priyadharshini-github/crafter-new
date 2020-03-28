@@ -68,6 +68,8 @@
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	  
+	    ${merchantOffers}
+	  
 	        <#assign moffers = merchantOffers?eval>
 
             <#list moffers as mo>
