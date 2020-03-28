@@ -1,23 +1,22 @@
 $(document).ready(function(){
 	$('div.off').click(function () {
         	$.ajax({
-    			type: "POST",
-    			url: "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
-    			headers: {
-    				"Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-    				"Accept": "application/json"
-    			},
-    			data: {
-                     "memberId"	: "23456",
-                     "merchantId" : 1,
-                     "merchantName" : "iCheapFlight",
-                     "vendorId" : "1",
-                     "userAction": "Code copied",
-                     "offerId": "124",
-                     "offerDescription": "20% Discount upto 20$",
-                     "couponCode": "DTRIP20"
-    			},
-    			dataType: 'json',
+    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
+                  "method": "POST",
+                  "timeout": 0,
+                  "headers": {
+                    "Content-Type": ["application/json", "text/plain"],
+                    "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+                  },
+                  "data": {
+                	 "merchantId" : 1,
+                	 "merchantName" : "iCheapFlight",
+                	 "vendorId" : "1",
+                	 "userAction": "Code copied",
+                	 "offerId": "124",
+                	 "offerDescription": "20% Discount upto 20$",
+                	 "couponCode": "DTRIP20"
+                  },
     			success: function (res) {
     				console.log("data", res);
     			},
