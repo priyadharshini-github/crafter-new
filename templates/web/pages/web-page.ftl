@@ -209,7 +209,7 @@
     </thead>
     <tbody>
       <#list moffers as mo>
-      <#assign accordionId = "accordion" + ${mo?index}>
+      <#assign accordionId = "accordion" + mo?index>
       <tr>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
