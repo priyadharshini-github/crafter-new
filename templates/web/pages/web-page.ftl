@@ -196,7 +196,7 @@
             
             
             
-            <div class="table-responsive">
+ <div class="table-responsive">
   <table class="table">
     <thead>
        <tr>
@@ -210,47 +210,29 @@
     <tbody>
       <#list moffers as mo>
       <tr>
-        <td  width="5%" class="vertical-align">${mo?index}</td>
         <td width="15%" class="vertical-align"><a href="/offer"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
-        <td width="35%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
+        <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
         <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
-        <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion1" data-toggle="collapse" data-parent="#accordion1" href="#tableone"><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
+        <td width="10%" class="accordion-toggle collapsed vertical-align" id="accordion"+${mo?index} data-toggle="collapse" data-parent="#accordion"+${mo?index} href="#tableone"++${mo?index}><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
       </tr>
       <tr class="hide-table-padding">
-    
-        <td colspan="5">
-        <div id="tableone" class="col collapse in mb-3">
-          <div class="row offer-codebox1">
+        <#assign cpOffers = mo.couponOffers>
+        
+        <td colspan="5">++${mo?index} class="col collapse in mb-3">
+          <#list cpOffers as co>  
+            <div class="row offer-codebox1">
     	        <div class="col-6 vertical-align center-align">
     	            Upto <span class="font-28 bold">20% OFF</span>
     	        </div>
     	        <div class="col-6 center-align display-block vertical-align">
-    	            <div class="code-css font-12">Copy Code: TRIP20</div>
-    	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
+    	            <div class="code-css font-12">Copy Code: ${co.couponCode}</div>
+    	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
     	        </div>
-    	    </div>
-    	    
-    	    <div class="row offer-codebox1">
-    	        <div class="col-6 vertical-align center-align">
-    	            Upto <span class="font-28 bold">20% OFF</span>
-    	        </div>
-    	        <div class="col-6 center-align display-block vertical-align">
-    	            <div class="code-css font-12">Copy Code: TRIP20</div>
-    	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
-    	        </div>
-    	    </div>
-    	    
-    	    <div class="row offer-codebox1">
-    	        <div class="col-6 vertical-align center-align">
-    	            Upto <span class="font-28 bold">20% OFF</span>
-    	        </div>
-    	        <div class="col-6 center-align vertical-align">
-    	            <div class="code-css font-12">Copy Code: TRIP20</div>
-    	            <span class="grey font-12">Expiry : 10.06.2020</span>
-    	        </div>
-    	    </div>
-        </div></td>
+    	      </div>
+    	    </#list>
+
+        </td>
         <td></td>
     </tr>
     </#list>
