@@ -38,7 +38,7 @@
                 //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
                 var params = get_params(location.search);
                 // document.getElementById('memberIdEle').innerHTML = params['memberId'];
-                document.getElementById('memberIdEle').innerHTML = window.location.search;
+                document.getElementById('memberIdEle').innerHTML = window.location;
             };
         </script>
 	</head>
