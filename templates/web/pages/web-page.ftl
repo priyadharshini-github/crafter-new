@@ -15,7 +15,7 @@
         <script>
             window.onload = function() {
                 var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
-                document.getElementById('memberIdEle').innerHTML = '1234'; //memberIdVal;
+                document.getElementById('memberIdEle').innerHTML = memberIdVal;
             };
         </script>
 	</head>
