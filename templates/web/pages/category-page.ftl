@@ -14,6 +14,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="/static-assets/js/useraction.js"></script>
         <script>
+        alert('Hello');
             function clickToCopy (element) {
                 var $temp = $("<input>");
                 $("body").append($temp);
