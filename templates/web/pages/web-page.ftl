@@ -12,6 +12,12 @@
 		<script src="/static-assets/js/jquery.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script src="/static-assets/js/range.js"></script>
+        <script>
+            window.onload = function() {
+                var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
+                document.getElementById('memberIdEle').innerHTML = memberIdVal;
+            };
+        </script>
 	</head>
 	<style>
 	
@@ -63,6 +69,7 @@
     
   </div>
 </nav>
+        <p id="memberIdEle"></p>
 
 	    <div class="row">
 	        <div class="col-12 top-offers">
