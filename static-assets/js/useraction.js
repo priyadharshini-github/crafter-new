@@ -9,7 +9,7 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                     "Accept": "application/json",
                   },
-                  "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"StoreUrlClicked\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
+                  "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"storeUrlClicked\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
                   dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
@@ -35,7 +35,7 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                     "Accept": "application/json",
                   },
-                  "data": "{\r\n\t \"merchantId\" : 25,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"Coupon Availed\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
+                  "data": "{\r\n\t \"merchantId\" : 25,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"couponCodeCopied\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
                   dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
