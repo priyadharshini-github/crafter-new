@@ -12,7 +12,6 @@
 		<script src="/static-assets/js/jquery.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script src="/static-assets/js/range.js"></script>
-        <script src="/static-assets/js/useraction.js"></script>
         <script>
             var get_params = function(search_string) {
               var parse = function(params, pairs) {
