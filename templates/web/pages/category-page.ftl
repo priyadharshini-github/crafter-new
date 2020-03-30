@@ -16,6 +16,7 @@
         <script>
         alert('Hello');
             function clickToCopy (element) {
+            console.log("code copy function");
                 var $temp = $("<input>");
                 $("body").append($temp);
                 
@@ -24,6 +25,7 @@
                 $temp.val($(element).html()).select();
                 document.execCommand("copy");
                 $temp.remove();
+                console.log("code copied");
             }
         </script>
 	</head>
