@@ -34,6 +34,19 @@
               return search_string.length == 0 ? {} : parse({}, search_string.substr(1).split('&'));
             }
             
+            function clickToCopy (element) {
+            console.log("code copy function");
+                var $temp = $("<input>");
+                $("body").append($temp);
+                
+                alert($(element).html());
+                
+                $temp.val($(element).html()).select();
+                document.execCommand("copy");
+                $temp.remove();
+                console.log("code copied");
+            }
+            
             window.onload = function() {
                 //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
                 var params = get_params(location.search);
