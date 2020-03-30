@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $.ajax({
-		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
+		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/7001",
           "method": "POST",
           "timeout": 0,
           "headers": {
@@ -20,7 +20,7 @@ $(document).ready(function(){
     		
 	$('div.off').click(function () {
         	$.ajax({
-    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
+    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/7001",
                   "method": "POST",
                   "timeout": 0,
                   "headers": {
@@ -46,7 +46,7 @@ $(document).ready(function(){
             setTimeout(function(){ 
                 x.className = x.className.replace("show", ""); 
                 $.ajax({
-    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/23456",
+    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/7001",
                   "method": "POST",
                   "timeout": 0,
                   "headers": {
