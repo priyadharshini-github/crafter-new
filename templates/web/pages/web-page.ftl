@@ -267,7 +267,7 @@
     	            <a href=${clickUrl}><span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
     	        </div>
     	        <div class="col-6 center-align display-block vertical-align">
-    	            <div class="code-css font-12 code">Copy Code: ${co.couponCode}</div>
+    	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"> <span id="texttocopy">Copy Code: ${co.couponCode}</span></button></div>
     	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
     	        </div>
     	      </div>
