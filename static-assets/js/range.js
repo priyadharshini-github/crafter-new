@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    function showProducts(minPrice, maxPrice) {
+      $("#products tr").hide().filter(function() {
+        var price = parseInt($(this).data("price"), 10);
+        return price >= minPrice && price <= maxPrice;
+      }).show();
+    }
   $('.noUi-handle').on('click', function() {
     $(this).width(50);
   });
@@ -25,7 +31,7 @@ $(document).ready(function() {
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
-      console.log(values[0]);
+      showProducts(values[0], values[1]);
   });
 });
 
