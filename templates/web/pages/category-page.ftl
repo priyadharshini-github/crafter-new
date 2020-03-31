@@ -97,7 +97,7 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <div id="mid"></div>
+    
 
 	<section class="main-content">
 	    <div class="row">
@@ -105,6 +105,7 @@
 	            <img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" />
 	        </div>
 	        <div class="col-9">
+	        <p id="mid"></p>
 	            <div class="offer-title">iCheapFlights</div>
 	            <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
 	        </div>
