@@ -175,7 +175,7 @@
             </select>
         
             </div>
-            <div class="col-3"><button type="submit" class="btn btn-block btn-dark mb-2">SEARCH</button>
+            <div class="col-3"><button type="submit" id="mySubmit" class="btn btn-block btn-dark mb-2">SEARCH</button>
             </div>
 	    </div>
 	    
