@@ -90,8 +90,8 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <#assign moffers = merchantOffers?eval>
-    <div>${moffers}</div>
+    <#assign moffers2 = merchantOffers?eval>
+    <div>${moffers2}</div>
 
 	<section class="main-content">
 	    <div class="row">
