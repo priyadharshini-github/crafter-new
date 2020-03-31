@@ -13,9 +13,6 @@
 	<folder-name>offer</folder-name>
 	<createdDate>2020-03-09T07:27:22.654Z</createdDate>
 	<createdDate_dt>2020-03-09T07:27:22.654Z</createdDate_dt>
-	<lastModifiedDate>2020-03-31T13:06:12.309Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-03-31T13:06:12.309Z</lastModifiedDate_dt>
-	<controller_o item-list="true">	<item datasource="scripts">	<key>/scripts/pages/template.groovy</key>
-	<value>template.groovy</value>
-	</item></controller_o>
+	<lastModifiedDate>2020-03-31T13:18:11.344Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-31T13:18:11.344Z</lastModifiedDate_dt>
 </page>
