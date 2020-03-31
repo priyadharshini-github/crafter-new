@@ -104,7 +104,7 @@
     
   </div>
 </nav>
-        <p>MemberId: </p>
+        <!-- <p>MemberId: </p> -->
         <p id="memberIdEle"></p>
 
 	    <div class="row">
