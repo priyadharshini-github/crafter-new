@@ -96,11 +96,12 @@
 
 <div class="container" v-cloak>	 
     
-    <#assign moffers = merchantOffers>
-    
-    <#list moffers?filter(mof -> mof.couponOffers = merchantId) as mo>
-        <div>${mo}</div>
-    </#list>
+    <#assign xs = [1, -2, 3, 4, -5]>
+Positives:
+<#list xs?filter(x -> x > 0) as x>${x} </#list>
+Negatives:
+<#list xs?filter(x -> x < 0) as x>${x} </#list>
+
 
 	<section class="main-content">
 	    <div class="row">
