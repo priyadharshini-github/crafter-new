@@ -5,8 +5,6 @@ function showtoast() {
 }
 
 $(document).ready(function(){
-    $('#result-table').DataTable();
-    
   $("#mySubmit").click (function() {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {
