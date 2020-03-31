@@ -24,7 +24,10 @@
                 console.log("code copied");
             }
             
-            $("#mid").val("Test mid");
+            window.onload = function() {
+                $("#mid").val("Test mid 1");
+                document.getElementById('mid').innerHTML('Testing mid 2....');
+            }
             
         </script>
 	</head>
