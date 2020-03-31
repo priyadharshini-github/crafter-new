@@ -102,7 +102,7 @@
 	        </div>
 	        <div class="col-9">
 	            
-	                <div class="offer-title">${mo.merchantName}</div>
+	                <div class="offer-title">${mo.merchant.merchantName}</div>
 	                <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
 	       </div>
 	    </div>
