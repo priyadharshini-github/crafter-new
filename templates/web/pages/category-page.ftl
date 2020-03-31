@@ -26,7 +26,7 @@
             
             window.onload = function() {
                 //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
-                var params = get_params(location.search);
+                //var params = get_params(location.search);
                 //document.getElementById('mid').innerHTML = 'Testing 1...';  // params['memberId'];
                  document.getElementById('memberIdEle').innerHTML = window.location.href;
             };
