@@ -103,17 +103,17 @@
 	        </div>
 	        <div class="col-9">
 	        
-	        <p id="memberIdEle">${RequestParameters.mid}</p>
-	        
+	        <#assign merchantId = RequestParameters.mid>
+	        <div>${merchantId}</div>
 	        <#assign moffers = merchantOffers?eval>
             
             <#list moffers as mo>
-                <#if mo.merchant.merchantId == RequestParameters.mid>
+
                     <#assign cpOffers = mo.couponOffers>
                     <#list cpOffers as co>
                         <div>${co.couponCode}</div>
                     </#list>
-                </#if>
+
             </#list>
 
 	        
