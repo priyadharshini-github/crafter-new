@@ -178,7 +178,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value></value>
+							<value>scripts/</value>
 								<type>undefined</type>
 						</property>
 						<property>
