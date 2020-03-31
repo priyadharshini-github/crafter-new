@@ -1,7 +1,7 @@
 $(document).ready(function() {
     function showProducts(minPrice, maxPrice) {
       $("#products tr").hide().filter(function() {
-        var price = parseInt($(this).data("price"), 10);
+        var price = parseInt($(this).data("percentage"), 10);
         return price >= minPrice && price <= maxPrice;
       }).show();
     }
