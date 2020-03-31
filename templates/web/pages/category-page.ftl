@@ -101,9 +101,6 @@ Positives:
 <#list xs as x>
 ${x} 
 </#list>
-Negatives:
-<#list xs?filter(x -> x < 0) as x>${x} </#list>
-
 
 	<section class="main-content">
 	    <div class="row">
