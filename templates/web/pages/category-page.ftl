@@ -127,7 +127,7 @@
     	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Upto <span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
     	        </div>
     	        <div class="col-6 vertical-align font-14 off">
-    	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Discount One Way Flight Deals. Apply Promo Code ${co.couponCode}; Save up To ${mo.cbOffer.commissionTerms}% Off on All Flights!</a>
+    	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Offer Description: ${co.offerDescription}. Apply Promo Code ${co.couponCode}; Save up To ${mo.cbOffer.commissionTerms}% Off !</a>
     	        </div>
     	        <div class="col-3 center-align display-block vertical-align">
     	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"> <span id="texttocopy">Copy Code: ${co.couponCode}</span></button></div>
