@@ -105,8 +105,16 @@
 	        
 	        <p id="memberIdEle">${RequestParameters.mid}</p>
 	        
-	            <#assign moffers = merchantOffers?eval>
-    
+	        <#assign moffers = merchantOffers?eval>
+            
+            <#list moffers as mo>
+                <#if mo.merchant.merchantId == RequestParameters.mid>
+                    <#assign cpOffers = mo.couponOffers>
+                    <#list cpOffers as co>
+                        <div>${co.couponCode}</div>
+                    </#list>
+                </#if>
+            </#list>
 
 	        
 	            <div class="offer-title">iCheapFlights</div>
