@@ -98,7 +98,9 @@
     
     <#assign xs = [1, -2, 3, 4, -5]>
 Positives:
-<#list xs?filter(x -> x > 0) as x>${x} </#list>
+<#list xs as x>
+${x} 
+</#list>
 Negatives:
 <#list xs?filter(x -> x < 0) as x>${x} </#list>
 
