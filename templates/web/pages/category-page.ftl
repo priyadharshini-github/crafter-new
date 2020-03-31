@@ -23,12 +23,6 @@
                 $temp.remove();
                 console.log("code copied");
             }
-            
-            window.onload = function() {
-                 //document.getElementById('memberIdEle').innerHTML = new URLSearchParams(window.location.search).get('mid');
-                 var merchantId = new URLSearchParams(window.location.search).get('mid');
-            };
-            
         </script>
 	</head>
 	<style>
@@ -104,16 +98,15 @@
 	        <div class="col-9">
 	        
 	        <#assign merchantId = RequestParameters.mid>
-	        <div>${merchantId}</div>
 	        <#assign moffers = merchantOffers?eval>
             
             <#list moffers as mo>
-
+                <#if mo.merchant.merchantId == merchantId>
                     <#assign cpOffers = mo.couponOffers>
                     <#list cpOffers as co>
                         <div>${co.couponCode}</div>
                     </#list>
-
+                </#if>
             </#list>
 
 	        
