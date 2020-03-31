@@ -240,7 +240,7 @@
             
             
  <div class="table-responsive">
-  <table class="table">
+  <table class="table" id="result-table">
     <thead>
        <tr>
           <th scope="col">Logo</th>
