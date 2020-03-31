@@ -89,7 +89,7 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <div>${merchCategories}</div>
+    <div>${categories}</div>
 
 	<section class="main-content">
 	    <div class="row">
