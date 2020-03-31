@@ -12,7 +12,6 @@
 		<script src="/static-assets/js/jquery.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script src="/static-assets/js/range.js"></script>
-        <script src="/static-assets/js/filter.js"></script>
         <script>
             var get_params = function(search_string) {
               var parse = function(params, pairs) {
@@ -186,7 +185,7 @@
 	        <small class="ml-auto mtop-5"><a href="#">Reset</a></small></div>
 	        <div id="accordion" class="accordion">
 		        <div class="card mb-0">
-		            <div class="card-header" data-toggle="collapse" href="#collapseOne" id="amount">
+		            <div class="card-header" data-toggle="collapse" href="#collapseOne">
 		                <a class="card-title">Cashback Range</a>
 		            </div>
 		            <div id="collapseOne" class="card-body collapse show" data-parent="#accordion">
@@ -256,11 +255,11 @@
       <#assign accordionDataParent = "#accordion" + mo?index>
       <#assign accordionHref = "#tableone" + mo?index>
       <#assign tableOneId = "tableone" + mo?index>
-      <tr id="products">
+      <tr>
         <td width="15%" class="vertical-align"><a href="#"><img class="img-fluid" src="/static-assets/images/rakuten.png" alt="" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
-        <td width="20%" class="vertical-align center-align" data-percentage="${mo.couponOffers?size}">${mo.couponOffers?size} Offers</td>
+        <td width="20%" class="vertical-align center-align">${mo.couponOffers?size} Offers</td>
         <td width="10%" class="accordion-toggle collapsed vertical-align" id=${accordionId} data-toggle="collapse" data-parent=${accordionDataParent} href=${accordionHref}><div class="arrow-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></div></td>
       </tr>
       <tr class="hide-table-padding">
