@@ -25,9 +25,11 @@
             }
             
             window.onload = function() {
-                $("#mid").val("Test mid 1");
-                document.getElementById('mid').innerHTML('Testing mid 2....');
-            }
+                //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
+                var params = get_params(location.search);
+                document.getElementById('mid').innerHTML = 'Testing 1...';  // params['memberId'];
+                // document.getElementById('memberIdEle').innerHTML = window.location.href;
+            };
             
         </script>
 	</head>
