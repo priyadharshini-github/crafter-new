@@ -23,6 +23,9 @@
                 $temp.remove();
                 console.log("code copied");
             }
+            
+            $("#mid").val("Test mid");
+            
         </script>
 	</head>
 	<style>
@@ -89,7 +92,7 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <div>window.location.href</div>
+    <div id="mid"></div>
 
 	<section class="main-content">
 	    <div class="row">
