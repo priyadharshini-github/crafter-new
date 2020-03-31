@@ -14,7 +14,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<script src="/static-assets/js/useraction.js"></script>
         <script>
-        alert('Hello');
             function clickToCopy (element) {
             console.log("code copy function");
                 var $temp = $("<input>");
@@ -90,7 +89,7 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <div>${merchantOffers}</div>
+    <div>${merchCategories}</div>
 
 	<section class="main-content">
 	    <div class="row">
