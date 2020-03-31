@@ -96,12 +96,6 @@
 
 <div class="container" v-cloak>	 
     
-    <#assign xs = [1, -2, 3, 4, -5]>
-Positives:
-<#list xs?filter(x -> x > 0) as x>
-${x} 
-</#list>
-
 	<section class="main-content">
 	    <div class="row">
 	        <div class="col-3 center-align display-block border-r1">
@@ -110,6 +104,14 @@ ${x}
 	        <div class="col-9">
 	        
 	        <p id="memberIdEle"></p>
+	        
+	            <#assign moffers = merchantOffers?filter(x -> (x.merchant.merchantId == merchantId))>
+    
+                <#list moffers as mo>
+                    
+                    <div>${mo}</div>
+                </#list>
+
 	        
 	            <div class="offer-title">iCheapFlights</div>
 	            <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
