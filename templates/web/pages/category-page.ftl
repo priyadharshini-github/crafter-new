@@ -89,7 +89,7 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    <div>${merchantOffers}</div>
+    <div>window.location.href</div>
 
 	<section class="main-content">
 	    <div class="row">
