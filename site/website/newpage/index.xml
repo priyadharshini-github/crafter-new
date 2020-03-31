@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/webpage</content-type>
+	<display-template>/templates/web/pages/web-page.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f6ce</objectGroupId>
+	<objectId>f6ce30eb-bc1c-ada0-10dd-5c54e645770b</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>newpage</folder-name>
+	<internal-name>newpage</internal-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<rte_html/>
+	<createdDate>2020-03-31T13:13:52.990Z</createdDate>
+	<createdDate_dt>2020-03-31T13:13:52.990Z</createdDate_dt>
+	<lastModifiedDate>2020-03-31T13:13:52.990Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-03-31T13:13:52.990Z</lastModifiedDate_dt>
+</page>
