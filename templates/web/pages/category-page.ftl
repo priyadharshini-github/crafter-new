@@ -25,10 +25,8 @@
             }
             
             window.onload = function() {
-                //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
-                //var params = get_params(location.search);
-                //document.getElementById('mid').innerHTML = 'Testing 1...';  // params['memberId'];
-                 document.getElementById('memberIdEle').innerHTML = new URLSearchParams(window.location.search).get('mid');
+                 //document.getElementById('memberIdEle').innerHTML = new URLSearchParams(window.location.search).get('mid');
+                 var merchantId = new URLSearchParams(window.location.search).get('mid');
             };
             
         </script>
@@ -98,6 +96,11 @@
 
 <div class="container" v-cloak>	 
     
+    <#assign moffers = merchantOffers>
+    
+    <#list moffers?filter(mof -> mof.couponOffers = merchantId) as mo>
+        <div>${mo}</div>
+    </#list>
 
 	<section class="main-content">
 	    <div class="row">
