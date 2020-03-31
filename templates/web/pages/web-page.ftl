@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 		<script src="/static-assets/js/jquery.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
+        <script src="/static-assets/js/main.js"></script>
         <script src="/static-assets/js/range.js"></script>
         <script>
             var get_params = function(search_string) {
@@ -249,7 +250,7 @@
           <th></th>
         </tr>
     </thead>
-    <tbody>
+    <tbody id="myTable">
       <#list moffers as mo>
       <#assign accordionId = "accordion" + mo?index>
       <#assign accordionDataParent = "#accordion" + mo?index>
