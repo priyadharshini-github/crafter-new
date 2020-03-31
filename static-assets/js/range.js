@@ -1,11 +1,4 @@
 $(document).ready(function() {
-    function showProducts(minPrice, maxPrice) {
-      $("#products tr").hide().filter(function() {
-        var price = $(this).data("percentage");
-        console.log(price);
-        return price >= minPrice && price <= maxPrice;
-      }).show();
-    }
   $('.noUi-handle').on('click', function() {
     $(this).width(50);
   });
@@ -32,7 +25,7 @@ $(document).ready(function() {
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
-      showProducts(values[0], values[1]);
+    console.log(values[0] + "-" + values[1]);
   });
 });
 
