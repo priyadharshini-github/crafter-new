@@ -61,13 +61,13 @@ org.apache.http.client.methods.HttpGet getVendorRuleRequest= new org.apache.http
 getVendorRuleRequest.addHeader("Accept", "application/json");
 getVendorRuleRequest.addHeader("Authorization", authString);
 org.apache.http.impl.client.DefaultHttpClient httpVendorRuleClient = new org.apache.http.impl.client.DefaultHttpClient();
-org.apache.http.HttpResponse vendorRuleResponse = httpClient.execute(getVendorRuleRequest);
+org.apache.http.HttpResponse vendorRuleResponse = httpVendorRuleClient.execute(getVendorRuleRequest);
 
 status = vendorRuleResponse.getStatusLine().getStatusCode();
 def vendorRule = ""
 
 if (status>= 300) {
- throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching vendorRule - status: " + status)
+ throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching vendor rule - status: " + status)
 }
 org.apache.http.HttpEntity vendorResponseEntity = vendorRuleResponse.getEntity();
 if (vendorResponseEntity != null) {
