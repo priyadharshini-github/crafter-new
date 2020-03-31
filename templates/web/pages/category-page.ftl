@@ -91,80 +91,53 @@
 <div class="container" v-cloak>	 
     
 	<section class="main-content">
+	  <#assign merchantId = RequestParameters.mid>
+	  <#assign moffers = merchantOffers?eval>
+    
+      <#list moffers as mo>
+	  <#if mo.merchant.mid == merchantId>
 	    <div class="row">
 	        <div class="col-3 center-align display-block border-r1">
 	            <img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" />
 	        </div>
 	        <div class="col-9">
-	        
-	        <#assign merchantId = RequestParameters.mid>
-	        <#assign moffers = merchantOffers?eval>
-            
-            <#list moffers as mo>
-                <#if mo.merchant.mid == merchantId>
-                    <#assign cpOffers = mo.couponOffers>
-                    <#list cpOffers as co>
-                        <div>${co.couponCode}</div>
-                    </#list>
-                </#if>
-            </#list>
-
-	        
-	            <div class="offer-title">iCheapFlights</div>
-	            <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
-	        </div>
+	            
+	                <div class="offer-title">${mo.merchantName}</div>
+	                <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
+	       </div>
 	    </div>
+	    
 	    <hr>
+	    
 	    <div class="row">
 	        <div class="col-3 vertical-align center-align">
-	            <span class="font-60 bold">15%</span><br> Cash back
+	            <span class="font-60 bold">${mo.cbOffer.commissionTerms} %</span><br> Cash back
 	        </div>
 	        <div class="col-9">
-	            iCheapFlight merchant information will be displayed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. 
+	            Merchant information will be displayed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. 
 	        </div>
 	    </div>
 	    
 	    <hr>
-	    <div class="row offer-codebox">
-	        <div class="col-3 vertical-align center-align off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
-	        </div>
-	        <div class="col-6 vertical-align font-14 off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Discount One Way Flight Deals. Apply Promo Code TRIP20; Save up To $20 Off on All Flights!</a>
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"> <span id="texttocopy">Copy Code: TRIP20</span></button></div>
-	            <span class="red font-12">Expires in 1 Day, 2 hours!</span>
-	        </div>
-	    </div>
+	    <#assign cpOffers = mo.couponOffers>
 	    
-	    <div class="row offer-codebox">
-	        <div class="col-3 vertical-align center-align off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
-	        </div>
-	        <div class="col-6 vertical-align font-14 off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Bargain Around the World Flight Deals. Save up To $20** Off with Promo Code – ATW20. Book Now!</a>
-	        </div>
-	        <div class="col-3 center-align display-block vertical-align">
-	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"><span id="texttocopy">Copy Code: TRIP20</span></button></div>
-	            <span class="blue font-12">Expires in 5 Days, 12 hours!</span>
-	        </div>
-	    </div>
-	    
-	    <div class="row offer-codebox">
-	        <div class="col-3 vertical-align center-align off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Upto <span class="font-28 bold">20% OFF</span></a>
-	        </div>
-	        <div class="col-6 vertical-align font-14 off">
-	            <a class="display-block no-uline black" href="https://click.linksynergy.com/fs-bin/click?id=O9/jWAhJi3I&amp;offerid=692069.5&amp;type=3&amp;subid=0" target="_blank">Book Handpicked Flight Deals on I Cheap Flight. Save up To $40** Off with Promo Code – DEAL40. Book Now!</a>
-	        </div>
-	        <div class="col-3 center-align vertical-align">
-	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"><span id="texttocopy">Copy Code: TRIP20</span></button></div>
-	            <span class="grey font-12">Expiry : 10.06.2020</span>
-	        </div>
-	    </div>
+	    <#list cpOffers as co>
+    	    <div class="row offer-codebox">
+    	        <div class="col-3 vertical-align center-align off">
+    	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Upto <span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
+    	        </div>
+    	        <div class="col-6 vertical-align font-14 off">
+    	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Discount One Way Flight Deals. Apply Promo Code ${co.couponCode}; Save up To ${mo.cbOffer.commissionTerms}% Off on All Flights!</a>
+    	        </div>
+    	        <div class="col-3 center-align display-block vertical-align">
+    	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('#texttocopy')"> <span id="texttocopy">Copy Code: ${co.couponCode}</span></button></div>
+    	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
+    	        </div>
+    	    </div>
+	    </#list>
 	</section>
-	
+	</#if>
+  </#list>
 </div>	
  
     <!-- jQuery library -->
