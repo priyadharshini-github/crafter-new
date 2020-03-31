@@ -98,7 +98,7 @@
 	  <#if mo.merchant.mid == merchantId>
 	    <div class="row">
 	        <div class="col-3 center-align display-block border-r1">
-	            <img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" />
+	            <img class="img-fluid" src="/static-assets/images/rakuten1.png" alt="" />
 	        </div>
 	        <div class="col-9">
 	            
