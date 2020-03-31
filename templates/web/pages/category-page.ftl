@@ -103,14 +103,10 @@
 	        </div>
 	        <div class="col-9">
 	        
-	        <p id="memberIdEle"></p>
+	        <p id="memberIdEle">${merchantId}</p>
 	        
-	            <#assign moffers = merchantOffers?filter(x -> (x.merchant.merchantId == merchantId))>
+	            <#assign moffers = merchantOffers?eval>
     
-                <#list moffers as mo>
-                    
-                    <div>${mo}</div>
-                </#list>
 
 	        
 	            <div class="offer-title">iCheapFlights</div>
