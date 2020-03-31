@@ -101,7 +101,7 @@
 	        <#assign moffers = merchantOffers?eval>
             
             <#list moffers as mo>
-                <#if mo.merchant.merchantId == merchantId>
+                <#if mo.merchant.mid == merchantId>
                     <#assign cpOffers = mo.couponOffers>
                     <#list cpOffers as co>
                         <div>${co.couponCode}</div>
