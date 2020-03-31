@@ -29,6 +29,7 @@ $(document).ready(function() {
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
+      console.log(min-value);
   });
 });
 
