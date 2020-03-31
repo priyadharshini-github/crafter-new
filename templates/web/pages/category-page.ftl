@@ -27,8 +27,8 @@
             window.onload = function() {
                 //var memberIdVal = new URLSearchParams(window.location.search).get('memberId');   
                 var params = get_params(location.search);
-                document.getElementById('mid').innerHTML = 'Testing 1...';  // params['memberId'];
-                // document.getElementById('memberIdEle').innerHTML = window.location.href;
+                //document.getElementById('mid').innerHTML = 'Testing 1...';  // params['memberId'];
+                 document.getElementById('memberIdEle').innerHTML = window.location.href;
             };
             
         </script>
@@ -105,7 +105,9 @@
 	            <img class="img-fluid" src="/static-assets/images/130063_large.png" alt="" />
 	        </div>
 	        <div class="col-9">
-	        <p id="mid"></p>
+	        
+	        <p id="memberIdEle"></p>
+	        
 	            <div class="offer-title">iCheapFlights</div>
 	            <h6>Travel, Vacations, Flights, Lorem Ipsum categories</h6>
 	        </div>
