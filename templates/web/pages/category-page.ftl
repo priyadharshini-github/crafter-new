@@ -90,6 +90,9 @@
 </div>	    
 
 <div class="container" v-cloak>	 
+    <#assign moffers = merchantOffers?eval>
+    <div>${moffers}</div>
+
 	<section class="main-content">
 	    <div class="row">
 	        <div class="col-3 center-align display-block border-r1">
