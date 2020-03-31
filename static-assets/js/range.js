@@ -1,6 +1,3 @@
-// Requires jQuery
-
-// Initialize slider:
 $(document).ready(function() {
   $('.noUi-handle').on('click', function() {
     $(this).width(50);
@@ -21,7 +18,6 @@ $(document).ready(function() {
     connect: true
   });
   
-  // Set visual min and max values and also update value hidden form inputs
   rangeSlider.noUiSlider.on('update', function(values, handle) {
     document.getElementById('slider-range-value1').innerHTML = values[0];
     document.getElementById('slider-range-value2').innerHTML = values[1];
@@ -29,7 +25,7 @@ $(document).ready(function() {
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
-      console.log(min-value);
+      console.log(values[0]);
   });
 });
 
