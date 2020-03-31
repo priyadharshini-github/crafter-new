@@ -103,7 +103,7 @@
 	        </div>
 	        <div class="col-9">
 	        
-	        <p id="memberIdEle">${merchantId}</p>
+	        <p id="memberIdEle">${RequestParameters.mid}</p>
 	        
 	            <#assign moffers = merchantOffers?eval>
     
