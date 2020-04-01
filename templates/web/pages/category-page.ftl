@@ -69,39 +69,43 @@
     
     	$('div.code').click(function () {
     	    var moffers = ${merchantOffers};
-    	    console.log(moffers);
- 		    var x = document.getElementById("toast");
-            x.className = "show";
-            setTimeout(function(){ 
-                x.className = x.className.replace("show", ""); 
-                $.ajax({
-    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
-                  "method": "POST",
-                  "timeout": 0,
-                  "headers": {
-                    "Content-Type": "application/json",
-                    "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-                    "Accept": "application/json",
-                  },
-                  "data": {
-                     "merchantId" : moffers.merchant.mid,
-                	 "merchantName" : moffers.merchant.merchantName,
-                	 "vendorId" : "1",
-                	 "userAction": "couponCodeCopied",
-                	 "offerId": moffers.cbOffer.offerId,
-                	 "offerDescription": moffers.cbOffer.offerDescription,
-                	 "couponCode": moffers.cbOffer.couponCode
-                  },
-                  dataType: 'json',
-    			success: function (res) {
-    				console.log("data", res);
-    			},
-    			error: function(errorThrown){
-             			alert(errorThrown);
-          		}
-    		});
-            }, 1000);
-    	});
+    	    console.log(${RequestParameters.mid});
+    	    for (i = 0; i < moffers.length(); i++) {
+     		    var x = document.getElementById("toast");
+                x.className = "show";
+                setTimeout(function(){ 
+                    x.className = x.className.replace("show", "");
+                    if (moffers[i].merchant.mid == ${RequestParameters.mid}) {
+                        $.ajax({
+            			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
+                          "method": "POST",
+                          "timeout": 0,
+                          "headers": {
+                            "Content-Type": "application/json",
+                            "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+                            "Accept": "application/json",
+                          },
+                          "data": {
+                             "merchantId" : moffers.merchant.mid,
+                        	 "merchantName" : moffers.merchant.merchantName,
+                        	 "vendorId" : "1",
+                        	 "userAction": "couponCodeCopied",
+                        	 "offerId": moffers.cbOffer.offerId,
+                        	 "offerDescription": moffers.cbOffer.offerDescription,
+                        	 "couponCode": moffers.cbOffer.couponCode
+                          },
+                          dataType: 'json',
+            			success: function (res) {
+            				console.log("data", res);
+            			},
+            			error: function(errorThrown){
+                     			alert(errorThrown);
+                  		}
+            		});
+        		}
+                }, 1000);
+        	});
+    	}
 });
         </script>
 	</head>
