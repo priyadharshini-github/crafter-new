@@ -15,8 +15,6 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script>
         	function clickToCopy (element) {
-        	    var x = document.getElementById("toast");
-        	    var moffers = "${merchantOffers}";
                 var $temp = $("<input>");
                 $("body").append($temp);
                 // $temp.val($(element).html()).select();
