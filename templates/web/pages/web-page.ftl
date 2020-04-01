@@ -103,6 +103,7 @@
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
 	        <div class="row">
+	        <#list vrule as vr>
 			<div class="col-3">
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
@@ -114,39 +115,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
+			</#list>
         </div>
 	        </div>
 	    </div>
