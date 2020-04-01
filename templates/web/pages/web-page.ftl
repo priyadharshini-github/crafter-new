@@ -98,12 +98,10 @@
     
   </div>
 </nav>
-        <!-- <p>MemberId: </p> -->
-        <p id="memberIdEle">${vendorRule}</p>
-
+        <#assign vrule = vendorRule?eval>
 	    <div class="row">
 	        <div class="col-12 top-offers">
-	        <h3 align="center">Top Offers</h3>
+	        <h3 align="center">Top Offers ${vrule.maxTiles}</h3>
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
