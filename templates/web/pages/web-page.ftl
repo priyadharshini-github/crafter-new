@@ -217,22 +217,11 @@
 	        </div>
 	        <div class="col-8">
 	        <div style="margin-left: auto; text-align: right;"> Sort by:
-    	        <select class="btn">
+    	        <select class="btn btn-light">
                     <option class="dropdown-item">Newest</option>
                     <option class="dropdown-item">Expiry Date</option>
                     <option class="dropdown-item">Cash back: High to Low</option>
                 </select>
-            
-    	        <div class="dropdown">
-                  <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sort by
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#"> </a>
-                    <a class="dropdown-item" href="#"> </a>
-                    <a class="dropdown-item" href="#"></a>
-                  </div>
-                </div>
             </div>
             
             
