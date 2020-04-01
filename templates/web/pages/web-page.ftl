@@ -99,7 +99,7 @@
   </div>
 </nav>
         <!-- <p>MemberId: </p> -->
-        <p id="memberIdEle"></p>
+        <p id="memberIdEle">${vendorRule}</p>
 
 	    <div class="row">
 	        <div class="col-12 top-offers">
