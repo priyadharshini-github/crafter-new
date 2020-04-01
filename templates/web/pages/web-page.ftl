@@ -120,7 +120,7 @@
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
 						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+						<div class="flex min-content" align="center">3% <span class="cashback">Cash<br>back</span></div>
 						</div>
 					</div>
 				</div>
@@ -131,7 +131,7 @@
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
 						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+						<div class="flex min-content" align="center">10% <span class="cashback">Cash<br>back</span></div>
 						</div>
 					</div>
 				</div>
@@ -142,7 +142,7 @@
 						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
 						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+						<div class="flex min-content" align="center">15% <span class="cashback">Cash<br>back</span></div>
 						</div>
 					</div>
 				</div>
