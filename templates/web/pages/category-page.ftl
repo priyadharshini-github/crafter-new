@@ -17,6 +17,7 @@
         	function clickToCopy (element) {
         	    var x = document.getElementById("toast");
         	    var moffers = "${merchantOffers}"
+        	    console.log(moffers);
                 x.className = "show";
                 setTimeout(function(){ 
                     x.className = x.className.replace("show", ""); 
