@@ -42,7 +42,7 @@ $(document).ready(function(){
     
     	$('div.code').click(function () {
     	    var moffers = $(this).data('moffers');
-            console.log(JSON.parse(moffers) + '}] ');
+            console.log(moffers);
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
@@ -56,15 +56,7 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                     "Accept": "application/json",
                   },
-                  "data": {
-                     "merchantId" : moffers.merchant.mid,
-                	 "merchantName" : moffers.merchant.merchantName,
-                	 "vendorId" : "1",
-                	 "userAction": "couponCodeCopied",
-                	 "offerId": moffers.cbOffer.offerId,
-                	 "offerDescription": moffers.cbOffer.offerDescription,
-                	 "couponCode": moffers.cbOffer.couponCode
-                  },
+                  "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"couponCodeAvailed\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
                   dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
