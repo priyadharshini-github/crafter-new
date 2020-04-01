@@ -77,7 +77,8 @@ if (ruleResponseEntity != null) {
 
 templateModel.merchCategories = categories;
 templateModel.merchantOffers = merchantOffers;
-tmeplateModel.vendorRule = vendorRule;
+templateModel.vendorRule = vendorRule;
 
+////////////////////////
 
 return merchantOffers
