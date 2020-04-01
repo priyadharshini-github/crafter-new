@@ -41,7 +41,7 @@ $(document).ready(function(){
     	});
     
     	$('div.code').click(function () {
-    	    var moffers = $(this).data().getJSON('moffers');
+    	    var moffers = $(this).data('moffers');
             
  		    var x = document.getElementById("toast");
             x.className = "show";
