@@ -44,7 +44,6 @@
             }
             
             function maxTiles(tiles) {
-                console.log(tiles);
                 for (i = 1; i < tiles; i++) {
                     var codeBlock = '<div class="col-3">' +
 				                    '<div class="offer offer-radius">' +
