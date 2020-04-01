@@ -43,6 +43,7 @@ $(document).ready(function(){
     	$('div.code').click(function () {
     	    var moffers = $(this).data('moffers');
     	    var merchOffers = JSON.stringify(moffers);
+    	    console.log(merchOffers.merchant.mid);
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
@@ -57,7 +58,7 @@ $(document).ready(function(){
                     "Accept": "application/json",
                   },
                   "data": {
-                     "merchantId" : moffers.merchant.mid,
+                     "merchantId" : merchOffers.merchant.mid,
                 	 "merchantName" : moffers.merchant.merchantName,
                 	 "vendorId" : "1",
                 	 "userAction": "couponCodeCopied",
