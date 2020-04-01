@@ -18,7 +18,8 @@
             console.log("code copy function");
                 var $temp = $("<input>");
                 $("body").append($temp);
-                $temp.val($(element).html()).select();
+                // $temp.val($(element).html()).select();
+                $temp.val(element).select();
                 document.execCommand("copy");
                 $temp.remove();
                 console.log("code copied");
