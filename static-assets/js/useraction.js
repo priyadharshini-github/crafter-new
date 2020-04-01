@@ -57,7 +57,7 @@ $(document).ready(function(){
                     "Accept": "application/json",
                   },
                   "data": {
-                     "merchantId" : merchOffers.merchant.mid,
+                     "merchantId" : moffers.merchant.mid,
                 	 "merchantName" : moffers.merchant.merchantName,
                 	 "vendorId" : "1",
                 	 "userAction": "couponCodeCopied",
