@@ -130,7 +130,7 @@
     	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Offer Description: ${co.offerDescription}. Apply Promo Code ${co.couponCode}; Save up To ${mo.cbOffer.commissionTerms}% Off !</a>
     	        </div>
     	        <div class="col-3 center-align display-block vertical-align">
-    	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('${co.couponCode}')" data-moffers=${mo}> Copy Code: <span id="texttocopy">${co.couponCode}</span></button></div>
+    	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('${co.couponCode}')"> Copy Code: <span id="texttocopy">${co.couponCode}</span></button></div>
     	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
     	        </div>
     	    </div>
