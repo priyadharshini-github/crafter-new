@@ -14,98 +14,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<!-- <script src="/static-assets/js/useraction.js"></script> -->
         <script>
-            $(document).ready(function(){
-                $.ajax({
-            		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
-                      "method": "POST",
-                      "timeout": 0,
-                      "headers": {
-                        "Content-Type": "application/json",
-                        "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-                        "Accept": "application/json",
-                      },
-                      "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"offerDetailsSeen\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
-                      dataType: 'json',
-            		success: function (res) {
-            			console.log("data", res);
-            		},
-            		error: function(errorThrown){
-                 			alert(errorThrown);
-              		}
-            	});
-                		
-            	$('div.off').click(function () {
-                    	$.ajax({
-                			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
-                              "method": "POST",
-                              "timeout": 0,
-                              "headers": {
-                                "Content-Type": "application/json",
-                                "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-                                "Accept": "application/json",
-                              },
-                              "data": "{\r\n\t \"merchantId\" : 1,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"storeUrlClicked\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
-                              dataType: 'json',
-                			success: function (res) {
-                				console.log("data", res);
-                			},
-                			error: function(errorThrown){
-                         			alert(errorThrown);
-                      		}
-                		});
-	
-    	});
-    
-    	$('div.code').click(function () {
-    	    var moffers = ${merchantOffers};
-    	    console.log(${RequestParameters.mid});
-    	    for (i = 0; i < moffers.length(); i++) {
-     		    var x = document.getElementById("toast");
-                x.className = "show";
-                setTimeout(function(){ 
-                    x.className = x.className.replace("show", "");
-                    if (moffers[i].merchant.mid == ${RequestParameters.mid}) {
-                        $.ajax({
-            			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
-                          "method": "POST",
-                          "timeout": 0,
-                          "headers": {
-                            "Content-Type": "application/json",
-                            "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-                            "Accept": "application/json",
-                          },
-                          "data": {
-                             "merchantId" : moffers.merchant.mid,
-                        	 "merchantName" : moffers.merchant.merchantName,
-                        	 "vendorId" : "1",
-                        	 "userAction": "couponCodeCopied",
-                        	 "offerId": moffers.cbOffer.offerId,
-                        	 "offerDescription": moffers.cbOffer.offerDescription,
-                        	 "couponCode": moffers.cbOffer.couponCode
-                          },
-                          dataType: 'json',
-            			success: function (res) {
-            				console.log("data", res);
-            			},
-            			error: function(errorThrown){
-                     			alert(errorThrown);
-                  		}
-            		});
-        		}
-                }, 1000);
-        	});
-    	}
-    	
-    	function clickToCopy (element) {
-            var $temp = $("<input>");
-            $("body").append($temp);
-            // $temp.val($(element).html()).select();
-            $temp.val(element).select();
-            document.execCommand("copy");
-            $temp.remove();
-            console.log("code copied");
-        }
-});
+        	function clickToCopy (element) {
+                var $temp = $("<input>");
+                $("body").append($temp);
+                // $temp.val($(element).html()).select();
+                $temp.val(element).select();
+                document.execCommand("copy");
+                $temp.remove();
+                console.log("code copied");
+            }
         </script>
 	</head>
 	<style>
