@@ -24,6 +24,9 @@
                 $temp.remove();
                 console.log("code copied");
             }
+            
+            var variableFreeMarker = "${moffers}"
+            console.log(variableFreeMarker);
         </script>
 	</head>
 	<style>
