@@ -217,7 +217,7 @@
 	        </div>
 	        <div class="col-8">
 	        <div style="margin-left: auto; text-align: right;"> Sort by:
-    	        <select class="btn btn-dark btn-block">
+    	        <select class="btn">
                     <option class="dropdown-item">Newest</option>
                     <option class="dropdown-item">Expiry Date</option>
                     <option class="dropdown-item">Cash back: High to Low</option>
