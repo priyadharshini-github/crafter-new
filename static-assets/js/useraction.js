@@ -42,13 +42,12 @@ $(document).ready(function(){
     
     	$('div.code').click(function () {
     	    var moffers = $(this).data('moffers');
-    	    console.log('moof :' + moffers);
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
                 x.className = x.className.replace("show", ""); 
                 $.ajax({
-    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/7001",
+    			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
                   "method": "POST",
                   "timeout": 0,
                   "headers": {
@@ -56,7 +55,15 @@ $(document).ready(function(){
                     "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
                     "Accept": "application/json",
                   },
-                  "data": "{\r\n\t \"merchantId\" : 25,\r\n\t \"merchantName\" : \"iCheapFlight\",\r\n\t \"vendorId\" : \"1\",\r\n\t \"userAction\": \"couponCodeCopied\",\r\n\t \"offerId\": \"124\",\r\n\t \"offerDescription\": \"20% Discount upto 20$\",\r\n\t \"couponCode\": \"DTRIP20\"\r\n}",
+                  "data": {
+                     "merchantId" : moffers.merchant.mid,
+                	 "merchantName" : moffers.merchant.merchantName,
+                	 "vendorId" : "1",
+                	 "userAction": "couponCodeCopied",
+                	 "offerId": moffers.cbOffer.offerId,
+                	 "offerDescription": moffers.cbOffer.offerDescription,
+                	 "couponCode": moffers.cbOffer.couponCode
+                  },
                   dataType: 'json',
     			success: function (res) {
     				console.log("data", res);
