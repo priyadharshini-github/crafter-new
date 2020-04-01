@@ -101,8 +101,9 @@
         <#assign vrule = vendorRule?eval>
 	    <div class="row">
 	        <div class="col-12 top-offers">
-	        <h3 align="center">Top Offers ${vrule.maxTiles}</h3>
+	        <h3 align="center">Top Offers</h3>
 	        <div class="row">
+	        <#list vrule.maxTiles as vrTiles>
 			<div class="col-3">
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
@@ -114,6 +115,7 @@
 					</div>
 				</div>
 			</div>
+			</#list>
 			<div class="col-3">
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
