@@ -42,7 +42,7 @@ $(document).ready(function(){
     
     	$('div.code').click(function () {
     	    var moffers = $(this).data('moffers');
-    	    var merchOffers = JSON.stringify(moffers);
+    	    var merchOffers = JSON.parse(moffers);
     	    console.log(merchOffers.merchant.mid);
  		    var x = document.getElementById("toast");
             x.className = "show";
