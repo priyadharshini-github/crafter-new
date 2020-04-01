@@ -41,9 +41,8 @@ $(document).ready(function(){
     	});
     
     	$('div.code').click(function () {
-    	    var moffers = $(this).data('moffers');
-    	    var merchOffers = JSON.parse(moffers);
-    	    console.log(merchOffers.merchant.mid);
+    	    var moffers = $(this).data().getJSON('moffers');
+            
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
