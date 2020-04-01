@@ -14,17 +14,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 		<!-- <script src="/static-assets/js/useraction.js"></script> -->
         <script>
-            function clickToCopy (element) {
-            console.log("code copy function");
-                var $temp = $("<input>");
-                $("body").append($temp);
-                // $temp.val($(element).html()).select();
-                $temp.val(element).select();
-                document.execCommand("copy");
-                $temp.remove();
-                console.log("code copied");
-            }
-            
             $(document).ready(function(){
                 $.ajax({
             		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
@@ -106,6 +95,16 @@
                 }, 1000);
         	});
     	}
+    	
+    	function clickToCopy (element) {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            // $temp.val($(element).html()).select();
+            $temp.val(element).select();
+            document.execCommand("copy");
+            $temp.remove();
+            console.log("code copied");
+        }
 });
         </script>
 	</head>
