@@ -15,6 +15,38 @@
 		<script src="/static-assets/js/useraction.js"></script>
         <script>
         	function clickToCopy (element) {
+        	    var x = document.getElementById("toast");
+        	    var moffers = "${merchantOffers}"
+                x.className = "show";
+                setTimeout(function(){ 
+                    x.className = x.className.replace("show", ""); 
+                    $.ajax({
+        			"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
+                      "method": "POST",
+                      "timeout": 0,
+                      "headers": {
+                        "Content-Type": "application/json",
+                        "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+                        "Accept": "application/json",
+                      },
+                      "data": {
+                         "merchantId" : moffers.merchant.mid,
+                    	 "merchantName" : moffers.merchant.merchantName,
+                    	 "vendorId" : "1",
+                    	 "userAction": "couponCodeCopied",
+                    	 "offerId": moffers.cbOffer.offerId,
+                    	 "offerDescription": moffers.cbOffer.offerDescription,
+                    	 "couponCode": moffers.cbOffer.couponCode
+                      },
+                      dataType: 'json',
+        			success: function (res) {
+        				console.log("data", res);
+        			},
+        			error: function(errorThrown){
+                 			alert(errorThrown);
+              		}
+        		});
+                }, 1000);
                 var $temp = $("<input>");
                 $("body").append($temp);
                 // $temp.val($(element).html()).select();
