@@ -17,7 +17,6 @@
         	function clickToCopy (element) {
         	    var x = document.getElementById("toast");
         	    var moffers = "${merchantOffers}";
-        	    console.log(${RequestParameters.mid});
                 var $temp = $("<input>");
                 $("body").append($temp);
                 // $temp.val($(element).html()).select();
