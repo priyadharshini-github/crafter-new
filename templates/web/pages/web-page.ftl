@@ -112,7 +112,7 @@
 			<div class="col-3">
 				<div class="offer offer-radius">
 					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid" onload="maxTiles(vrule.maxTiles)">						
+						<img src="/static-assets/images/130063_large.png" class="img-fluid" onload="maxTiles(${vrule.maxTiles})">						
 						<i>A little description for the offer.</i>
 						<div class="offer-per" align="center">
 						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
