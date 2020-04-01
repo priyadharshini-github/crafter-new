@@ -129,9 +129,7 @@
 					</div>
 				</div>
 			</div>
-			<#list>
 			<div id="wrapper"></div>
-			</#list>
         </div>
 	        </div>
 	    </div>
