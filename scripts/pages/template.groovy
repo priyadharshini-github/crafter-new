@@ -54,7 +54,7 @@ if (storeResponseEntity != null) {
  merchantOffers = org.apache.http.util.EntityUtils.toString(storeResponseEntity);
 }
 
-// get Merchant store list
+// get vendor rule
 def uriRule = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/rule")
 org.apache.http.client.methods.HttpGet getRuleRequest= new org.apache.http.client.methods.HttpGet(uriRule);
 getStoreRequest.addHeader("Accept", "application/json");
