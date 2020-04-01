@@ -42,6 +42,7 @@ $(document).ready(function(){
     
     	$('div.code').click(function () {
     	    var moffers = $(this).data('moffers');
+    	    console.log(JSON.parse(moffers));
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
