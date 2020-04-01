@@ -216,7 +216,7 @@
 	        
 	        </div>
 	        <div class="col-8">
-	        <div style="margin-left: auto; text-align: right;"> Sort by:
+	        <div style="margin-left: auto; text-align: right; margin-bottom: 15px;"> Sort by:
     	        <select class="btn btn-light">
                     <option class="dropdown-item">Newest</option>
                     <option class="dropdown-item">Expiry Date</option>
