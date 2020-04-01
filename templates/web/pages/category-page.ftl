@@ -12,11 +12,11 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 		<script src="/static-assets/js/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-		<script src="/static-assets/js/useraction.js"></script>
+		<!-- <script src="/static-assets/js/useraction.js"></script> -->
         <script>
         	function clickToCopy (element) {
         	    var x = document.getElementById("toast");
-        	    var moffers = "${merchantOffers}"
+        	    var moffers = "${cpOffers}"
         	    console.log(moffers);
                 x.className = "show";
                 setTimeout(function(){ 
