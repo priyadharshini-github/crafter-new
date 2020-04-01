@@ -41,6 +41,8 @@ $(document).ready(function(){
     	});
     
     	$('div.code').click(function () {
+    	    var moffers = $(this).data('merchantOffers');
+    	    console.log('moof :' + moffers);
  		    var x = document.getElementById("toast");
             x.className = "show";
             setTimeout(function(){ 
