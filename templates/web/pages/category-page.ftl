@@ -25,7 +25,7 @@
                 console.log("code copied");
             }
             
-            var variableFreeMarker = "${moffers}"
+            var variableFreeMarker = "${moffers}";
             console.log(variableFreeMarker);
         </script>
 	</head>
