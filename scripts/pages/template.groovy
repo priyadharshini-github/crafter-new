@@ -72,7 +72,7 @@ org.apache.http.HttpEntity ruleResponseEntity = ruleResponse.getEntity();
 if (ruleResponseEntity != null) {
  vendorRule = org.apache.http.util.EntityUtils.toString(ruleResponseEntity);
 }
-
+println merchCategories;
 //////////////////////
 templateModel.merchCategories = categories;
 templateModel.merchantOffers = merchantOffers;
