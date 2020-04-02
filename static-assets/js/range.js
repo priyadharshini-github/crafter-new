@@ -28,7 +28,7 @@ $(document).ready(function() {
     console.log(values[0] + "-" + values[1]);
     var minValue = values[0];
     var maxValue = values[1];
-    
+    templateModel.testVar = '1234';
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/filter/" + minValue + "/" + maxValue + "/true",
           "method": "GET",
