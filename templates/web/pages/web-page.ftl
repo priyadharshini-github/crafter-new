@@ -98,7 +98,7 @@
     
   </div>
 </nav>
-<div>${testVar}</div>
+<div id="testdiv"></div>
         <#assign vrule = vendorRule?eval>
 	    <div class="row">
 	        <div class="col-12 top-offers">
