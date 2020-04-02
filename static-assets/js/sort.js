@@ -1,5 +1,5 @@
  $(document).ready(function() {
-     $(span.red).
+     $(span.red).onload (function() {
      
        var date = $(this).data('date');
        console.log(date);
@@ -25,6 +25,7 @@
             });
             
             _old.remove();
+     });
     	});
     	
     		$(document).ready(function() {
