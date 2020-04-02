@@ -16,6 +16,8 @@ org.apache.http.HttpResponse storeResponse = httpStoreClient.execute(getStoreReq
 
 status = storeResponse.getStatusLine().getStatusCode();
 def merchantOffers = ""
+def minValue = params.minValue;
+console.log(minValue);
 
 if (status>= 300) {
  throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching merchant offers - status: " + status)
