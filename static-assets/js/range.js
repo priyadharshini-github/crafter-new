@@ -19,16 +19,32 @@ $(document).ready(function() {
   });
   
   rangeSlider.noUiSlider.on('update', function(values, handle) {
-    var params = {};
     document.getElementById('slider-range-value1').innerHTML = values[0];
     document.getElementById('slider-range-value2').innerHTML = values[1];
     document.getElementsByName('min-value').value = moneyFormat.from(
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
-    params.minValue = values[0];
-    params.maxValue = values[1];
-    //console.log(values[0] + "-" + values[1]);
+    console.log(values[0] + "-" + values[1]);
+    var minValue = values[0];
+    var maxValue = values[1];
+    
+    $.ajax({
+		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/filter/" + minValue + "/" + maxValue + "/true",
+          "method": "GET",
+          "timeout": 0,
+          "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+            "Accept": "application/json",
+          },
+		success: function (res) {
+			console.log("data", res);
+		},
+		error: function(errorThrown){
+     			alert(errorThrown);
+  		}
+	});
   });
 });
 
