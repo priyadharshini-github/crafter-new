@@ -40,7 +40,7 @@ $(document).ready(function() {
           },
 		success: function (res) {
 			console.log("data", res);
-			$("#testdiv").innerHTML(res);
+			$("#testdiv").html(res);
 		},
 		error: function(errorThrown){
             console.log("error", errorThrown);
