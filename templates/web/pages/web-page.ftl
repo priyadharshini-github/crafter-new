@@ -98,11 +98,11 @@
     
   </div>
 </nav>
-<p id="testdiv"></p>
         <#assign vrule = vendorRule?eval>
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Top Offers</h3>
+	        <p id="testdiv"></p>
 	        <div class="row">
 			<div class="col-3">
 				<div class="offer offer-radius">
