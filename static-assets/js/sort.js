@@ -1,4 +1,6 @@
  $(document).ready(function() {
+     $(span.red).
+     
        var date = $(this).data('date');
        console.log(date);
        
