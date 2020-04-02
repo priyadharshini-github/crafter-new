@@ -1,8 +1,7 @@
- $(document).ready(function() {
-     $(span.red).onload (function() {
-     
-       var date = $(this).data('date');
+ $('span.red').ready(function() {
+      var date = $(this).data('date');
        console.log(date);
+     
        
              function sortDates(a, b)
                 {
@@ -25,10 +24,9 @@
             });
             
             _old.remove();
-     });
     	});
     	
-    		$(document).ready(function() {
+    	/*	$(document).ready(function() {
 				$('th').click(function(){
 					console.log('th clicked');
 					var table = $(this).parents('table').eq(0)
@@ -44,4 +42,4 @@
 					}
 				}
 				function getCellValue(row, index){ return $(row).children('td').eq(index).text() }
-			});
+			});*/
