@@ -74,7 +74,6 @@ if (ruleResponseEntity != null) {
 }
 
 //////////////////////
-logger.info('MY MESSAGE')
 templateModel.merchCategories = categories;
 templateModel.merchantOffers = merchantOffers;
 templateModel.vendorRule = vendorRule;
