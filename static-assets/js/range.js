@@ -19,13 +19,16 @@ $(document).ready(function() {
   });
   
   rangeSlider.noUiSlider.on('update', function(values, handle) {
+    var params = {};
     document.getElementById('slider-range-value1').innerHTML = values[0];
     document.getElementById('slider-range-value2').innerHTML = values[1];
     document.getElementsByName('min-value').value = moneyFormat.from(
       values[0]);
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
-    console.log(values[0] + "-" + values[1]);
+    params.minValue = values[0];
+    params.maxValue = values[1];
+    //console.log(values[0] + "-" + values[1]);
   });
 });
 
