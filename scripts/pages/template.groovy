@@ -64,6 +64,7 @@ org.apache.http.HttpResponse ruleResponse = httpRuleClient.execute(getRuleReques
 
 status = ruleResponse.getStatusLine().getStatusCode();
 def vendorRule = ""
+def minValue = params.minValue;
 
 if (status>= 300) {
  throw new org.apache.http.client.ClientProtocolException("Unexpected error while fetching vendor rules - status: " + status)
@@ -74,6 +75,7 @@ if (ruleResponseEntity != null) {
 }
 
 //////////////////////
+templateModel.minValue = minValue;
 templateModel.merchCategories = categories;
 templateModel.merchantOffers = merchantOffers;
 templateModel.vendorRule = vendorRule;
