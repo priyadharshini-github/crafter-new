@@ -98,7 +98,6 @@
     
   </div>
 </nav>
-<p id="slider-range"></p>
         <#assign vrule = vendorRule?eval>
 	    <div class="row">
 	        <div class="col-12 top-offers">
