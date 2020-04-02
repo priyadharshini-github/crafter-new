@@ -26,5 +26,5 @@ if (storeResponseEntity != null) {
 }
 
 templateModel.merchantOffers = merchantOffers;
-console.log(merchantOffers);
+System.out.println(merchantOffers);
 return merchantOffers
