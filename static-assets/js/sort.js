@@ -1,4 +1,7 @@
  $(document).ready(function() {
+       var date = $(this).data('date');
+       console.log(date);
+       
              function sortDates(a, b)
                 {
                     return new Date(b).getTime() - new Date(a).getTime();
