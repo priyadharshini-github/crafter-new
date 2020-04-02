@@ -264,7 +264,7 @@
     	        </div>
     	        <div class="col-6 center-align display-block vertical-align">
     	            <div class="code-css font-12 code"><button type="button" class="copy-code-btn" onclick="clickToCopy('${co.couponCode}')">Copy Code: ${co.couponCode}</button></div>
-    	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
+    	            <span data-date = '${co.offerEndDate}' class="red font-12">Expires by ${co.offerEndDate}</span>
     	        </div>
     	      </div>
     	     </div>
