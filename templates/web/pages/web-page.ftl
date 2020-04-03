@@ -244,7 +244,7 @@
       <#assign accordionHref = "#tableone" + mo?index>
       <#assign tableOneId = "tableone" + mo?index>
       <tr id="products">
-        <#assign imageUrl = "http://logo.clearbit.com/"+${mo.merchant.merchantName}+".com">
+        <#assign imageUrl = "http://logo.clearbit.com/" + mo.merchant.merchantName + ".com">
         <td width="15%" class="vertical-align"><a href="#"><img class="img-fluid" src=${imageUrl} alt="Store Image" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer?mid=${mo.merchant.mid}">${mo.merchant.merchantName}</a></td>
         <td width="25%" class="vertical-align center-align">${mo.cbOffer.commissionTerms} %</td>
