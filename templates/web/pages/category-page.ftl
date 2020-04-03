@@ -130,7 +130,7 @@
     	        </div>
     	        <div class="col-3 center-align display-block vertical-align">
     	            <div class="code-css font-12 code" data-moffers='${merchantOffers}'><button type="button" class="copy-code-btn" onclick="clickToCopy('${co.couponCode}')"> Copy Code: <span id="texttocopy">${co.couponCode}</span></button></div>
-    	            <span class="red font-12">Expires by ${co.offerEndDate}</span>
+    	            <span class="red font-12">Expires by ${co.offerEndDate?date('yyyy-MM-dd')?string('dd MMM yyyy')}</span>
     	        </div>
     	    </div>
 	    </#list>
