@@ -250,7 +250,7 @@
             <#assign storeDomain = ".ca">
         <#else>
             <#assign storeDomain = ".com">
-        <#/if>
+        </#if>
             
         <#assign imageUrl = "http://logo.clearbit.com/" + storeName + storeDomain>
         <div>${imageUrl}</div>
