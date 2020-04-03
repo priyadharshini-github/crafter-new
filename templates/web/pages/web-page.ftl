@@ -245,7 +245,14 @@
       <#assign tableOneId = "tableone" + mo?index>
       <tr id="products">
         <#assign storeName = mo.merchant.merchantName?replace("'", "")>
-        <#assign imageUrl = "http://logo.clearbit.com/" + storeName?lower_case + ".com">
+        <#assign storeName = storeName?lower_case>
+        <#if storeName == "walmart">
+            <#assign storeDomain = ".ca">
+        <#else>
+            <#assign storeDomain = ".com">
+        <#if>
+            
+        <#assign imageUrl = "http://logo.clearbit.com/" + storeName + storeDomain>
         <div>${imageUrl}</div>
         <td width="15%" class="vertical-align"><a href="#"><img class="img-fluid" src=${imageUrl} alt="Store Image" /></a></td>
         <td width="40%" class="vertical-align"><a href="/offer?mid=${mo.merchant.mid}">${mo.merchant.merchantName}</a></td>
