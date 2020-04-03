@@ -134,7 +134,7 @@
 		                 
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">
-                    	<label class="checkbox">${merchCat} <input type="checkbox" /><span class="default"></span></label>
+                    	<label class="checkbox"><input type="checkbox" /><span class="default"></span></label>
                     </li>
                     <li class="list-group-item">
                         <label class="checkbox">Lifestyle <input type="checkbox" /><span class="primary"></span></label>
