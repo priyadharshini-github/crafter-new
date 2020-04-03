@@ -154,7 +154,7 @@
 	    </div>
 	    <hr>
 	    
-	    <div class="row" style="background: #f1f1f1;">
+	    <div class="row disclaimer" style="background: #f1f1f1;">
 	        <div class="col-12" style="padding: 10px;">
 	          <p><strong>Disclaimer: </strong><br>
 	          
