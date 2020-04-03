@@ -69,7 +69,6 @@
 	        
 	        </div>
 	        <div class="col-9">
-	        <div>${merchCategories}</div>
 	        <table id="example" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
