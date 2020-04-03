@@ -134,6 +134,34 @@
     	        </div>
     	    </div>
 	    </#list>
+	    
+	    <hr>
+	    
+	       <div class="row">
+	        <div class="col-12">
+	           <p> <strong>Shipping Policy</strong><br>
+                Orders are shipped Monday to Friday. *Orders placed before 11:00 am PST will generally be shipped out on the same day. Orders placed after 11:00 am PST will generally be shipped out on the following day with the exception of orders placed on a Friday. Those orders will ship out on the following Monday or next Business day (if Monday is a holiday). You will be notified via email once your order has been shipped. Please note we do not offer weekend shipping.
+                <br><br>
+                <strong>Tax Policy</strong><br>
+                We charge sales tax for all online orders that are being shipped to locations in Alabama, California, Colorado, Connecticut, District of Columbia, Georgia, Hawaii, Illinois, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Nebraska, Nevada, New Jersey, New York, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin and Wyoming. Other states are not charged at this time.
+                <br><br>
+                <strong>Payment Policy</strong><br>
+                We accept Visa, MasterCard, American Express, and Discover credit cards for payment.
+                <br><br>
+                <strong>Return </strong><br>
+                We accept returns for items purchased on the online store that are received back within 30 days from the delivery date for a refund or store credit. Returns received back after 30 days from the delivery date will not be accepted. We do not process exchanges at this time. Please note that shipping charges are non-refundable. Once a return arrives at our warehouse, it will take us 10 to 14 business days to receive, inspect, and process. You will be notified via email once your return has been completed.<p>
+	        </div>
+	    </div>
+	    <hr>
+	    
+	    <div class="row" style="background: #f1f1f1;">
+	        <div class="col-12" style="padding: 10px;">
+	          <p><strong>Disclaimer: </strong><br>
+	          
+	          You are about to enter a third party's website. The Company includes links to the websites of third party merchants. The Company is not responsible for these sites, nor for any goods, information or services supplied through or in connection with them. Use of, purchases on, and any personal data you give to those sites will be subject to the merchant's own Terms and Conditions, which you should also read carefully. Please note that by making a purchase with this third party, you agree that we may be passed information relating to your purchase which you provide as part of your transaction, which we will hold and use in accordance with our Privacy Policy.</p>
+	        </div>
+	    </div>
+		
 	</section>
 	</#if>
   </#list>
