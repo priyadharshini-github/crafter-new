@@ -137,7 +137,7 @@
 	    
 	    <hr>
 	    
-	       <div class="row">
+	       <div class="row disclaimer">
 	        <div class="col-12">
 	           <p> <strong>Shipping Policy</strong><br>
                 Orders are shipped Monday to Friday. *Orders placed before 11:00 am PST will generally be shipped out on the same day. Orders placed after 11:00 am PST will generally be shipped out on the following day with the exception of orders placed on a Friday. Those orders will ship out on the following Monday or next Business day (if Monday is a holiday). You will be notified via email once your order has been shipped. Please note we do not offer weekend shipping.
