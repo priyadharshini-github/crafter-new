@@ -289,7 +289,6 @@
 </div>
 
 <div class="row">
-    <div class="col-12">
         <nav aria-label="Page navigation"  style="margin-left: auto; margin-right: auto;">
           <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -299,7 +298,6 @@
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
           </ul>
         </nav>
-    </div>
 </div>
 
 	        </div>
