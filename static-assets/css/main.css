@@ -490,3 +490,8 @@ body{
   from {bottom: 0; opacity: 0;}
   to {bottom: 30px; opacity: 1;}
 }
+
+
+.disclaimer p{
+    font-size: 10px;
+}
