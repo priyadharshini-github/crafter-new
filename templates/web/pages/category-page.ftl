@@ -154,9 +154,9 @@
 	    </div>
 	    <hr>
 	    
-	    <div class="row disclaimer" style="background: #f1f1f1;">
-	        <div class="col-12" style="padding: 10px;">
-	          <p><strong>Disclaimer: </strong><br>
+	    <div class="row disclaimer">
+	        <div class="col-12">
+	          <p style="background: #f1f1f1; padding: 10px;"><strong>Disclaimer: </strong><br>
 	          
 	          You are about to enter a third party's website. The Company includes links to the websites of third party merchants. The Company is not responsible for these sites, nor for any goods, information or services supplied through or in connection with them. Use of, purchases on, and any personal data you give to those sites will be subject to the merchant's own Terms and Conditions, which you should also read carefully. Please note that by making a purchase with this third party, you agree that we may be passed information relating to your purchase which you provide as part of your transaction, which we will hold and use in accordance with our Privacy Policy.</p>
 	        </div>
