@@ -35,8 +35,8 @@ if (responseEntity != null) {
  categories = org.apache.http.util.EntityUtils.toString(responseEntity);
 }
 
-// get popular sites based on vendor rule engine
-def uriPop = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/popular/sites/rakuten")
+// get popular sites based on max tiles rule
+def uriPop = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/popular/sites/true")
 org.apache.http.impl.client.DefaultHttpClient httpPopClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getPopRequest= new org.apache.http.client.methods.HttpGet(uriPop);
 getRequest.addHeader("Accept", "application/json");
