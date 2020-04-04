@@ -119,7 +119,7 @@
     			<div class="col-3">
     				<div class="offer offer-radius">
     					<div class="offer-content center-align" align="center">
-    					    <div style="margin-left: auto; margin-right: auto;">
+    					    <div class="center-align">
         					    <div class="flex" style="width: fit-content;">
             					    
             						<img src=${mImgUrl} class="img-fluid" style="height: 50px;">
