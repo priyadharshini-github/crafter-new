@@ -102,8 +102,6 @@
 	    <#assign pSites = popularSites?eval>
 	    <#assign mOffers = merchantOffers?eval>
 
-        <div>${pSites}</div>
-        
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Popular Sites</h3>
@@ -113,7 +111,7 @@
     				<div class="offer offer-radius">
     					<div class="offer-content center-align" align="center">
     						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-    						mid: ${ps.mid} <i>A little description for the offer.</i>
+    						mid: ${ps.merchant.merchantName} <i>A little description for the offer.</i>
     						<div class="offer-per" align="center">
     						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
     						</div>
