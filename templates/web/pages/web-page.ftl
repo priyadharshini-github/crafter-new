@@ -107,13 +107,23 @@
 	        <h3 align="center">Popular Sites</h3>
 	        <div class="row">
 	        <#list pSites as ps>
+                <#assign mName = ps.merchant.merchantName?replace("'", "")>
+                <#assign mName = mName?lower_case>
+                <#if mName == "walmart">
+                    <#assign mDomain = ".ca">
+                <#else>
+                    <#assign mDomain = ".com">
+                </#if>
+                <#assign mImgUrl = "http://logo.clearbit.com/" + mName + mDomain>
+
     			<div class="col-3">
     				<div class="offer offer-radius">
     					<div class="offer-content center-align" align="center">
-    						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-    						mid: ${ps.merchant.merchantName} <i>A little description for the offer.</i>
+    					    <div>${ps.merchant.merchantName}</div>
+    						<img src=${mImgUrl} class="img-fluid">						
+    						 <i>A little description for the offer.</i>
     						<div class="offer-per" align="center">
-    						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+    						<div class="flex min-content" align="center">${ps.cbOffer.commissionTerms}% <span class="cashback">Cash<br>back</span></div>
     						</div>
     					</div>
     				</div>
