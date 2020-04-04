@@ -94,7 +94,7 @@ if (ruleResponseEntity != null) {
 
 //////////////////////
 templateModel.merchCategories = categories;
-templateModel.pouplarSites = popularSites;
+templateModel.popularSites = popularSites;
 templateModel.merchantOffers = merchantOffers;
 templateModel.vendorRule = vendorRule;
 
