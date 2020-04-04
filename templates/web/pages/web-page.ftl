@@ -98,61 +98,30 @@
     
   </div>
 </nav>
-        <#assign vrule = vendorRule?eval>
+	    <#assign mcats = merchCategories?eval>
+	    <#assign pSites = popularSites?eval>
+	    <#assign mOffers = merchantOffers?eval>
+
 	    <div class="row">
 	        <div class="col-12 top-offers">
-	        <h3 align="center">Top Offers</h3>
+	        <h3 align="center">Popular Sites</h3>
 	        <div class="row">
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">3% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">10% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-3">
-				<div class="offer offer-radius">
-					<div class="offer-content center-align" align="center">
-						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
-						<i>A little description for the offer.</i>
-						<div class="offer-per" align="center">
-						<div class="flex min-content" align="center">15% <span class="cashback">Cash<br>back</span></div>
-						</div>
-					</div>
-				</div>
-			</div>
+	        <#list pSites as ps>
+    			<div class="col-3">
+    				<div class="offer offer-radius">
+    					<div class="offer-content center-align" align="center">
+    						<img src="/static-assets/images/130063_large.png" class="img-fluid">						
+    						mid: ${ps.mid} <i>A little description for the offer.</i>
+    						<div class="offer-per" align="center">
+    						<div class="flex min-content" align="center">5% <span class="cashback">Cash<br>back</span></div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+           </#list>
         </div>
 	        </div>
 	    </div>
-	    
-	    <#assign mcats = merchCategories?eval>
-	    <#assign moffers = merchantOffers?eval>
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
@@ -238,7 +207,7 @@
         </tr>
     </thead>
     <tbody id="myTable">
-      <#list moffers as mo>
+      <#list mOffers as mo>
       <#assign accordionId = "accordion" + mo?index>
       <#assign accordionDataParent = "#accordion" + mo?index>
       <#assign accordionHref = "#tableone" + mo?index>
