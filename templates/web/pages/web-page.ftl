@@ -119,8 +119,14 @@
     			<div class="col-3">
     				<div class="offer offer-radius">
     					<div class="offer-content center-align" align="center">
-    					    <h3>${ps.merchant.merchantName}</h3>
-    						<img src=${mImgUrl} class="img-fluid" style="height: 80px;"><br>						
+    					    <div class="center-align">
+        					    <div class="flex">
+            					    
+            						<img src=${mImgUrl} class="img-fluid" style="height: 50px;">
+            						<h3 style="line-height: 50px; margin-left: 5px;">${ps.merchant.merchantName}</h3>
+            						
+        						</div>
+    						</div>
     						 <i>A little description for the offer.</i>
     						<div class="offer-per" align="center">
     						<div class="flex min-content" align="center">${ps.cbOffer.commissionTerms}% <span class="cashback">Cash<br>back</span></div>
