@@ -102,6 +102,8 @@
 	    <#assign pSites = popularSites?eval>
 	    <#assign mOffers = merchantOffers?eval>
 
+        <div>${pSites}</div>
+        
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Popular Sites</h3>
