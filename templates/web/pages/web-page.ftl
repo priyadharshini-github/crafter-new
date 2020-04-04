@@ -119,7 +119,7 @@
     			<div class="col-3">
     				<div class="offer offer-radius">
     					<div class="offer-content center-align" align="center">
-    					    <div>${ps.merchant.merchantName}</div>
+    					    <h3>${ps.merchant.merchantName}</h3>
     						<img src=${mImgUrl} class="img-fluid">						
     						 <i>A little description for the offer.</i>
     						<div class="offer-per" align="center">
