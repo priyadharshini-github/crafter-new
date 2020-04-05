@@ -84,7 +84,7 @@ if (storeResponseEntity != null) {
 }
 
 // get vendor rule
-def uriRule = new URI(apiUrl + rule")
+def uriRule = new URI(apiUrl + "rule")
 org.apache.http.client.methods.HttpGet getRuleRequest= new org.apache.http.client.methods.HttpGet(uriRule);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
