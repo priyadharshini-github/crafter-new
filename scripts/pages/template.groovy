@@ -14,11 +14,10 @@ import org.apache.http.util.EntityUtils;
 */
 import org.json.XML;
 
-templateModel.sterm = params.sterm;
-templateModel.catid = params.category;
+def apiUrl = "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/"
 
 // get list of categories
-def uri = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/categories")
+def uri = new URI(apiUrl + "categories")
 def authString = "Basic dXNlcjE6cGFzc3dvcmQx"
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
@@ -38,7 +37,7 @@ if (responseEntity != null) {
 }
 
 // get popular sites based on max tiles rule
-def uriPop = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/popular/sites/true")
+def uriPop = new URI(apiUrl + "popular/sites/true")
 org.apache.http.impl.client.DefaultHttpClient httpPopClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getPopRequest= new org.apache.http.client.methods.HttpGet(uriPop);
 getRequest.addHeader("Accept", "application/json");
@@ -57,7 +56,16 @@ if (popResponseEntity != null) {
 }
 
 // get Merchant store list
-def uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/true")
+// check if it's a search
+def sterm = params.sterm;
+def catid = params.category;
+
+def uriStoreList = ""
+if( (sterm != null) && (!sterm.trim().isEmpty())) {
+    uriStoreList = new URI(apiUrl + "merchant/offers/search/sterm/catid/true")
+} else {
+    uriStoreList = new URI(apiUrl + "merchant/offers/true")
+}
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
@@ -76,7 +84,7 @@ if (storeResponseEntity != null) {
 }
 
 // get vendor rule
-def uriRule = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/rule")
+def uriRule = new URI(apiUrl + rule")
 org.apache.http.client.methods.HttpGet getRuleRequest= new org.apache.http.client.methods.HttpGet(uriRule);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
