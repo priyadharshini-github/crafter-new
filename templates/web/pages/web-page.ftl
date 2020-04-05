@@ -124,7 +124,7 @@
 	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
-            <select class="btn btn-dark btn-block">
+            <select name="category" class="btn btn-dark btn-block">
                 <option class="dropdown-item">Categories</option>
                 <#list mcats as cat>
                     <option class="dropdown-item">${cat.categoryName}</option>
