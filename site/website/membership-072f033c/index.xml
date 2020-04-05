@@ -6,30 +6,17 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>0cdf8de3</objectGroupId>
 	<objectId>0cdf8de3-a860-4a91-b662-8ab28d693bf1</objectId>
-	<folder-name>membership-072f033c</folder-name>
-	<placeInNav>true</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
-	<internal-name>Membership 072f033c</internal-name>
+	<folder-name>search-results</folder-name>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<internal-name>search-results</internal-name>
 	<createdDate>2020-02-11T07:39:20.545Z</createdDate>
 	<createdDate_dt>2020-02-11T07:39:20.545Z</createdDate_dt>
-	<lastModifiedDate>2020-02-12T08:10:13.036Z</lastModifiedDate>
-	<lastModifiedDate_dt>2020-02-12T08:10:13.036Z</lastModifiedDate_dt>
+	<lastModifiedDate>2020-04-05T05:56:19.288Z</lastModifiedDate>
+	<lastModifiedDate_dt>2020-04-05T05:56:19.288Z</lastModifiedDate_dt>
 	<file-name>index.xml</file-name>
-	<categories_o item-list="true">	<item datasource="category">	<key>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</key>
-	<value>Category 1</value>
-	<include>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="category">	<key>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</key>
-	<value>Category 2</value>
-	<include>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item datasource="category">	<key>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</key>
-	<value>Category 3</value>
-	<include>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></categories_o>
 	<category_o item-list="true">	<item datasource="category">	<key>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</key>
-	<value>Category 1</value>
+	<value>Lifestyle</value>
 	<include>/site/components/category/9abcbaa0-5566-c8ef-e758-a382d713f31c.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item>	<item datasource="category">	<key>/site/components/category/38cc9279-e233-73e1-c278-73f236daddd2.xml</key>
@@ -41,4 +28,5 @@
 	<include>/site/components/category/1483c2e1-631f-4cd0-96c4-1b632a3c5882.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></category_o>
+	<product_o item-list="true"/>
 </page>
