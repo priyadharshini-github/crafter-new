@@ -14,8 +14,8 @@ import org.apache.http.util.EntityUtils;
 */
 import org.json.XML;
 
-templateModel.paramSterm = params.sterm;
-templateModel.paramSCatId = params.category;
+templateModel.sterm = params.sterm;
+templateModel.catid = params.category;
 
 // get list of categories
 def uri = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/categories")
