@@ -2,7 +2,7 @@ def merchCategories = {
     [
         {
             merchant: {
-                mid: "8001",
+                mid: 8001,
                 merchantName: "Samsung"
             },
             couponOffers: [{
