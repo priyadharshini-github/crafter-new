@@ -72,4 +72,4 @@ templateModel.popularSites = popularSites;
 templateModel.merchantOffers = merchantOffers;
 ////////////////////////
 
-return /templates/web/pages/web-page.ftl
+return "/templates/web/pages/web-page.ftl"
