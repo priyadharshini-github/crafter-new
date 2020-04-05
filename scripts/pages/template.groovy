@@ -60,6 +60,9 @@ if (popResponseEntity != null) {
 def sterm = params.sterm;
 def catid = params.category;
 
+templateModel.sterm = sterm;
+templateModel.catid = catid;
+
 def uriStoreList = ""
 if( (sterm != null) && (!sterm.trim().isEmpty())) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/search/" + sterm + "/" + catid + "/true")
