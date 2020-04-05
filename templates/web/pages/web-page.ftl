@@ -120,7 +120,7 @@
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
-	        <form action="/">
+	        <form action="/vendor">
 	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
