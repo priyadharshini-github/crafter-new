@@ -83,7 +83,7 @@
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Popular Sites</h3>
-	        <h2>search = ${RequestParameters.sterm}, categoryId = ${RequestParameters.category}</h2>
+	        <h2>search = ${paramSterm}, categoryId = ${paramScatId}</h2>
 	        <div class="row">
 	        <#list pSites as ps>
                 <#assign mName = ps.merchant.merchantName?replace("'", "")>
@@ -125,7 +125,7 @@
             </div>
             <div class="col-3">
             <select name="category" class="btn btn-dark btn-block">
-                <option class="dropdown-item">Categories</option>
+                <option class="dropdown-item" value="0">Categories</option>
                 <#list mcats as cat>
                     <option class="dropdown-item" value=${cat.categoryId}>${cat.categoryName}</option>
                 </#list>
