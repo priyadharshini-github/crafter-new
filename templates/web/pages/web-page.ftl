@@ -120,7 +120,8 @@
 
 	    <div class="row blue-bg">
 	        <div class="col-6">
-	        <input type="text" id="myInput" class="form-control" aria-label="Text input with dropdown button">
+	        <form action="/search-results">
+	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button">
             </div>
             <div class="col-3">
             <select class="btn btn-dark btn-block">
@@ -132,7 +133,7 @@
         
             </div>
             <div class="col-3">
-                <a href="/search-results?search=test" id="btnSearch" class="btn btn-block btn-dark mb-2">SEARCH</a>
+                <button type="submit" id="btnSearch" class="btn btn-block btn-dark mb-2">SEARCH</button>
             </div>
 	    </div>
 	    
