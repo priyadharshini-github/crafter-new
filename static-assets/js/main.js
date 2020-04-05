@@ -5,10 +5,17 @@ function showtoast() {
 }
 
 $(document).ready(function(){
+  /*
   $("#mySubmit").click (function() {
     var value = $(this).val().toLowerCase();
     $("#myTable tr").filter(function() {
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
+  });
+  */
+  
+  $("#btnSearch").click (function() {
+    var value = $(this).val().toLowerCase();
+    window.location.replace("/search-results?search=ebay")
   });
 });
