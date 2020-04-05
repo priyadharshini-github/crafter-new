@@ -17,7 +17,7 @@ import org.json.XML;
 def apiUrl = "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten"
 
 // get list of categories
-def uri = new URI(apiUrl + "categories")
+def uri = new URI(apiUrl + "/categories")
 def authString = "Basic dXNlcjE6cGFzc3dvcmQx"
 org.apache.http.impl.client.DefaultHttpClient httpClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getRequest= new org.apache.http.client.methods.HttpGet(uri);
