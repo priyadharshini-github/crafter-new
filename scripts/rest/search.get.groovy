@@ -51,4 +51,4 @@ def merchCategories = {
 
 templateModel.merchCategories = merchCategories;
 
-return merchCategories;
+return "Hello";
