@@ -37,7 +37,7 @@ if (responseEntity != null) {
 }
 
 // get popular sites based on max tiles rule
-def uriPop = new URI(apiUrl + "popular/sites/true")
+def uriPop = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/popular/sites/true")
 org.apache.http.impl.client.DefaultHttpClient httpPopClient = new org.apache.http.impl.client.DefaultHttpClient();
 org.apache.http.client.methods.HttpGet getPopRequest= new org.apache.http.client.methods.HttpGet(uriPop);
 getRequest.addHeader("Accept", "application/json");
@@ -62,9 +62,9 @@ def catid = params.category;
 
 def uriStoreList = ""
 if( (sterm != null) && (!sterm.trim().isEmpty())) {
-    uriStoreList = new URI(apiUrl + "merchant/offers/search/sterm/catid/true")
+    uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/search/sterm/catid/true")
 } else {
-    uriStoreList = new URI(apiUrl + "merchant/offers/true")
+    uriStoreList = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/merchant/offers/true")
 }
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
@@ -84,7 +84,7 @@ if (storeResponseEntity != null) {
 }
 
 // get vendor rule
-def uriRule = new URI(apiUrl + "rule")
+def uriRule = new URI("http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/rakuten/rule")
 org.apache.http.client.methods.HttpGet getRuleRequest= new org.apache.http.client.methods.HttpGet(uriRule);
 getStoreRequest.addHeader("Accept", "application/json");
 getStoreRequest.addHeader("Authorization", authString);
