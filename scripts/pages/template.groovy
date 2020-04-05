@@ -62,7 +62,7 @@ def catid = params.category;
 
 def uriStoreList = ""
 if( (sterm != null) && (!sterm.trim().isEmpty())) {
-    uriStoreList = new URI(apiUrl + "/merchant/offers/search/sterm/catid/true")
+    uriStoreList = new URI(apiUrl + "/merchant/offers/search/" + sterm + "/" + catid + "/true")
 } else {
     uriStoreList = new URI(apiUrl + "/merchant/offers/true")
 }
