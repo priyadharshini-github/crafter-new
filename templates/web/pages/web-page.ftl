@@ -156,6 +156,8 @@
             </div>
 	    </div>
 	    
+	    <#include "search-results.ftl">
+	    
 	    <section class="main-content">
 	    <div class="row">
 	        <div class="col-4">
