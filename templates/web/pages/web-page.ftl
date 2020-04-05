@@ -83,7 +83,6 @@
 	    <div class="row">
 	        <div class="col-12 top-offers">
 	        <h3 align="center">Popular Sites</h3>
-	        <h2>search = ${sterm}, categoryId = ${catid}</h2>
 	        <div class="row">
 	        <#list pSites as ps>
                 <#assign mName = ps.merchant.merchantName?replace("'", "")>
