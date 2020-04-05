@@ -60,14 +60,15 @@ if (popResponseEntity != null) {
 def sterm = params.sterm;
 def catid = params.category;
 
-templateModel.sterm = sterm;
-templateModel.catid = catid;
-
 def uriStoreList = ""
 if( (sterm != null) && (!sterm.trim().isEmpty())) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/search/" + sterm + "/" + catid + "/true")
+    templateModel.sterm = sterm;
+    templateModel.catid = catid;
 } else {
     uriStoreList = new URI(apiUrl + "/merchant/offers/true")
+    templateModel.sterm = "";
+    templateModel.catid = 0;
 }
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
