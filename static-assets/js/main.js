@@ -16,6 +16,6 @@ $(document).ready(function(){
   
   $("#btnSearch").click (function() {
     var value = $(this).val().toLowerCase();
-    window.location.replace("/search-results?search=ebay")
+    window.location.href = window.location.href + "/search-results?search=ebay";
   });
 });
