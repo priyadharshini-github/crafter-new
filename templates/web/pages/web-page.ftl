@@ -14,27 +14,6 @@
         <script src="/static-assets/js/main.js"></script>
         <script src="/static-assets/js/range.js"></script>
         <script>
-            var get_params = function(search_string) {
-              var parse = function(params, pairs) {
-                var pair = pairs[0];
-                var parts = pair.split('=');
-                var key = decodeURIComponent(parts[0]);
-                var value = decodeURIComponent(parts.slice(1).join('='));
-            
-                // Handle multiple parameters of the same name
-                if (typeof params[key] === "undefined") {
-                  params[key] = value;
-                } else {
-                  params[key] = [].concat(params[key], value);
-                }
-            
-                return pairs.length == 1 ? params : parse(params, pairs.slice(1))
-              }
-            
-              // Get rid of leading ?
-              return search_string.length == 0 ? {} : parse({}, search_string.substr(1).split('&'));
-            }
-            
             function clickToCopy (element) {
                 var $temp = $("<input>");
                 $("body").append($temp);
@@ -42,7 +21,6 @@
                 document.execCommand("copy");
                 $temp.remove();
             }
-            
         </script>
 	</head>
 	<style>
@@ -153,7 +131,8 @@
             </select>
         
             </div>
-            <div class="col-3"><button type="submit" id="btnSearch" class="btn btn-block btn-dark mb-2">SEARCH</button>
+            <div class="col-3">
+                <a href="/search-results?search=test" id="btnSearch" class="btn btn-block btn-dark mb-2">SEARCH</a>
             </div>
 	    </div>
 	    
