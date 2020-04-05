@@ -1,4 +1,4 @@
-templateModel.merchCategories = {
+def merchCategories = {
     [
         {
             merchant: {
@@ -46,4 +46,8 @@ templateModel.merchCategories = {
             }        
         }
     ]
-};
+}
+
+templateModel.merchCategories = merchCategories;
+
+return merchCategories;
