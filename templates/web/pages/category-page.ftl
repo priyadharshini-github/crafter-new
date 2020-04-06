@@ -92,6 +92,9 @@
     
 	<section class="main-content">
 	  <#assign merchantId = RequestParameters.mid>
+	  
+	  <input type="hidden" id="hdMid" value=${merchantId}>
+	  
 	  <#assign moffers = merchantOffers?eval>
     
       <#list moffers as mo>
