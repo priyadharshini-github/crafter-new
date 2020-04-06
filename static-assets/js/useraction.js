@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var offerDesc = $("#hdCpOffers").val();
+    var offerDesc = $("#hdOfferDesc").val();
     console.log(offerDesc);
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
