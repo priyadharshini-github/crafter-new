@@ -123,7 +123,9 @@
 	    <#assign cpOffers = mo.couponOffers>
 	    <#list cpOffers as co>
 	    
-	    <input type="hidden" id="hdCpOffers" value=${co.offerDescription}>
+	    <input type="hidden" id="hdOfferDesc" value=${co.offerDescription}>
+	    <input type="hidden" id="hdOfferId" value=${co.offerId}>
+	    <input type="hidden" id="hdCouponCode" value=${co.couponCode}>
 	    
     	    <div class="row offer-codebox">
     	        <div class="col-3 vertical-align center-align off">
