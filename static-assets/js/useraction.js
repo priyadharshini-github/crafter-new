@@ -1,7 +1,9 @@
 $(document).ready(function(){
+    var merchantId = $("#hdMid").val();
+    var merchantName = $("#hdMname").val();
     var offerDesc = $("#hdOfferDesc").val();
     var couponCode = $("#hdCouponCode").val();
-    console.log(couponCode);
+    console.log(merchantId, merchantName);
 //     $.ajax({
 // 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
 //           "method": "POST",
