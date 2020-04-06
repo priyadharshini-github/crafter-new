@@ -69,6 +69,8 @@ if( (sterm != null) && (!sterm.trim().isEmpty())) {
     templateModel.catid = catid;
 } else if( (minFilter != null) && (maxFilter != null)) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/filter/" + minFilter + "/" + maxFilter + "/true")
+    templateModel.sterm = "";
+    templateModel.catid = 0;
     templateModel.minFilter = minFilter;
     templateModel.maxFilter = maxFilter;
 } else {
