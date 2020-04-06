@@ -89,7 +89,14 @@
 </div>	    
 
 <div class="container" v-cloak>	 
-    
+    <div class="row">
+        <div class="col-12">
+            <ul class="breadcrumb wizard">
+		        <li class="completed"><a href="/vendor">Home</a></li>
+		        <li class="completed"><a href="/offers">Offers</a></li>
+	        </ul>           
+	    </div>
+	</div>
 	<section class="main-content">
 	  <#assign merchantId = RequestParameters.mid>
 	  
