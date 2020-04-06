@@ -4,32 +4,32 @@ $(document).ready(function(){
     var offerDesc = $("#hdOfferDesc").val();
     var couponCode = $("#hdCouponCode").val();
     console.log(merchantId, merchantName);
-    $.ajax({
-		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
-          "method": "POST",
-          "timeout": 0,
-          "headers": {
-            "Content-Type": "application/json",
-            "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
-            "Accept": "application/json",
-          },
-          "data": {
-            	 "merchantId" : merchantId,
-            	 "merchantName" : merchantName,
-            	 "vendorId" : "1",
-            	 "userAction": "offerDetailsSeen",
-            	 "offerId": "124",
-            	 "offerDescription": offerDesc,
-            	 "couponCode": couponCode
-            },
-          dataType: 'json',
-		success: function (res) {
-			console.log("data", res);
-		},
-		error: function(errorThrown){
-     			alert(errorThrown);
-  		}
-	});
+//     $.ajax({
+// 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
+//           "method": "POST",
+//           "timeout": 0,
+//           "headers": {
+//             "Content-Type": "application/json",
+//             "Authorization": "Basic dXNlcjE6cGFzc3dvcmQx",
+//             "Accept": "application/json",
+//           },
+//           "data": {
+//             	 "merchantId" : merchantId,
+//             	 "merchantName" : merchantName,
+//             	 "vendorId" : "1",
+//             	 "userAction": "offerDetailsSeen",
+//             	 "offerId": "124",
+//             	 "offerDescription": offerDesc,
+//             	 "couponCode": couponCode
+//             },
+//           dataType: 'json',
+// 		success: function (res) {
+// 			console.log("data", res);
+// 		},
+// 		error: function(errorThrown){
+//      			alert(errorThrown);
+//   		}
+// 	});
     		
 	$('div.off').click(function () {
         	$.ajax({
