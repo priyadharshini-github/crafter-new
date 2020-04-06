@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    alert($("#hdMid").val());
-    var moffers = $("#hdCpOffers").val();
+    var offerDesc = $("#hdCpOffers").val();
     console.log(moffers);
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
