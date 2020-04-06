@@ -30,8 +30,8 @@ $(document).ready(function() {
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
       
-    $("#hdMin").val(value[0]);
-    $("#hdMax").val(value[1]);
+    $("#hdMin").val(values[0]);
+    $("#hdMax").val(values[1]);
   });
 });
 
