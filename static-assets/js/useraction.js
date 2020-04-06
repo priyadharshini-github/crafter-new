@@ -1,7 +1,7 @@
 $(document).ready(function(){
     alert($("#hdMid").val());
     var moffers = JSON.stringify($("#hdCpOffers").val());
-    var jsonData = jQuery.parseJSON(moffers);
+    var jsonData = JSON.parse(moffers);
     console.log(jsonData[0]);
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
