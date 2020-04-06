@@ -123,6 +123,8 @@
 	    <hr>
 	    <#assign cpOffers = mo.couponOffers>
 	    
+	    <input type="hidden" id="hdCpOffers" value=${cpOffers}>
+	    
 	    <#list cpOffers as co>
     	    <div class="row offer-codebox">
     	        <div class="col-3 vertical-align center-align off">
