@@ -134,7 +134,7 @@
 	    <div class="row blue-bg">
 	        <div class="col-6">
 	        <form action="/vendor">
-	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button" value=${sterm}>
+	        <input type="search" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button" value=${sterm}>
 	        
             </div>
             <div class="col-3">
