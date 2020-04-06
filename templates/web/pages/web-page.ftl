@@ -45,6 +45,20 @@
 {
   content: '+';
 }
+#searchinput {
+    width: 200px;
+}
+#searchclear {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    height: 14px;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+    color: #ccc;
+}
 </style>
 	<body>
 	<div id="toast">
@@ -64,7 +78,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/signup">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="/membership">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
@@ -121,6 +135,7 @@
 	        <div class="col-6">
 	        <form action="/vendor">
 	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button" value=${sterm}>
+	        <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
             </div>
             <div class="col-3">
             <select name="category" class="btn btn-dark btn-block">
@@ -287,7 +302,11 @@
    <!-- Bootstrap JS -->
     <script src="/static-assets/js/bootstrap.min.js"></script>
 
-
+<script>
+$("#searchclear").click(function(){
+    $("#sterm").val('');
+});
+</script>
 	<@studio.toolSupport/>
 	</body>
 </html>
