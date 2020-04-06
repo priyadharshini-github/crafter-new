@@ -87,9 +87,7 @@
   </div>
 </nav>
 </div>	    
-
-<div class="container" v-cloak>	 
-    <div class="row">
+<div class="row">
         <div class="col-12">
            <div class="scp-breadcrumb">
                 <ul class="breadcrumb">
@@ -99,6 +97,8 @@
             </div>           
 	    </div>
 	</div>
+<div class="container" v-cloak>	 
+    
 	<section class="main-content">
 	  <#assign merchantId = RequestParameters.mid>
 	  
