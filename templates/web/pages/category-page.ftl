@@ -124,7 +124,7 @@
 	    <#list cpOffers as co>
 	    
 	    <input type="hidden" id="hdOfferDesc" value=${co.offerDescription}>
-	    <input type="hidden" id="hdOfferId" value=${co.offerId}>
+	    <!-- <input type="hidden" id="hdOfferId" value=${co.offerId}> -->
 	    <input type="hidden" id="hdCouponCode" value=${co.couponCode}>
 	    
     	    <div class="row offer-codebox">
