@@ -1,6 +1,6 @@
 $(document).ready(function(){
     alert($("#hdMid").val());
-    var moffers = JSON.stringyfy($("#hdCpOffers").val());
+    var moffers = JSON.stringify($("#hdCpOffers").val());
     console.log(jQuery.parseJSON(moffers));
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
