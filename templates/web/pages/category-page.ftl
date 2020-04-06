@@ -91,10 +91,12 @@
 <div class="container" v-cloak>	 
     <div class="row">
         <div class="col-12">
-            <ul class="breadcrumb wizard">
-		        <li class="completed"><a href="/vendor">Home</a></li>
-		        <li class="completed"><a href="/offers">Offers</a></li>
-	        </ul>           
+           <div class="scp-breadcrumb">
+                <ul class="breadcrumb">
+                    <li><a href="/vendor">Home</a></li>
+                    <li class="active">Offers</li>
+                </ul>
+            </div>           
 	    </div>
 	</div>
 	<section class="main-content">
