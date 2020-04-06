@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var offerDesc = $("#hdOfferDesc").val();
-    console.log(offerDesc);
+    var couponCode = $("#hdCouponCode").val();
+    console.log(couponCode);
     $.ajax({
 		"url": "http://vendor-api.eba-adup9t5c.us-east-2.elasticbeanstalk.com/api/vendor/user/action/201",
           "method": "POST",
