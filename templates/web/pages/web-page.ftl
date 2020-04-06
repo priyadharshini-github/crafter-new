@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 		<script src="/static-assets/js/jquery.min.js"></script>
 		<script src="/static-assets/js/nouislider.js"></script>
+		<script src="/static-assets/js/wnumb.min.js"></script>
         <script src="/static-assets/js/table.js"></script>
         <script src="/static-assets/js/main.js"></script>
         <script src="/static-assets/js/range.js"></script>
