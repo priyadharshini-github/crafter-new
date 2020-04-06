@@ -122,7 +122,9 @@
 	    <hr>
 	    <#assign cpOffers = mo.couponOffers>
 	    <#list cpOffers as co>
+	    
 	    <input type="hidden" id="hdCpOffers" value=${co.offerDescription}>
+	    
     	    <div class="row offer-codebox">
     	        <div class="col-3 vertical-align center-align off">
     	            <a class="display-block no-uline black" href=${co.clickUrl} target="_blank">Upto <span class="font-28 bold">${mo.cbOffer.commissionTerms}% OFF</span></a>
