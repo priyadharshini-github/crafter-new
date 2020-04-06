@@ -35,7 +35,7 @@ $(document).ready(function() {
   });
 });
 
-$("#btnApply").submit(function( event ) {
+$("#btnApply").on("click", function( event ) {
     var min = document.getElementsByName('min-value').value;
     var max = document.getElementsByName('max-value').value;
     alert(min + " ~ " + max);
