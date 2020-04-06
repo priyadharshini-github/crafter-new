@@ -491,7 +491,18 @@ body{
   to {bottom: 30px; opacity: 1;}
 }
 
-
+.apply-btn{
+    border: none;
+    background: #2196F3;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
 .disclaimer p{
     font-size: 10px;
 }
