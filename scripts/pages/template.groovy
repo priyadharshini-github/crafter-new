@@ -56,15 +56,21 @@ if (popResponseEntity != null) {
 }
 
 // get Merchant store list
-// check if it's a search
+// check if it's a search / filter
 def sterm = params.sterm;
 def catid = params.category;
+def minFilter = params.minFilter;
+def maxFilter = params.maxFilter;
 
 def uriStoreList = ""
 if( (sterm != null) && (!sterm.trim().isEmpty())) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/search/" + sterm + "/" + catid + "/true")
     templateModel.sterm = sterm;
     templateModel.catid = catid;
+} else if( (minFilter != null) && (!minFilter.trim().isEmpty()) && (maxFilter != null) && (!maxFilter.trim().isEmpty())) {
+    uriStoreList = new URI(apiUrl + "/merchant/offers/filter/" + minFilter + "/" + maxFilter + "/true")
+    templateModel.minFilter = minFilter;
+    templateModel.maxFilter = maxFilter;
 } else {
     uriStoreList = new URI(apiUrl + "/merchant/offers/true")
     templateModel.sterm = "";
