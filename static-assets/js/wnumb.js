@@ -377,5 +377,8 @@
     };
   }
 
-  return wNumb;
+  /** @export */
+  window.wNumb = wNumb;
+
+  // return wNumb;
 });
