@@ -36,7 +36,9 @@ $(document).ready(function() {
 });
 
 $("#btnApply").submit(function( event ) {
-    alert($("#hdMin").val() + " ~ " + $("#hdMax").val());
+    var min = document.getElementsByName('min-value').value;
+    var max = document.getElementsByName('max-value').value;
+    alert(min + " ~ " + max);
 });
 
 
