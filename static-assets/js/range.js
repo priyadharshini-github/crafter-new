@@ -35,12 +35,6 @@ $(document).ready(function() {
   });
 });
 
-$("#btnApply").on("click", function( event ) {
-    var min = document.getElementsByName('min-value').value;
-    var max = document.getElementsByName('max-value').value;
-    alert(min + " ~ " + max);
-});
-
 
 // https://refreshless.com/nouislider/
 /*! nouislider - 8.3.0 - 2016-02-14 17:37:19 */
