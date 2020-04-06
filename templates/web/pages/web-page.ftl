@@ -135,7 +135,7 @@
 	        <div class="col-6">
 	        <form action="/vendor">
 	        <input type="text" name="sterm" id="sterm" class="form-control" aria-label="Text input with dropdown button" value=${sterm}>
-	        <span id="searchclear" class="glyphicon glyphicon-remove-circle"></span>
+	        
             </div>
             <div class="col-3">
             <select name="category" class="btn btn-dark btn-block">
@@ -303,9 +303,7 @@
     <script src="/static-assets/js/bootstrap.min.js"></script>
 
 <script>
-$("#searchclear").click(function(){
-    $("#sterm").val('');
-});
+
 </script>
 	<@studio.toolSupport/>
 	</body>
