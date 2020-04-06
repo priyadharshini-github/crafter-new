@@ -30,8 +30,8 @@ $(document).ready(function() {
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
       
-    $.post("/vendor", {minFilter: values[0], maxFilter: values[1]}, function(){
-        alert("calling filter: " + values[0] + " ~ " + values[1]);
+    $.post("/vendor", {minFilter: values[0], maxFilter: values[1]}, function() {
+        
     });
   });
 });
