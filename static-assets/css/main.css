@@ -515,7 +515,7 @@ body{
     padding: 10px;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: white;
+    background-color: #fff !important;
     font-size: 12px;
     border-radius: .25rem;
     border-bottom: 1px dashed #ccc;
