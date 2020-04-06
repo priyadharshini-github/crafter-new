@@ -181,7 +181,7 @@
                         <form action="/vendor">
                             <input type="hidden" id="hdMin" name="minFilter">
                             <input type="hidden" id="hdMax" name="maxFilter">
-                            <button id="btnApply" type="submit">Apply</button>
+                            <button id="btnApply" class="apply-btn" type="submit">Apply</button>
                         </form>
                       </div>
 		            </div>
