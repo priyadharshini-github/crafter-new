@@ -97,6 +97,9 @@
 	  
 	  <#assign moffers = merchantOffers?eval>
       <#list moffers as mo>
+      
+      <input type="hidden" id="hdMname" value=${mo.merchant.merchantName}>
+      
 	  <#if mo.merchant.mid == merchantId>
 	    <div class="row">
 	        <div class="col-3 center-align display-block border-r1">
