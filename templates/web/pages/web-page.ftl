@@ -161,6 +161,14 @@
                           <span id="slider-range-value2"></span>%
                         </div>
                       </div>
+                      
+                      <div>
+                        <form action="/vendor">
+                            <input type="hidden" id="hdMin" name="minFilter">
+                            <input type="hidden" id="hdMax" name="maxFilter">
+                            <button id="btnApply" type="submit">Apply</button>
+                        </form>
+                      </div>
 		            </div>
 		            <div class="card-header" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 		                <a class="card-title"> Categories </a>
