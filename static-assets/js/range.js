@@ -30,10 +30,14 @@ $(document).ready(function() {
     document.getElementsByName('max-value').value = moneyFormat.from(
       values[1]);
       
-    
+    $("#hdMin").val(value[0]);
+    $("#hdMax").val(value[1]);
   });
 });
 
+$("#btnApply").submit(function( event ) {
+    alert($("#hdMin").val() + " ~ " + $("#hdMax").val());
+});
 
 
 // https://refreshless.com/nouislider/
