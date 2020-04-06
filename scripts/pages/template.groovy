@@ -67,7 +67,7 @@ if( (sterm != null) && (!sterm.trim().isEmpty())) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/search/" + sterm + "/" + catid + "/true")
     templateModel.sterm = sterm;
     templateModel.catid = catid;
-} else if( (minFilter != null) && (!minFilter.trim().isEmpty()) && (maxFilter != null) && (!maxFilter.trim().isEmpty())) {
+} else if( (minFilter != null) && (maxFilter != null)) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/filter/" + minFilter + "/" + maxFilter + "/true")
     templateModel.minFilter = minFilter;
     templateModel.maxFilter = maxFilter;
@@ -75,6 +75,8 @@ if( (sterm != null) && (!sterm.trim().isEmpty())) {
     uriStoreList = new URI(apiUrl + "/merchant/offers/true")
     templateModel.sterm = "";
     templateModel.catid = 0;
+    templateModel.minFilter = 0.0;
+    templateModel.maxFilter = 100.0;
 }
 org.apache.http.client.methods.HttpGet getStoreRequest= new org.apache.http.client.methods.HttpGet(uriStoreList);
 getStoreRequest.addHeader("Accept", "application/json");
